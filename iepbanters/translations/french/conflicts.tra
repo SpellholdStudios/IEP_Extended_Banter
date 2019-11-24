@@ -1,0 +1,113 @@
+// Edwin/Keldorn Conflict
+
+@0    = ~Je n'ai pas l'intention d'attendre que que tu me poignardes dans le dos avec tes vertueuses dagues, chevalier ! Je n'ai pas l'intention de subir ton poison ! (Sale petit insolent.)~ [I#BLANK]
+@1    = ~Cela suffit, Edwin. Si tu attaques Keldorn, je te ramènerai en personne à Thay. Je n'ai pas besoin de m'encombrer d'un mage incapable de respecter les décisions de son chef.~
+@2    = ~Je crois qu'on va bien s'amuser.~
+@3    = ~Edwin, réfléchis une minute. La fortune, ou la mort aux pieds d'un paladin vétéran ? Choisis rapidement, thayen.~
+@4    = ~Comment ? On ne t'y accorderait même pas une minute, insupportable macaque !~
+@5    = ~Bah ! Je n'ai de toute façon aucun besoin de les impliquer dans cette histoire. Ce paladin qui te sert de laquais reste en vie pour le moment, mais si ses vertueuses dagues empoisonnées ont l'outrecuidance de s'approcher de moi...~
+@6    = ~De toute évidence vous êtes complètement fou, mage. Je ne supporterai pas une minute de plus vos délires.~
+@7    = ~Le seul poison ici se trouve dans votre tête, Edwin ! Par les dieux, je devrais vous défoncer le crâne à coup de gourdin et mettre fin à votre pitoyable existence !~
+@8    = ~Je vais te montrer qui est pitoyable, chevalier !~
+@9    = ~Bah ! Personne ne peut vaincre un Mage Rouge. En particulier un mage aussi doué que moi.~
+@10   = ~C'est ce qu'on va voir.~
+@11   = ~Cela suffit ! Si vous commencez à vous battre, je chasserai définitivement vos deux carcasses inutiles de ce groupe !~
+@12   = ~Assez ! Keldorn, il y a des créatures plus maléfiques à détruire. Edwin, si tu continues, je te renvoie *immédiatement* à Thay !~
+@13   = ~Dans ce cas j'ai bien peur de ne pouvoir respecter votre souhait, mon ami. Nos routes se séparent. Je n'ai pas l'intention de poursuivre mon chemin dans votre groupe aux côtés de ce mage.~ ~Dans ce cas j'ai bien peur de ne pouvoir respecter votre souhait, mon amie. Nos routes se séparent. Je n'ai pas l'intention de poursuivre mon chemin dans votre groupe aux côtés de ce mage.~
+@14   = ~Il me faudra me nettoyer en grattant fort pendant plusieurs jours pour faire disparaître votre odeur fétide à tous les deux. Tu as fait le mauvais choix, <CHARNAME> !~
+@15   = ~Oui, c'est vrai que nous avons beaucoup d'ennemis plus redoutables que ce bon-à-rien. Je vous laisse en vie, mage, mais je vous suggère de chercher de l'aide pour soigner votre esprit tordu.~
+@16   = ~Bah ! L'effronterie est la seule chose à attendre d'un pourceau ignorant dans ton genre ! Pour le moment, je reste avec <CHARNAME>. (Ne serait-ce que pour la profusion de butin qui tombe continuellement dans les mains de cet idiot).~ ~Bah ! L'effronterie est la seule chose à attendre d'un pourceau ignorant dans ton genre ! Pour le moment, je reste avec <CHARNAME>. (Ne serait-ce que pour la profusion de butin qui tombe continuellement dans les mains de cette idiote).~
+
+// Edwin/Minsc Conflict
+
+@17   = ~Alors tu vas payer cher tes "observations" ! Ceux qui disent du mal des morts pourraient bien les rejoindre ! Puissent les pieds de Dynahéir te botter les fesses pour l'éternité !~ [I#BLANK]
+@18   = ~Minsc, ça suffit ! Dynahéir n'a que faire de tout ce que ce crétin malveillant peut bien dire d'elle. Ne souille pas sa mémoire avec ces paroles inutilement agressives.~
+@19   = ~Edwin, espèce de misérable ! Tu as eu ce que tu voulais. Dynahéir est morte. Arrête de le provoquer !~
+@20   = ~La ferme, vous deux ! Je ne vous demande pas de vous apprécier, mais il va falloir que vous vous entendiez correctement. Il n'y aura pas de bagarre dans ce groupe ! Reprenez vos places, et cessez ces chamailleries !~
+@21   = ~(reste silencieux)~
+@22   = ~Dois-je laisser ce vil mage dire du mal de Dynahéir autant qu'il le souhaite ? Bouh est outré ! Minsc va tuer le mage rouge, comme il aurait dû le faire il y a bien longtemps lorsqu'il a menacé Dynahéir pour la première fois !~
+@23   = ~Non, Minsc. Je ne tolèrerai plus aucune attaque envers Dynahéir en ta présence. Est-ce bien clair, Edwin ? Tu as certainement mieux à faire avec ton puissant intellect.~
+@24   = ~Oui, s'il en a envie. Minsc, tu as certainement mieux à faire que de boire les paroles d'Edwin.~
+@25   = ~Est-ce ma faute si ce gorille est si susceptible ?~
+@26   = ~RRRAAAAAAAARRRRRRR !~
+@27   = ~Ha. Oui, oui, je pense que c'est le cas. (Oh, mais ce macaque ne vient-il pas de piquer un fard monumental ? Il faudra que je m'en souvienne la prochaine fois que ce gros balourd m'exaspèrera.)~
+
+// Edwin/Valygar Conflict
+
+@28   = ~C'est ce qu'on va voir !~ [I#BLANK]
+@29   = ~Que se passe-t-il ?! Valygar, il fait exprès de te provoquer. Tu ne vas quand même pas te laisser prendre à ce petit jeu ?~
+@30   = ~Edwin ! Valygar ! Arrêtez tout de suite !~
+@31   = ~Je parie quelques pièces sur Edwin.~
+@32   = ~Je parie quelques pièces sur Valygar.~
+@33   = ~Allez-vous le laisser s'en tirer comme ça ?~
+@34   = ~Ce ne sont que des mots, Valygar. Ils ne signifient rien. Nous avons tous deux bien mieux à faire que d'écouter ses radotages futiles.~
+@35   = ~Oui, tout à fait. Il me semble d'ailleurs que tu ne faisais pas le fanfaron lorsque tu t'es retrouvé face à Lavok, n'est-ce pas ?~
+@36   = ~Certainement pas, mais je ne vais pas non plus t'encourager à risquer ta peau pour ces broutilles. Edwin, fiche-lui la paix.~
+@37   = ~Je crois que tu as raison. C'est peut-être le moment d'apprendre l'humilité à Edwin.~
+@38   = ~Oh, arrête d'être aussi susceptible, Valygar. Qu'il raconte ce qu'il veut.~
+@39   = ~Et pourquoi ?~
+@40   = ~Parce que cela n'en vaut pas la peine.~
+@41   = ~Parce que j'ai besoin de vous deux, et je ne peux me permettre de vous laisser vous chamailler.~
+@42   = ~Parce que je vous le demande.~
+@43   = ~Après tout, tu as raison. Continue.~
+@44   = ~Ha ! Alors tu vas voir ce qui arrive lorsqu'on se trouve sur la route d'un Mage Rouge, macaque !~
+@45   = ~Humf. D'accord <CHARNAME>, mais s'il prononce encore un seul mot...~
+@46   = ~Ce ne sera pas le cas, n'est-ce pas Edwin ?~
+@47   = ~Et alors ?~
+@48   = ~L'affaire est donc réglée.~
+@49   = ~Ha ! Dans ce cas je vais en finir avec lui.~
+@50   = ~Certainement, ô sage et illustre chef ! (De toute façon, j'ai dit ses quatre vérités à cette espèce de macaque.)~
+@51   = ~Toi aussi tu te moques de la puissance d'Edwin Odesseiron ?! Cette insulte ne restera pas impunie !~
+@52   = ~Ce n'est pas une raison suffisante.~
+@53   = ~... Eh bien tu vas voir !~
+
+// Keldorn/Viconia Conflict
+
+@54   = ~Comme c'est noble... et stupide.~ [VICONI61]
+@55   = ~STOP ! Viconia, une minute ! Keldorn, retiens ta lame !~
+@56   = ~Cela fait longtemps que j'attendais ça !~
+@57   = ~Pourquoi devrais-je retenir ma lame ? Devrais-je laisser le mal que porte cette drow se répandre ?~
+@58   = ~Keldorn, s'il te plaît, j'ai besoin de vous deux ! Nous devons faire face à des maléfices bien plus terribles que ceux que porte en elle Viconia.~
+@59   = ~As-tu bien la certitude qu'elle est maléfique, Keldorn, ou l'accuses-tu seulement en raison de son ascendance ?~
+@60   = ~Ne sois pas si rude envers Viconia, Keldorn. Quel tort pourrait bien causer une créature si peu maléfique qu'elle ?~
+@61   = ~Que ma lame te bannisse dans les abysses !~
+@62   = ~Oloth plynn dos !~
+@63   = ~<CHARNAME>, c'est insensé ! Vous abritez une vipère en votre sein !~
+@64   = ~Et tu héberges aussi une véritable mule !~
+@65   = ~Assez, tous les deux ! Keldorn, Viconia a accepté de suivre mes ordres...~
+@66   = ~Vous avez tous deux raison... Keldorn, Viconia a prouvé qu'elle est un membre de valeur dans ce groupe, tout comme toi. Nous pourrons bien mieux faire progresser la cause du bien avec elle comme alliée que si nous en faisons une adversaire.~
+@67   = ~Oh, il n'y a vraiment rien à faire ! Si vous êtes si décidés que cela à vous entre-tuer, alors je vous laisse le champ libre.~
+@68   = ~<CHARNAME>, j'aurais espéré que vous me fassiez confiance pour ce qui est de savoir si une personne est maléfique.~
+@69   = ~Et même si c'était le cas, elle a accepté de suivre mes ordres...~
+@70   = ~C'est vrai, mais elle a prouvé qu'elle est un membre de valeur dans ce groupe, tout comme toi. Nous pourrons bien mieux faire progresser la cause du bien avec elle comme alliée que si nous en faisons une adversaire.~
+@71   = ~Oh très bien, fais comme tu voudras.~
+@72   = ~Cette obsession est vitale pour toi, mais pas vraiment pour moi. Elle est peut-être maléfique, mais je m'en fiche.~
+@73   = ~Vous avez vraiment besoin de poser cette question ?!~
+@74   = ~Pour l'instant.~
+@75   = ~Oui, et tant qu'elle suit mes ordres, c'est une alliée précieuse ! Ses sorts nous ont aidés, tout comme ta foi et ta lame.~
+@76   = ~Songes-tu à te révolter, Viconia ?~
+@77   = ~Allez Keldorn, il n'y a pas de quoi s'inquiéter. Elle est plutôt fiable.~
+@78   = ~Viconia, s'il te plaît ! Keldorn, réfléchis bien. Elle nous a beaucoup aidés et entre nous, je préfère que nous l'ayons sous les yeux plutôt que le contraire.~
+@79   = ~Très bien, je rengaine mon épée. Mais retenez bien ceci, drow : je vous surveille. Un seul faux-pas, et je vous garantis que rien ne pourra vous sauver !~
+@80   = ~Je suis certaine que tu vas me surveiller, wael, et d'un endroit avec une très bonne vue.~
+@81   = ~Tu ferais bien de faire preuve de moins de complaisance !~
+@82   = ~Vous voyez <CHARNAME>, à cet instant-même elle est en train de comploter contre vous !~
+@83   = ~J'en ai ma claque de vous deux. Si vous êtes décidés à vous entre-tuer, je ne vous en empêcherai pas.~
+@84   = ~Ce que je voulais dire, c'est que je préfère l'avoir à un endroit où je peux la surveiller.~
+@85   = ~Cela suffit, Viconia. Arrête de le provoquer, s'il te plaît.~
+@86   = ~A'dos Quarth.~
+
+// Valygar/Viconia Conflict
+
+@87   = ~Comme il vous plaira, saleté de drow !~ [I#BLANK]
+@88   = ~Arrêtez ces stupidités ! Nous n'avons pas de temps à perdre avec ces disputes ridicules.~
+@89   = ~Bien, les choses deviennent intéressantes.~
+@90   = ~cela suffit. Rentrez dans le rang, ou vous allez tous deux perdre votre place dans ce groupe.~
+@91   = ~Non ! Je ne vais pas rester les bras ballants alors qu'elle passe son temps à nous provoquer, nous rabaisser et nous exaspérer tous !~
+@92   = ~Tu vaux mieux que cela, Valygar.~
+@93   = ~Très bien, continue.~
+@94   = ~Tu comptes donc te battre avec elle chaque fois qu'elle t'insulte - ou quelqu'un d'autre d'ailleurs ? Il faut grandir un peu. Et cela vaut aussi pour toi, Viconia.~
+@95   = ~Défendez-vous ou mourez, drow !~
+@96   = ~Mais... très bien. Ne croyez pas que ce soit terminé, Viconia.~
+@97   = ~Valygar, mon bon ami, il ne serait pas raisonnable de perdre ta vie dans un combat inutile. Ta victoire ou ta perte constituerait un fardeau supplémentaire que le reste d'entre nous devrait supporter.~
+@98   = ~Écrase-toi et ferme-la, jaluk. Cette discussion me donne des boutons. Hors de ma vue.~

@@ -1,0 +1,74 @@
+// Valygar/Viconia - Aboleth banter
+IF
+    Global("I#B_ValygarViconia_Aboleth","GLOBAL",0)
+    Global("TalkedToAboleth","GLOBAL",1)
+    InParty("Valygar")
+    InParty("Viconia")
+    !StateCheck("Valygar",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("I#B_ValygarViconia_AbolethTimer","GLOBAL",200)
+    SetGlobal("I#B_ValygarViconia_Aboleth","GLOBAL",1)
+END
+
+IF
+    RealGlobalTimerExpired("I#B_ValygarViconia_AbolethTimer","GLOBAL")
+    Global("I#B_ValygarViconia_Aboleth","GLOBAL",1)
+    InParty("Valygar")
+    InParty("Viconia")
+    !StateCheck("Valygar",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_ValygarViconia_Aboleth","GLOBAL",2)
+END
+    
+IF
+    Global("I#B_ValygarViconia_Aboleth","GLOBAL",2)
+    InParty("Valygar")
+    InParty("Viconia")
+    !StateCheck("Valygar",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Valygar")
+END
+
+
+// Cernd/Viconia - Annath dead banter
+IF
+    Global("I#B_CerndViconia_Annath","GLOBAL",0)
+    Dead("rngwlf03")
+    InParty("Cernd")
+    InParty("Viconia")
+    !StateCheck("Cernd",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("I#B_CerndViconia_AnnathTimer","GLOBAL",200)
+    SetGlobal("I#B_CerndViconia_Annath","GLOBAL",1)
+END
+
+IF
+    RealGlobalTimerExpired("I#B_CerndViconia_AnnathTimer","GLOBAL")
+    Global("I#B_CerndViconia_Annath","GLOBAL",1)
+    InParty("Cernd")
+    InParty("Viconia")
+    !StateCheck("Cernd",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_CerndViconia_Annath","GLOBAL",2)
+END
+    
+IF
+    Global("I#B_CerndViconia_Annath","GLOBAL",2)
+    InParty("Cernd")
+    InParty("Viconia")
+    !StateCheck("Cernd",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Cernd")
+END

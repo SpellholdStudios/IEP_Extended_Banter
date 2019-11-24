@@ -1,0 +1,83 @@
+@0  = ~Heh. <CHARNAME>, erinnerst Du dich noch als wir das Siegel vom alten Puffguts geklaut haben?~ 
+@1  = ~Vage. Warum?~
+@2  = ~Nicht wirklich.~ 
+@3  = ~(Lacht) Unglücklicherweise.~
+@4  = ~Dafür haben wir keine Zeit.~
+ 
+@5  = ~Ach nur so.~
+
+@6  = ~Ich bin mir nicht sicher, aber ich glaube, dass Du auf diese spezielle Idee gekommen bist... aber einerlei. Vielleicht ist das keine so große Überraschung. Seitdem ist viel Zeit vergangen.~
+
+@7  = ~Und erinnerst Du Dich daran wie Gorion uns erwischt hat? (kichert) Oh Götter, ich dachte schon er hört nie auf! Er machte immer weiter und weiter und...~ 
+
+@8  = ~Vielleict nicht, aber trotzdem... manchmal ist es schön sich daran zu erinnern.~
+
+@9  = ~Ich bewahre mir die Erinnerung an Kerzenburg. Unsere Heimat.~ 
+
+@10 = ~Ich ...ich vermisse es irgendwie, verstehst Du? Stehlen nur aus Spaß, Kind zu sein. Selbst die Strafpredigten von Gorion. Nun, die vielleicht nicht, aber Du weisst schon was ich meine.~
+@11 = ~Die Dinge haben sich seitdem sehr verändert.~
+@12 = ~Nun, weißt du, wir könnten trotzdem Spass haben.~ 
+@13 = ~Ich vermisse es auch. Aber wir müssen unser Augenmerk auf die Gegenwart richten.~
+@14 = ~Wir können es uns nicht erlauben Leuten Streiche zu spielen, oder Witze zu reissen.~ 
+@15 = ~Wir haben keine Zeit für nostalgische Erinnerungen, Imoen.~
+
+@16 = ~Ja, aber es ist nicht das gleiche.~
+
+@17 = ~Ja.~
+
+@18 = ~Ja. Obwohl ich es auch trotzdem vermisse. Aber du hast recht, es ist nicht gerade so, dass wir einfach hin gehen und jemand den Rücken mit Juckpulver auf den Rücken einreiben können, oder?~ 
+
+@19 = ~Wir können nicht einfach einen Plan aushecken um Phlydians Haare blau zu färben, oder Reisende zu fragen ob sie uns Sachen kaufen.~
+
+@20 = ~Wenn wir einige der Streiche heute ausführen würden, wären die Folgen wohl schlimmer als eine Strafpredigt von Gorion!~ 
+
+@21 = ~Das Leben scheint nun so... ernst. Das ganze Gehabe mit dem Gotteskind und den Fünf. Manchmal wünschte ich, dass wir einfach nach Kerzenburg zurückgehen und verstecken spielen könnten, oder vielleicht in die Schänke schleichen und ein Bier hinter Puffguts Rücken hinaus schmuggeln, wie wir es früher gemacht haben.~ 
+@22 = ~Nun, wir könnten einfach in eine Schänke kaufen und ein paar Bierchen kaufen, wenn Du möchtest.~
+@23 = ~Ich denke es wäre nicht ganz das gleiche, seit wir es uns selber kaufen können.~ 
+@24 = ~Nun, vielleicht können wir das eines Tages, wenn alles vorbei ist.~
+@25 = ~Diese Tage liegen weit hinter uns, Imoen. Es lohnt sich nicht zurückzublicken.~
+@26 = ~Warum nicht? Ich meine wir könnten uns sicher was ausdenken (grinst).~
+
+@27 = ~Es wäre nicht das gleiche. (Seufz)~
+
+@28 = ~Du hast es auf den Punkt gebracht, kleine <PRO_BROTHERSISTER>. Es wäre nicht das gleiche. (seufz)~
+
+@29 = ~Ich schätze wir haben mehr als genug Zeug angesammelt um uns darauf einzulassen. Aber es könnte ein Reinfall werden und ich möchte es lieber so in Erinnerung behalten wie es war. Mit Dir, mir und Gorion. Es wäre nicht das selbe.~
+
+@30 = ~Selbstverständlich, wenn wir mit etwas kommen sollten...~
+@31 = ~Oh, Liebes.~
+@32 = ~Ich bin nicht interessiert.~
+@33 = ~Ich denke ich kann sehen wohin uns das führt...~
+
+@34 = ~Es sollte nichts so kindliches sein wie Juckpulver. Das haben wir schon zu oft benutzt. Ich kann mich an mindestens sechs Gelegenheiten erinnern bei denen wir es als Kinder verwendet haben. Und ich kann gar nicht mehr zählen, wie oft wir es untereinander verwendet haben. (grinst) Nein, es müsste schon etwas ausgefuchsteres sein.~
+@35 = ~Das entwickelt sich zu einer Sache, die ich sicher lange bedauern werde, (ironisches Grinsen)~
+@36 = ~Ich hole eine Feder und etwas Papier. Komm wir wollen uns etwas ganz spektakuläres ausdenken!~
+@37 = ~Wir sind mitten in einem Krieg. Ich bin nicht sicher, ob Streiche da unbedingt angebracht sind.~
+@38 = ~Keinenfalls. Deine Pläne gehen immer schief, Imoen. Erinnere Dich was mit Phlydians Haaren passierte.~
+@39 = ~Wir sind jetzt nicht mehr zehn Jahre alt, Imoen. Werde erwachsen.~
+
+@40 = ~Pah, komm schon. Wie viele von den Sachen die wir angestellt haben, hast Du bereut?~
+@41 = ~Nahezu alle?~
+@42 = ~Na schön. Also meinetwegen.~
+@43 = ~Ich habe trotzdem nicht interessiert.~
+
+@44 = ~Ooh, Ich kann es kaum erwarten... Es ist so lange her seit wir zusammen Streiche auseheckt haben! Das wird großartig werden!~
+
+@45 = ~Das ist eine absolut unfaire Beschuldigung! Außerdem.~
+@46 = ~Bitte! Du weisst wir brauchen etwas Spass. Er ist gut für uns.~
+@47 = ~Schön, solange niemand verletzt wird.~
+@48 = ~Nein, Imoen. Ich bin nicht interessiert.~
+
+@49 = ~Aww, komm schon... wir brauchen etwas das Dich aufheitert! Du hast in den letzten Wochen kaum gelächelt.~
+@50 = ~Schön, schön. Aber trotzdem... wir sollten uns etwas ausdenken, das nichts mit Verstümmelung, Selbstverstümmelung, Tod oder Gewalt zu tun hat. Ich weiß dies ist eine schreckliche Vorstellung, aber davon habe ich in letzter Zeit genug gehabt. Es ermüdet mich.~
+@51 = ~Vielleicht solltenwir in eine Schänke gehen und etwas trinken? Einfach... entspannen?~
+@52 = ~Ja, das wäre schön. Das mag ich.~
+@53 = ~Nein, danke. Ich schätze trotzdem die Idee.~
+@54 = ~Obwohl die Gedanke an einer betrunkene Imoen reizvoll ist, halte ich es trotzdem für keine gute Idee .~
+@55 = ~Nein! Hör bitte auf, in Ordnung? Das ist eine ernste Angelegenheit. Wir können nicht einfach machen was wir wollen!~
+
+@56 = ~Dann sind wir im Geschäft. Aber, bitte, wir sollten uns nicht unter die Tische trinken wie beim letzten mal--ich denke mein Schädel brummt noch vom letzten mal in Amn. Erinnere mich daran, diesmal nicht das blaue Zeug zu trinken, in Ordnung? Von da an ging es wirklich abwärts. (kichert)~
+@57 = ~Jederzeit, kleine <PRO_BROTHERSISTER>. Obwohl... es würde Spaß machen.~
+@58 = ~Aww, warum nicht?~
+@59 = ~Komm schon, ich weiß du willst es. Erinnere mich daran, diesmal nicht das blaue Zeug zu trinken, in Ordnung? Von da an ging es wirklich abwärts. (kichert)~
+@60 = ~Sheesh, <CHARNAME>. Ich habe nur versucht Dir ein Lächeln zu entlocken. Nächstes mal werde ich das nicht versuchen, in Ordnung?~

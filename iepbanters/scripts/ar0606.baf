@@ -1,0 +1,7 @@
+IF
+    InParty("Imoen")
+    Global("I#B_ImoenKalahInParty","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_ImoenKalahInParty","GLOBAL",1)
+END

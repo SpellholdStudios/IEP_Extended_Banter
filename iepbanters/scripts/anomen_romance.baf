@@ -1,0 +1,22 @@
+// Romance wake-up dialogue
+IF
+  !Global("AnomenRomance","GLOBAL",3)
+  CombatCounter(0)
+  See(Player1)
+  Global("I#R_AnomenWakeUp","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("I#R_AnomenWakeUp","GLOBAL",2)
+    RealSetGlobalTimer("AnomenRomance","GLOBAL",1)
+END
+
+IF
+  !Global("AnomenRomance","GLOBAL",3)
+  CombatCounter(0)
+  See(Player1)
+  Global("I#R_AnomenWakeUp","GLOBAL",2)
+THEN
+  RESPONSE #100
+    PlaySong(35)
+    Interact(Player1)
+END

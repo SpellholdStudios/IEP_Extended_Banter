@@ -1,0 +1,22 @@
+// --------------------------------------
+// IEP Extended NPC-NPC Interaction
+//
+// File:      ar0804.baf
+// Directory: iepbanters/scripts
+// Prefix:    I#B
+// Author(s): K'aeloree, berelinde, Tameon the Dragoon, Ilmatar, Bookwyrme, Solar's Harper
+//            Check banter files for individual credits
+// --------------------------------------
+
+// Jaheira/Viconia - Pai'Na banter
+IF
+    %BGT_VAR%
+    Global("I#B_JahViconia_PaiNa","LOCALS",0)
+    InParty("Jaheira")
+    InParty("Viconia")
+    !StateCheck("Jaheira",CD_STATE_NOTVALID)
+    !StateCheck("Viconia",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_JahViconia_PaiNa","LOCALS",1)
+END

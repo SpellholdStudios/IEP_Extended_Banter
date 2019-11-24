@@ -1,0 +1,48 @@
+// --------------------------------------
+// IEP Extended NPC-NPC Interaction
+//
+// File:      mazzy.baf
+// Directory: iepbanters/scripts
+// Prefix:    I#B
+// Author(s): K'aeloree, berelinde, Tameon the Dragoon, Ilmatar, Bookwyrme, Solar's Harper
+//            Check banter files for individual credits
+// --------------------------------------
+
+// Aerie/Mazzy - Tavern Banter
+IF
+    Global("I#B_AerieMazzy_Tavern","GLOBAL",0)
+    OR(11)
+        AreaCheck("AR0021") //City Gates - Crooked Crane 1st floor
+        AreaCheck("AR0313") //Docks - Sea's Bounty 1st floor
+        AreaCheck("AR0406") //Slums - Copper Coronet
+        AreaCheck("AR0509") //Bridge - Five Flagons 1st floor
+        AreaCheck("AR0513") //Bridge - Calbor's Inn 1st floor
+        AreaCheck("AR0522") //Bridge - Five Flagons 1st floor (stronghold)
+        AreaCheck("AR0704") //Waukeen's Promenade - Mithrest Inn
+        AreaCheck("AR0709") //Waukeen's Promenade - Den of the Seven Vales
+        AreaCheck("AR1105") //Umar Hills - Imnesvale Inn
+        AreaCheck("AR1602") //Brynnlaw - Brynnlaw Inn
+        AreaCheck("AR2010") //Trademeet - Vytori's Pub
+    InParty("Aerie")
+    InParty("Mazzy")
+    See("Mazzy")
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+    !StateCheck("Mazzy",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_AerieMazzy_Tavern","GLOBAL",1)
+    RealSetGlobalTimer("I#B_AerieMazzy_TavernTimer","GLOBAL",50)
+END
+
+IF
+    Global("I#B_AerieMazzy_Tavern","GLOBAL",1)
+    RealGlobalTimerExpired("I#B_AerieMazzy_TavernTimer","GLOBAL")
+    InParty("Aerie")
+    InParty("Mazzy")
+    See("Mazzy")
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+    !StateCheck("Mazzy",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Aerie")
+END

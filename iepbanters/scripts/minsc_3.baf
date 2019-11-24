@@ -1,0 +1,44 @@
+IF
+  %BGT_VAR%
+  InParty("Imoen")
+  InParty(Myself)
+  !StateCheck("Imoen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("I#B_ImoMinMage","GLOBAL",0)
+  See("Imoen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("I#B_ImoMinMageTime","GLOBAL",600)
+    SetGlobal("I#B_ImoMinMage","GLOBAL",1)
+END
+
+IF
+  InParty("Imoen")
+  InParty(Myself)
+  RealGlobalTimerExpired("I#B_ImoMinMageTime","GLOBAL")
+  Global("I#B_ImoMinMage","GLOBAL",1)
+  !StateCheck("Imoen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  See("Imoen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_ImoMinMage","GLOBAL",2)
+END
+
+IF
+  InParty("Imoen")
+  InParty(Myself)
+  Global("I#B_ImoMinMage","GLOBAL",2)
+  !StateCheck("Imoen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  See("Imoen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Imoen")
+END

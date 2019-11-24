@@ -1,0 +1,732 @@
+// Aerie - Anomen 1
+
+@0    = ~Anomen, v-vous allez bientôt passer votre épreuve. Je... je me demande...~ [I#BLANK]
+@1    = ~Oui ? Qu'y a-t-il ?~
+@2    = ~Eh bien, v-vous m'avez dit la dernière fois que vous n'aviez pas le temps d'avoir peur. Mais je vous observe, et...~
+@3    = ~Vous trouvez que je m'inquiète ?~
+@4    = ~Je... Vous semblez un peu... pas très sûr de vous.~
+@5    = ~Parfois peut-être, et pourtant...~
+@6    = ~Pourquoi en avez-vous si peur ? T-toutes les légendes de chevalerie parlent de faire face à des monstres et... et de s'aider les uns les autres. Et... avec l'aide de <CHARNAME> vous...~
+@7    = ~Oui, j'ai beaucoup d'expérience lorsqu'il s'agit de "faire face à des monstres", comme vous dites. Mais l'Épreuve est celle du coeur, de la pureté de l'âme et des intentions, de la valeur du candidat.~
+@8    = ~Mais... vous avez donc peur de ne pas en être digne ?~
+@9    = ~Pourquoi donc ? J'ai travaillé longtemps et durement pour faire partie de l'Ordre ! Je suis certain de réussir !~
+@10   = ~Mais... mais si vous êtes n-nerveux... n-ne devriez-vous pas laisser vos amis vous aider ?~
+@11   = ~Je réussirai mon épreuve ! J'ai foi en ce que j'ai accompli jusqu'à présent. Vous... vous verrez bien.~
+
+// Aerie - Anomen 2
+
+@12   = ~Anomen, vous avez l'air b-bien plus heureux depuis que vous avez réussi votre épreuve. Vous... vous devez en être fier.~ [I#BLANK]
+@13   = ~Oui, douce Aerie, bien sûr. Après tant de longues et éreintantes années, mes efforts ont fini par porter leurs fruits et ont été reconnus par Heaum et l'Ordre.~
+@14   = ~C'est bon d'entendre cela. V-vous avez persévéré et réussi là où beaucoup d'autres auraient échoué.~
+@15   = ~Vous êtes trop aimable, ma dame. Je suis heureux d'avoir réussi l'Épreuve, mais je dois admettre que... m'être tenu dans ce grand hall et avoir reçu le jugement de Heaum fut aussi une leçon d'humilité. J'aurai besoin de méditer sur cet aboutissement et, avec la bénédiction de Heaum, gagner le droit de continuer à porter fièrement son symbole.~
+
+// Aerie - Mazzy 1
+
+@16   = ~Mazzy... pourquoi cet air si mélancolique ?~ [I#BLANK]
+@17   = ~Je... je pense juste à Patrick, c'est tout. Tu n'as pas à t'inquiéter.~
+@18   = ~Oh... je suis désolée. J'aimerais pouvoir t'aider...~
+@19   = ~Ne sois pas désolée, ce n'était pas ta faute... C'est ma propre inattention qui nous a conduits à tomber sous l'emprise du Seigneur des Ombres, et il restera dans mon coeur à jamais. Mais quelque part, ce n'est plus pareil...~
+@20   = ~Dans un moment pareil, il me serrerait dans ses bras et me dirait qu'il m'aime. C'est... dur, sans lui. Il me manque, Aerie, plus que tu ne peux l'imaginer.~
+@21   = ~Mazzy... tu n'as pas laissé tomber Patrick. Vous vous êtes vaillamment battus et vous avez vaincu le Seigneur des Ombres... ce n'est pas de ta faute s'il est mort.~
+@22   = ~Je ne peux m'empêcher de me faire des reproches, même si la logique me dit le contraire.~
+@23   = ~Tu es une personne merveilleuse - tu n'aurais rien pu faire de plus...~
+@24   = ~J'aimerais en être convaincue, vraiment... Je te remercie de ton soutien, mais je ne crois pas que j'arriverai un jour à accepter totalement sa mort. J'ai... je crois que j'ai besoin d'être seule un moment.~
+@25   = ~Prends tout le temps nécessaire, chère Mazzy. Si tu as besoin de moi, tu sais où me trouver.~
+
+// Aerie - Mazzy 2 city (anomen@31 keldorn@33)
+
+@26   = ~Je... je me demande parfois... comment les gens arrivent à vivre ici ?~ [I#BLANK]
+@27   = ~Que veux-tu dire, Aerie ?~
+@28   = ~Il y a tant de crimes ici, en ville. Personne... ne semble vraiment s'en soucier. Même les dirigeants de la ville n'y font guère attention.~
+@29   = ~Je pense moi-même de plus en plus que la loi n'est pas appliquée ici autant qu'on le pourrait, ou autant qu'il le faudrait. Cette ville est vraiment devenue la "Cité de la monnaie", un endroit ou même le juge le plus impartial peut se laisser corrompre par l'argent.~
+@30   = ~Ce... ce n'est pas bien, ni juste. Pourquoi les gens permettent-ils cela ? Même... même les paladins ne font rien.~
+@31   = ~J'ai souvent pensé que l'Ordre devrait jouer un rôle plus actif dans la gouvernance de cette ville.~
+@32   = ~J'en viens même à me demander si les bonnes intentions sont suffisantes. On dirait qu'ici, même les personnes les plus droites peuvent être corrompues. Cette idée est assez dérangeante.~
+@33   = ~Chaque personne mène ses propres combats, et chacun doit choisir le bon terrain. Un paladin aide les autres par son courage au combat et par sa droiture morale que les gens peuvent prendre en exemple. S'investir en politique amoindrirait notre capacité à agir sur d'autres terrains.~
+@34   = ~Mais ne devrions-nous pas aussi nous aider les uns les autres ? N-ne pouvons-nous pas faire émerger la lumière au sein des ténèbres ?~
+@35   = ~J'aimerais bien le croire, mais tout ce que je vois autour de nous me fait penser qu'il est malheureusement beaucoup plus facile d'entrer dans les ténèbres que d'en sortir.~
+@36   = ~Je ...je suppose qu'il est parfois difficile de résister à l'attrait des ténèbres...~
+@37   = ~Nous pouvons cependant bénéficier de l'aide des autres. Soutenons-nous les uns les autres dans notre quête de lumière. Si je vois que tu commences à t'écarter du droit chemin, je t'en avertirai. Et en retour, tu peux faire la même chose pour moi.~
+@38   = ~Cela... cela me plaît, je crois.~
+@39   = ~Nous sommes d'accord.~
+
+// Aerie - Mazzy 3 forêt
+
+@40   = ~Hiiii ! J-j-je ne supporte pas les insectes ! En particulier s'ils sont venimeux - ahh ! Que quelqu'un les chasse !~ [I#BLANK]
+@41   = ~Oh, Aerie... Cette araignée est certainement plus effrayée que tu ne l'es toi-même, tu sais. Jette-la par terre.~
+@42   = ~Aargh ! Va-t-en, sale petite bestiole !~
+@43   = ~Ohhh... Les forêts sont magnifiques, mais je ne crois pas que je m'habituerai un jour à ces sales bestioles.~
+@44   = ~Je dois admettre que je ne suis pas non plus rassurée en présence d'araignées... mais la panique n'aide en rien et a plutôt tendance à pousser l'araignée à te mordre.~
+@45   = ~Je... je n'avais jamais réfléchi à cela. Mais je ne peux pas m'en empêcher, elles sont si... si... enfin, tu comprends ! Je ne comprends pas comment tu fais pour t'en sortir si aisément avec les insectes, Mazzy. N'y a-t-il rien qui t'effraie ?~
+@46   = ~Beaucoup de choses, Aerie. Mais la peur peut être un outil utile. Elle peut servir à tempérer la stupidité, nous empêchant de faire des choses qui pourraient nous blesser.~
+@47   = ~Mais tu viens juste de dire...~
+@48   = ~Elle peut être un outil mais il faut l'utiliser correctement, comme tous les outils. Une panique incontrôlée ne sert à rien, mais une prudence bien réfléchie peut être très utile. Tu es encore en train d'apprendre, Aerie, mais je suis certaine qu'un jour tu comprendras comment utiliser ta peur dans ton intérêt, ainsi que le nôtre.~
+@49   = ~E-et les araignées ?~
+@50   = ~Tu t'y habitueras un jour aussi. Ne t'inquiète pas, Aerie. Nous finissons tous par acquérir de l'expérience.~
+
+// Aerie - Mazzy 4 Aerie 50% pv
+
+@51   = ~Aaargh... je ne sais p-pas combien de temps je vais encore pouvoir t-tenir debout...~ [I#BLANK]
+@52   = ~Aerie, tu ne devrais pas te trouver dans cet état ! Tu sais que tu aurais dû te retirer du combat lorsque tu as reçu cette blessure !~
+@53   = ~<CHARNAME> avait besoin de moi, Mazzy - j'ai p-pensé qu'il fallait vraiment que je l'aide...~
+@54   = ~Même si cela part d'un bon sentiment, Aerie, ce n'est pas une excuse pour te faire blesser si gravement... Reste ici à l'arrière en attendant que quelqu'un puisse t'aider.~
+@55   = ~Merci - à l'avenir, j'essayerai de ne plus me faire blesser de cette manière...~
+
+// Aerie - Mazzy 5 Aerie 70% pv
+
+@56   = ~Mazzy, tu es b-blessée ! Laisse-moi m'occuper de ça...~ [I#BLANK]
+@57   = ~Je pense être capable de me débrouiller toute seule, cette blessure n'est pas si grave...~
+@58   = ~Ne... ne sois pas stupide, Mazzy.~
+@59   = ~Ah... merci Aerie, je me sens *beaucoup* mieux.~
+
+// Aerie - Minsc 1
+
+@60   = ~Minsc, voudrais-tu me parler de D-Dynahéir ? Si je dois suivre ses traces, il faut que j'en sache un peu plus sur le rôle que j'aurai à jouer.~ [I#BLANK]
+@61   = ~Dynahéir fut une grande sorcière, petite Aerie ! Dans toute la Rashéménie, aucune autre sorcière n'égalait sa sagesse et n'avait autant de coeur qu'elle ! Elle était connue dans tout le pays pour son esprit noble... ou peut-être pour sa vertueuse fureur... de toute façon, c'était une grande sorcière. Et... Minsc n'a pas su la protéger !~
+@62   = ~Mais Bouh me dit de terminer cette histoire avant que ma voix ne s'étouffe et que je ne puisse continuer.~
+@63   = ~Elle en savait énormément sur les plantes, et les sorts, et sur la manière de combiner les deux. Bouh aimait bien grignoter certaines plantes, même si cela faisait gargouiller son ventre d'une manière des plus inconvenantes.~
+@64   = ~Heh. C'était une druidesse, alors ?~
+@65   = ~Non non, c'était une Hathran ! Une sorcière Hathran, tu vois, une magicienne rashémi.~
+@66   = ~(glousse) Je sais ce qu'est une sorcière, mais je ne savais pas qu'elles étudiaient les plantes.~
+@67   = ~Je ne sais pas pour les autres sorcières, mais Dynahéir savait toute sorte de choses sur les herbes et les plantes. Un jour elle a essayé d'apprendre à Minsc à préparer une potion et quand je suis arrivé à l'étape la plus difficile, elle n'a pas voulu que Bouh m'aide. Elle a ri et elle a dit que je pouvais y arriver sans Bouh. Mais elle n'a plus ri du tout lorsque la potion a coloré ses cheveux en mauve, ah ça non !~
+@68   = ~(renifle) Cependant, après que ses cheveux aient retrouvé leur couleur d'origine, elle a dit que j'avais bien travaillé.~
+@69   = ~Merci Minsc. Je sais qu'il est difficile d'évoquer le souvenir des gens qu'on aime.~
+@70   = ~Dynahéir n'est pas morte ! Nous l'avons peut-être perdue mais elle ne sera jamais totalement disparue, pas tant que Minsc et Bouh seront là pour viser les yeux et balancer de grands coups d'épée dans une juste rage de berserker !~
+@71   = ~Dans ce cas-là tu vas terrifier tous tes ennemis.~
+@72   = ~Elle était toujours très forte pour effrayer les créatures maléfiques ; elle le faisait en fronçant les sourcils et pas en hurlant, mais le résultat était identique.~
+@73   = ~Elle est donc toujours là même si elle est... morte ? J'aime ta manière de voir les choses, Minsc.~
+@74   = ~Bouh dit qu'une personne n'est pas vraiment morte tant qu'il y a des gens qui se souviennent d'elle et qui se battent pour elle.~
+@75   = ~Il faudra que je m'en souvienne.~
+
+// Aerie - Minsc 3
+
+@76   = ~Minsc, d'où te vient cette fureur au combat ?~ [I#BLANK]
+@77   = ~Elle vient du plus profond de mon ventre, exactement comme un grand rire, mais en beaucoup plus dangereux. Mais qu'est-ce qu'un puissant rugissement peut faire du bien ! Les créatures maléfiques savent que nous arrivons avant même que nous ne soyons là, c'est pour elles comme une longue et lente chute des sommets du minable avant de s'écraser sur le gigantesque poing du Bien.~
+@78   = ~Quelles paroles... truculentes... C'est donc de là qu'elle vient, mais qu'est-ce qui la fait apparaître ?~
+@79   = ~Ce qui peut déchaîner ma puissante rage ? Oh, j'aime les questions faciles. Le Mal ! Les créatures maléfiques font monter la fureur en moi jusqu'à ce qu'elle explose en un tsunami de vengeance !~
+@80   = ~C'est tout ? Juste le Mal ?~
+@81   = ~Eh bien j'ai été très en colère quand Dynahéir est morte. J'ai utilisé ma rage de berserker pour me libérer de ces maudites cages !~
+@82   = ~C'est ce que <CHARNAME> m'a dit. Mais pourquoi te mets-tu si en colère ? Contiens-tu cette colère, ou la gardes-tu en réserve pour t'en servir au combat ?~
+@83   = ~Parfois. Mais la plupart du temps il s'agit simplement d'une juste fureur envers le mal et son visage hypocrite ! Minsc et Bouh sont toujours prêts à affronter le mal et avec notre juste fureur, nous vaincrons !~
+@84   = ~Je... je suppose. C'est un spectacle p-particulièrement effrayant, parfois.~
+@85   = ~C'est l'idée ! Terroriser le mal au point qu'il tremble dans ses petites bottes ! Mais Minsc ne veut pas effrayer petite Aerie. Bouh dit qu'il va tenter d'empêcher Minsc de se mettre en rage lorsque tu es proche.~
+@86   = ~C'est quelque chose que j'apprécierais, Minsc. Merci.~
+
+// Aerie - Minsc 4
+
+@87   = ~Minsc, j'apprécie le fait d'être ta sorcière et la protection que tu m'apportes, mais je peux me débrouiller toute seule. Tu n'as pas besoin de me materner.~ [I#BLANK]
+@88   = ~Minsc n'est pas une femme et ne peut donc pas te materner, petite Aerie ! Même si j'essayais, je ne sais pas si j'y arriverais...~
+@89   = ~(Glousse) Mais tu n'as pas besoin de t'inquiéter à ce point pour ma sécurité. Et même si je suis blessée, je peux me soigner toute seule.~
+@90   = ~Ne souhaites-tu pas que Minsc et Bouh se battent pour toi ? Nous sommes très forts pour botter les fesses puantes du mal !~
+@91   = ~Non non, ce n'est pas ça... C'est juste qu'au combat tu te tiens devant moi, ce qui bloque mes sorts et me conduit donc à ne pas les lancer.~
+@92   = ~Tu voudrais donc que je me tienne... derrière toi ? Bouh trouve que c'est une bonne idée, mais Minsc ne sait pas trop comment cela pourrait être utile, puisque ça l'empêcherait *lui* d'attaquer le mal !~
+@93   = ~Pas derrière moi - oh, ne t'inquiète pas pour moi, Minsc. (rit de façon désarmante)~
+@94   = ~Je trouverai bien une tactique qui ne nous empêche pas de combattre, ni l'un ni l'autre.~
+@95   = ~Malheur à toi, le Mal, car tu n'as aucun endroit pour te cacher ! Minsc, Aerie et Bouh te trouveront et te botteront les fesses avec leur pieds bons et vertueux !~
+@96   = ~Hé, pour sûr.~
+
+// Aerie - Valygar
+
+@97   = ~Valygar, pourquoi fronces-tu les sourcils ? Quelque chose ne va pas ?~ [I#BLANK]
+@98   = ~(soupir) Rien qui vous concerne, Aerie.~
+@99   = ~Si quelque chose te perturbe, tu devrais en parler à quelqu'un. Certains d'entre nous ont peut-être plus que toi l'expérience de la perte d'un être cher.~
+@100  = ~Je suis désolé, Aerie.~
+@101  = ~J'aurais dû dire que je ne vois guère d'intérêt à parler de mes problèmes. Cela n'y changera rien.~
+@102  = ~Mais les amis sont là pour s'entraider. Parler fait du bien.~
+@103  = ~Pas s'il n'y a aucune aide à apporter. Mais merci pour votre offre, Aerie. C'est gentil.~
+
+// Anomen - Minsc
+
+@104  = ~Minsc, allez-vous enfin cesser de fredonner sans cesse ?!~ [I#BLANK]
+@105  = ~Bouh dit que Minsc doit être gentil avec Anomen, parce qu'il est préoccupé par son épreuve.~
+@106  = ~Minsc n'a jamais été bon pour les épreuves. Mais ne t'inquiète pas ! Je vais te raconter une histoire à propos d'un guerrier de la Loge Berserker du Dragon de Glace.~
+@107  = ~Je n'ai que faire de la sympathie ou des conseils de votre *hamster*, et ce n'est pas le moment de raconter des histoires.~
+@108  = ~Mais c'est une très bonne histoire ! Tu vas l'aimer.~
+@109  = ~Pendant l'hiver de l'année de la Tortue Rayée, il y avait un pauvre vieux guerrier qui s'inquiétait parce que ses champs n'avaient pas produit assez de grain pour tenir jusqu'à la prochaine récolte. Il versa à un homme riche cinq pièces d'argent tous les dix jours, pendant tout l'hiver et tout le printemps, pour payer le grain dont il pourrait avoir besoin si ses champs ne produisaient pas.~
+@110  = ~Quand vint le temps de la récolte le vieux guerrier se trouva avec plus de grain qu'il ne lui en fallait, mais l'homme riche refusa de lui rendre ses pièces d'argent.~
+@111  = ~Il aurait dû prendre ses dispositions en prévision d'une bonne récolte.~
+@112  = ~Mais ce n'est pas ce qu'il a fait. Son inquiétude lui a fait payer une dette qu'il n'aura finalement jamais eue. Bouh dit qu'Anomen ferait bien de méditer sur cette histoire.~
+
+// Cernd - Imoen
+
+@113  = ~Tu es une jeune femme absolument stupéfiante, Imoen. Il est bien rare de rencontrer une femme si jeune dont le bon sens n'est pas perturbé par les futilités de la jeunesse.~ [I#BLANK]
+@114  = ~J'aimerais pouvoir en dire de même, bien sûr, mais...~
+@115  = ~En vérité tu es comme la terre au printemps : couverte de fleurs qui cachent le sol encore stérile quelques mois auparavant. Mais seul les idiots la regardent en oubliant les hivers passés et futurs.~
+@116  = ~Mais c'est si facile de faire semblant de croire que le froid a disparu.~
+@117  = ~Certes... mais souhaiter que l'hiver disparaisse ôterait toute chance aux bulbes et aux roses de fleurir, et ferait disparaître les magnifiques fourrures des animaux. Aurais-tu peur de geler sur place si tu enlevais ton masque ?~
+@118  = ~Je... désolée je... Ce n'est pas simple, tu sais ? Il me faut du temps pour y réfléchir.~
+@119  = ~Prends tout le temps nécessaire, ma chère. Je vais m'assurer que tu ne sois pas dérangée durant tes méditations.~
+
+// Edwin - Viconia 2
+
+@120  = ~Parle-moi de la magie des drows, Viconia - Je suis certain qu'il y a au moins *un petit quelque chose* d'intéressant dans ton pitoyablement petit esprit.~ [I#BLANK]
+@121  = ~Et qu'ai-je donc à gagner à t'en parler, Edwin ?~
+@122  = ~Eh bien discutons-en dans ce cas. Peut-être un avant-goût de la véritable puissance ?~
+@123  = ~Si c'est de TA puissance dont tu parles, mage, alors cela ne représente pas grand-chose, si ce n'est carrément rien du tout. Va voir ailleurs avec tes questions. Je n'ai pas envie d'écouter tes jérémiades.~
+
+// Edwin - Viconia 4
+
+@124  = ~Viconia, as-tu une raison de me dévorer du regard comme cela, ou souhaites-tu seulement baigner dans ma brillance ?~ [I#BLANK]
+@125  = ~En vérité, je me demandais combien de temps il te faudrait pour succomber si je passais un garrot autour de ton cou. Combien de temps, d'après toi ?~
+@126  = ~Euh... peut-être que ce n'est pas le bon moment.~
+@127  = ~Je t'ai dit et répété, jaluk, que je n'ai pas la patience de supporter tes flatteries honteuses ! Évite de toucher mon corps avec tes yeux, ou je te ferai souffrir bien plus que tes congénères ne pourraient l'imaginer !~
+
+// Haerdalis - Imoen
+
+@128  = ~Comment vois-tu le monde maintenant après ton incarcération, ma rose presqu'éclose ?~ [I#BLANK]
+@129  = ~Qu'est-ce que tu veux dire ?~
+@130  = ~Il est fréquent qu'une personne ayant été emprisonnée voie ses perspectives changer une fois qu'elle est libre. Ta vision du monde est certainement plus large ?~
+@131  = ~Eh bien j'ai parfois quelques vertiges lorsque je me déplace trop rapidement, mais à part ça, euh... pas grand-chose. Il me vient pourtant des pensées noires et violentes de ruine et de destruction ; soit c'est papa qui fait encore des siennes, soit c'est que je passe trop de temps avec toi. Hé, je ne crois pas qu'on puisse considérer cela comme une "vision plus large", hein ?~
+@132  = ~On dit que livrer ses pensées et sentiments les plus intimes fait disparaître la boule au ventre. Chante, Imoen, et dis-moi ce qui te perturbe.~
+@133  = ~Je... Pas maintenant Haer'Dalis. Le simple fait d'en parler me fiche les jetons. Laissons tomber ce sujet un certain temps. Allez, disons un an... ou douze.~
+@134  = ~Pourquoi ne nous racontes-tu pas une histoire ? Je suis certaine que tu en connais plein qui n'attendent que d'être racontées, et les dieux savent que nous aurions bien besoin de nous remonter le moral.~
+@135  = ~J'en connais énormément, de toutes sortes. Je n'ai cependant pas envie d'en raconter une en ce moment ; c'est ton tour. Ce serait épique ! Peut-être devrais-tu devenir une écrivaine célèbre et tirer bénéfice de ta vie emplie de tristesse.~
+@136  = ~Peut-être devrais-tu t'éloigner du théâtre un moment ; tu pourrais devenir un brillant aventurier si tu ne rabaissais pas tes compagnons, tu vois ?~
+@137  = ~Mes excuses, jeune fille. Ce moineau n'avait aucunement l'intention de t'offenser.~
+@138  = ~Restons-en là. Tout le monde a sa part de problèmes ici, Haer'Dalis. Pourquoi ne vas-tu pas donner tes conseils à quelqu'un d'autre ? J'ai... besoin de temps pour méditer. Excuse-moi.~
+
+// Imoen Viconia 2
+
+@139  = ~Hé Viconia, est-ce qu'il t'est arrivé de songer à changer de coupe de cheveux ? Ou de les teindre ? Tu as exactement la même coiffure chaque matin. Bon, elle est jolie mais tu pourrais essayer plein d'autres coiffures !~ [I#BLANK]
+@140  = ~Et à quoi pourrait bien servir une telle modification sans intérêt ?~
+@141  = ~Eh bien tu vois, ce serait mignon. Et, euh, amusant. Mais je ne suis pas sûre que tu comprennes bien ce que ça veut dire...~
+@142  = ~Chez nous les drow, de telles préoccupations frivoles conduiraient à une mort rapide et probablement très déplaisante.~
+@143  = ~On dirait que vous menez tous des vies très ennuyeuses, vous ne pensez qu'à la mort, et tout ça.~
+@144  = ~Waela, je peux t'assurer que le mot "ennuyeux" est rarement employé par les drow, ou à leur sujet.~
+
+// Imoen Viconia 3
+
+@145  = ~Viconia, tu as changé de coiffure aujourd'hui !~ [I#BLANK]
+@146  = ~Et alors ?~
+@147  = ~Mais il me semble que tu m'avais dit que...~
+@148  = ~Les drows ne portent pas *toujours* la même coiffure. Des modifications sont autorisées à l'occasion d'un combat, ou alors lorsqu'on veut afficher sa richesse et son pouvoir. La présence d'un nombre suffisant d'esclaves permet d'utiliser une parure personnelle sans pour autant sacrifier son efficacité au combat.~
+@149  = ~C'est... euh, joli, je dirais. C'est frisé, en quelque sorte, j'aime bien.~
+@150  = ~Je peux t'apprendre comment la faire, si tu es capable de supporter un peu de douleur.~
+@151  = ~Euh... dans quelle mesure ?~
+@152  = ~Pas énormément. Enfin, pour un drow.~
+@153  = ~Dans ce cas, non merci. Pour toi, "pas énormément" correspond probablement à "douleur infernale" pour moi... Hé hé.~
+@154  = ~Sage décision, rivvil.~
+
+// Jaheira - Imoen 1
+
+@155  = ~Comment va la santé, mon enfant ?~ [I#BLANK]
+@156  = ~...Humm ? Oh, Jaheira. Pourquoi cette question ?~
+@157  = ~Tu as les traits tirés, tout comme <CHARNAME>. Je... je m'inquiète pour toi, et je mettrais bien mes sortilèges à ton service mais j'ai l'impression qu'ils n'auraient pas la moindre chance de t'aider.~
+@158  = ~Heh. Merci Jaheira. Mais je crois qu'aucun sortilège ne peut soigner ce... mal. Je me sens tout simplement... vide. Et j'ai changé. J'ai besoin de temps pour réfléchir.~
+@159  = ~Maintenant que je suis libre de penser, sans qu'il ne me fasse... des choses...~
+@160  = ~Irenicus nous a fait énormément de mal. Nous allons faire en sorte qu'il nous le paie, et cher.~
+@161  = ~Oui. Peut-être... et qui sait, peut-être que cette "guérison" dont on me parle se produira.~
+
+// Jaheira - Imoen 2
+
+@162  = ~Imoen. Voyons, mon enfant. C'est la deuxième fois que je remarque que tu n'es pas sur tes gardes. Crois-tu que c'est malin de te perdre à ce point dans tes pensées alors que nous pouvons être attaqués à n'importe quel moment ?~ [I#BLANK]
+@163  = ~Je crois que le temps des leçons de survie est révolu, Jaheira.~
+@164  = ~Ce n'est pas une leçon, mon enfant. Je suis inquiète. Quelles peuvent bien être ces pensées pour te distraire encore plus que d'habitude ?~
+@165  = ~Oh, des pensées. Sombres. Et sans vouloir te vexer Jaheira, n'est-il pas temps de cesser de nous appeler "mon enfant" ? Je n'ai plus l'impression d'en être une. Et je ne suis pas non plus suffisamment innocente pour mériter cette appellation. Je pense qu'elle nous rabaisse quelque peu, <CHARNAME> et moi.~
+@166  = ~Je compatis à tes noires pensées, et je vais mettre ta... franchise sur le compte de leur influence. Si tu le souhaites, je ne t'appellerai plus "mon enfant". Mais en t'appelant ainsi, tu peux être certaine que je ne te rabaisse pas, ni toi ni <CHARNAME>, et que je ne fais pas non plus référence à ton innocence ou à sa perte, d'ailleurs.~
+@167  = ~Il faut que tu comprennes une chose, Imoen. <CHARNAME> et toi serez toujours mes pupilles. Je vois cela, en quelque sorte, comme... une sorte de surnom qui montre que je prends soin de vous. Vous n'allez quand même pas me refuser cela après toutes ces années ?~
+@168  = ~Oh.~
+@169  = ~(soupire) Je suis désolée, Jaheira. Tu as raison, j'étais de mauvais poil. C'est bon. Tu... peux nous appeler "mon enfant", si c'est pour cette raison. Pour montrer que tu prends soin de nous. C'est agréable, après toutes les horreurs que nous avons vécues.~
+@170  = ~Oh et ça tombe bien, ça me rappelle aussi que tu es *vraiment* vieille.~
+@171  = ~(flegmatique) Heureuse de l'entendre, Imoen.~
+
+// Jaheira - Keldorn
+
+@172  = ~Dis-moi quelque chose, Keldorn. Quelle est la première chose qui te vient à l'esprit lorsque tu ouvres les yeux le matin ?~ [I#BLANK]
+@173  = ~Ma première pensée ? Humm... Je suppose qu'elle concerne les diverses épreuves auxquelles j'aurai à faire face dans la journée.~
+@174  = ~Oh ? Cela me surprend, Sir chevalier. Jamais le nom de ta bien-aimée sur tes lèvres, jamais l'image d'un enfant ? Toi et ton Ordre êtes plus concentrés sur vos objectifs que je ne l'avais imaginé, même si ceci est tout à fait louable, je suppose.~
+@175  = ~Ha ! C'est vraiment ce que vous pensez ? Dans ce cas vous m'avez mal compris, Jaheira. C'est justement à cause de tous ceux que j'aime que je pense à tous ces dangers. Je dois me focaliser sur les gens qui doivent être vaincus pour assurer la sécurité des gens que j'aime, sur les gens qu'il faut traduire en justice pour que ceux que j'aime puissent mener une vie sereine... Si je ne prenais pas garde à ces choses-là, comment pourrais-je alors être digne de leur amour ?~
+@176  = ~Peut-être, mais cela semble une aube inutilement sombre pour une journée qui pourrait être belle, aussi "vertueuse" qu'elle puisse être.~
+@177  = ~Vraiment ? Alors dites-moi, ma chère... Quelle pensée illumine votre âme dès l'instant où le soleil baigne vos paupières ?~
+@178  = ~Quelque chose comme un merci murmuré à mes bons compagnons de voyage, bien entendu.~
+@179  = ~Et puis si j'ai ou pas une paire de chaussettes propres sous la main.~
+@180  = ~Ah, je vois... des chaussettes ?~
+@181  = ~Eh bien il faut de temps en temps avoir l'esprit à la fois optimiste et pratique, n'est-ce pas ?~
+
+// Jaheira - Minsc (Edwin@184)
+
+@182  = ~Minsc, tu es en train de tuer ton hamster.~ [I#BLANK]
+@183  = ~QUOI ?! Minsc ne ferait jamais de mal à Bouh ! Dis-moi que ce n'est pas vrai ! Minsc préfèrerait se crever les yeux plutôt que de faire du mal à Bouh !~
+@184  = ~Ce babouin me tape vraiment sur les nerfs. (Et plus tôt son hamster mourra, mieux ce sera ! On dirait franchement que sa stupidité est contagieuse. Mieux vaut ne pas rester trop près.)~
+@185  = ~Ne sois pas idiot. Je dis juste que tu l'as laissé grossir quelque peu. Ce surpoids n'est pas bon pour lui.~
+@186  = ~Chut ! Il va t'entendre !~
+@187  = ~Mais c'est vrai qu'il est en train de devenir un peu grassouillet.~
+@188  = ~Tu ne devrais pas lui donner autant de noix.~
+@189  = ~Mais il les adore. Ce serait cruel de mettre Bouh au régime.~
+@190  = ~Dans ce cas il va falloir lui faire faire plus d'exercice.~
+@191  = ~Jaheira a raison. Viens Bouh ! Demain matin lorsque tu te réveilleras, tu courras jusqu'à Jaheira, tu lui tireras les cheveux pour la réveiller et tu reviendras vers Minsc en courant aussi vite que possible.~
+@192  = ~Ce n'est pas ce que je voulais dire !~
+@193  = ~Mais la vie de Bouh en dépend ! Tu ne voudrais pas mettre en danger mon hamster, n'est-ce pas ?~
+@194  = ~(soupire) Bien sûr que non. Comme tu voudras, Minsc.~
+
+// Jaheira - Viconia (après Pai'na)
+
+@195  = ~Pai'Na était une femme des plus... intéressantes. Je pense que nous aurions pu apprendre d'elle, d'une certaine manière.~ [I#BLANK]
+@196  = ~Peut-être. Son penchant pour les araignées était bien agréable. Il n'est pas courant de rencontrer un surfacin qui apprécie les arachnides.~
+@197  = ~Et une druidesse, qui plus est... J'aurais cru qu'elle était solitaire, mais après avoir vu la manière dont ces araignées ont volé à son secours... C'est déjà un véritable miracle qu'elle ait survécu.~
+@198  = ~Elle avait bien compris l'intérêt de la furtivité et d'une alliance avec les arachnides, comme le devrait toute personne ayant du sang drow lorsqu'elle séjourne à la surface corrompue de ce monde.~
+@199  = ~Peut-être est-elle un exemple dont nous pouvons toutes deux apprendre, Viconia. Je me demande comment elle communiquait avec les arachnides ; une sorte de conscience collective, ou un esprit de fourmilière ?~
+@200  = ~On pourrait la comparer à une "maîtresse d'essaim", quelqu'un qui élève des araignées, devient leur meneuse et les guide dans les profondeurs de la terre. c'est une méthode ancienne et de second ordre, mais qu'elle maîtrisait assez bien je suppose.~
+@201  = ~Et je présume que tu aurais fait mieux, ilythiiri ?~
+@202  = ~Oh s'il te plaît, tu'rilthiir, ton accent est abominable. N'essaie pas de parler drow - même un enfant humain prononcerait cela mieux que toi.~
+@203  = ~Je suis un Manteau de la Nuit de Shar et pas une éleveuse d'araignées, aussi merveilleuses soient-elles. Et si je l'étais, je n'utiliserais pas une méthode dépassée à ce point.~
+
+// Jaheira - Viconia (Viconia blessée 50% pv)
+
+@204  = ~Attends, Viconia. Je vais te soigner.~ [I#BLANK]
+@205  = ~G-gah... qu'est-ce que cela peut bien te faire ? Je peux me soigner toute seule, bâtarde...~
+@206  = ~Ce n'est pas une honte d'accepter de l'aide lorsqu'on en a besoin, et tu es mal en point !~
+@207  = ~Alors fais-le, pour que je n'aie pas à supporter plus longtemps tes assommantes leçons de morale !~
+
+// Jaheira - Viconia (Jaheira blessée 30% pv)
+
+@208  = ~Je-je suis blessée ! Khalid... je viens à toi...~ [I#BLANK]
+@209  = ~Ressaisis-toi, faible créature. Ne baisse jamais les yeux devant un ennemi. Quel genre de guerrière es-tu ?~
+@210  = ~Toute créature est soumise au grand cycle immuable de la vie... M-mon heure est venue.~
+@211  = ~Non ! Il ne sera pas dit que j'ai été responsable de ta mort, pitoyable créature ! Debout !~
+@212  = ~Viconia... Je l'ai vu ! Tu... tu m'as arrachée à lui !~
+@213  = ~Non... non, il m'a dit que mon heure n'était pas venue... que j'avais d'autres tâches à accomplir dans cette vie... maudite sois-tu, Viconia ! Va au diable !~
+@214  = ~Hum... Comme tu l'as dit, ton heure n'était pas venue. C'est aussi ce que Khalid pense. Mais ne m'oblige plus jamais à refaire cela.~
+
+// Jaheira - Keldorn
+
+@215  = ~Vous êtes pour moi une sorte d'énigme, Jaheira. Une femme telle que vous, avec des convictions si marquées et une forte personnalité, aurait été acceptée sans difficulté dans un groupe tel que mon Ordre, où vous auriez pu assouvir plus facilement votre désir d'équilibre et d'ordre.~ [I#BLANK]
+@216  = ~Et pourtant vous avez choisi de servir la Nature... et vous-même admettrez certainement que la nature est au mieux une force imprévisible, et au pire plus chaotique que la plupart des hommes que j'ai jamais rencontrés.~
+@217  = ~C'est ce que tu penses ? Et donc les comportements des *hommes* sont certainement plus sages et logiques que les machinations de la Nature, juste parce que tu ne la comprends pas ? Tu me déçois, Keldorn. Je t'aurais cru plus intelligent que cela.~
+@218  = ~Oh, je ne nie pas que la race humaine porte en elle des défauts. Peut-être la nature sauvage semble-t-elle plus belle lorsqu'on n'a pas passé des années à faire route sous d'imprévisibles tempêtes, lorsqu'on n'a pas vu ses compagnons tués par des éboulements ou noyés dans un marécage. J'ai passé des hivers en voyage où j'ai vu plus d'hommes mourir en raison des intempéries que lors de quelques grandes batailles.~
+@219  = ~Les hommes meurent. Et c'est une bonne chose, car le monde serait dans un bien triste état si ce n'était pas le cas. J'apprécie la compagnie de mes semblables, Keldorn, mais je trouve que ce que tu appelles "folie" de la nature reste bien plus simple à comprendre que certaines atrocités que j'ai vues commises par les *hommes*. Ou alors tu prétends qu'il y a une logique derrière les horreurs perpétrées par un homme comme Irenicus ?~
+@220  = ~Vous savez bien que non. Mais quand la nature provoque la mort de quelqu'un, il n'y a rien qu'on puisse faire. Tandis que lorsque c'est un homme qui tue un autre homme, il y a au moins une personne qui doit répondre de ses actes.~
+@221  = ~... oui. Et je te promets qu'il en répondra.~
+@222  = ~Pardon ?~
+@223  = ~Non... rien. Je... je n'ai rien dit. Excuse-moi, Keldorn. Je voudrais marcher seule... un petit moment.~
+@224  = ~Bien sûr, ma dame. Comme il vous plaira. Et je m'excuse de vous avoir contrariée.~
+
+// Keldorn - Valygar
+
+@225  = ~Vous avez des problèmes pour vous adapter à votre nouvelle vie, Valygar ?~ [I#BLANK]
+@226  = ~Pardon ? Je ne suis pas sûr de vous suivre.~
+@227  = ~Votre posture tendue. Les regards furtifs et méfiants que vous jetez à droite à gauche, alors qu'il n'y a aucun danger. Vous n'êtes pas encore totalement habitué à l'idée que vous n'êtes plus pourchassé, n'est-ce pas ?~
+@228  = ~Oh, certainement. Mais comment me le reprocher ? Les Mages Cagoulés ont autrefois choisi de me pourchasser en raison de ma sombre filiation, et maintenant je devrais circuler tranquillement dans une ville à l'évidence contrôlée par eux ? Qu'est-ce qui les empêcherait de décider de me prendre à nouveau pour cible ?~
+@229  = ~Vous avez l'impression que l'Amn est contrôlé par les Mages Cagoulés ?~
+@230  = ~Réfléchissez un peu. Lors de l'incident sur la promenade de Waukyne, qui est arrivé pour emprisonner Irenicus et Imoen ? Pas la garde d'Amn, Sir Keldorn. Je doute fort qu'ils aient consulté quiconque pour prendre leur décision.~
+@231  = ~Je suis peut-être vieux et têtu, mais pas aveugle. Même si cela me fait mal de l'admettre, vos paroles sont empreintes de vérité. Je suppose que cette vieille question est toujours d'actualité : "Qui surveille ceux qui nous surveillent ?"~
+@232  = ~Exactement. Et la réponse me fait presque peur...~
+
+// Korgan - Viconia (charname femme)
+
+@233  = ~Hé ! La drow ! J'te vois toi et <CHARNAME> causer beaucoup plus souvent ces jours-ci... y'a anguille sous roche ? J'croyais que vous pouviez pas vous piffer !~ [I#BLANK]
+@234  = ~On ne peut pas dire que <CHARNAME> et moi soyons amies, mais...~
+@235  = ~Ha ha ! Alors vous couchez ensemble, hein ?~
+@236  = ~Je suis sure que ça te plairait, n'est-ce pas le nain ?~
+@237  = ~Z'êtes deux belles nanas - enfin, pour des longues-jambes...~
+@238  = ~Non ; *je* suis un reflet de la perfection. <CHARNAME> est une mocheté, qui devrait vraiment apprendre à utiliser un peigne plus souvent et qui ne semble malheureusement pas avoir compris l'intérêt de prendre un bain régulièrement.~
+@239  = ~Ben c'est pas un problème !~
+@240  = ~<CHARNAME> et moi travaillons ensemble, Korgan, et c'est tout. Si tu insinues encore une fois de plus que cela va plus loin, je te paralyserai, ferai une tresse avec tes cheveux et je la figerai magiquement.~
+@241  = ~T'es rien qu'une abominable harpie, Viconia. D'accord, pour le moment je vais fermer ma gueule.~
+
+// Mazzy - Aerie
+
+@242  = ~Aerie, vas-tu laisser cet homme continuer à te reluquer comme ça ?! Je ne sais pas pourquoi tu ne vas pas lui donner une gifle pour son attitude si effrontée !~ [I#BLANK]
+@243  = ~Je... je déteste la violence. Et puis il peut me regarder autant qu'il veut... je ne suis pas vraiment jolie, en fait.~
+@244  = ~Comment peux-tu dire cela ? Tu es l'une des plus belles femmes que j'ai jamais rencontrée - et le laisser... Aerie, cet homme te considère comme un objet, ne comprends-tu pas ? Tu ne peux pas le laisser faire !~
+@245  = ~M-mais que faire ? Je ne veux pas recourir à une violence qui n'est pas nécessaire envers un homme au regard lubrique, mais qui ne m'a rien fait...~
+@246  = ~Relève la tête, Aerie ! Et marche comme si tu savais te battre.~
+@247  = ~M-mais...~
+@248  = ~Tu *sais* te défendre, et tu dois le montrer !~
+@249  = ~Je... je vais essayer.~
+
+// Mazzy - Aerie 1
+
+@250  = ~Aerie, je suis heureuse que toi et <CHARNAME> vous entendiez si bien. Mon coeur se réjouit de vous voir vous sourire, au lieu de broyer du noir au sujet de tes ailes.~ [I#BLANK]
+@251  = ~Cela fait du bien d'être entourée par des gens au grand coeur comme <CHARNAME> et toi. Je... je pleure encore la perte de mes ailes et cela va durer un certain temps, mais il est bon d'avoir des amis. Peut-être... peut-être apprendrai-je à aimer une vie clouée au sol, si les choses continuent comme cela.~
+@252  = ~Je suis heureuse de te l'entendre dire, Aerie.~
+
+// Mazzy - Aerie 2
+
+@253  = ~Aerie, je dois avouer que... je m'inquiète parfois pour <CHARNAME> et des répercussions que son héritage pourrait avoir sur nous tous. Je ne voudrais pas être injuste envers <CHARNAME>, mais nombreux sont ceux qui souhaitent sa mort simplement en raison de son statut d'enfant de Bhaal.~ [I#BLANK]
+@254  = ~J-je crois comprendre... Cela doit être dur d'être pourchassé comme cela par des ennemis inconnus. Oh, j'aimerais que cela cesse. <CHARNAME> n'est pas une mauvaise personne...~
+@255  = ~C'est certain... Nous ferons tout ce qui est en notre pouvoir pour empêcher ses ennemis de l'atteindre, c'est la moindre des choses. Cependant cela me fait mal de voir <CHARNAME> souffrir pour rien... J'aimerais sincèrement que nous puissions l'aider d'une manière ou d'une autre.~
+@256  = ~Je pense que nous l'aidons déjà - par notre présence, notre garde...~
+@257  = ~Nous resterons à ses côtés, c'est certain. Peut-être... Somme toute, c'est peut-être la seule chose que nous puissions lui offrir.~
+@258  = ~Peut-être... peut-être est-ce suffisant. Même si nous ne pouvons protéger <CHARNAME> tout le temps, nous pouvons au moins être ses bonnes amies et rester à ses côtés lorsqu'<PRO_HESHE> en a besoin.~
+@259  = ~Peut-être est-ce suffisant. Même si nous ne pouvons protéger <CHARNAME> tout le temps, nous pouvons au moins être à ses côtés lorsqu'<PRO_HESHE> en a besoin.~
+@260  = ~Bien dit, Aerie. Nous le pouvons.~
+
+// Minsc - Aerie
+
+@261  = ~Petite Aerie est en train de pleurer ! Que se passe-t-il ? Dis-moi ! Si quelqu'un t'a fait du mal, Minsc et Bouh vont le lui faire payer !~ [I#BLANK]
+@262  = ~C-c'est j-juste mes ailes, Minsc... oh, je ne pourrai plus jamais voler ! Et p-puis tout le monde me dit d'arrêter de pleurer et de gémir, mais je ne p-peux m'en empêcher ! J'en souffre tellement !~
+@263  = ~Tss tss... voyons voyons, petite Aerie... euh... je n'ai jamais été doué pour ce genre de choses... mais Bouh dit que le chagrin peut parfois nous aider à assumer la réalité. Peut-être est-il bon que tu pleures maintenant, et plus dans l'avenir.~
+@264  = ~Même si tu n'as plus tes ailes tu as toujours Minsc et Bouh, et malheur à quiconque ferait pleurer ma petite Aerie !~
+@265  = ~J-je vais essayer de m'en souvenir. (renifle)~
+@266  = ~Voilà, voilà. Prends Bouh dans tes mains un petit moment. Il est très doué pour apaiser les gens.~
+@267  = ~O-oh, il est si mignon ! Oh Minsc... J'aimerais ne pas être si fragile. N'importe qui d'autre se lèverait et se mettrait en route, mais je ne p-peux m'empêcher de penser que je ne reverrai jamais le ciel.~
+@268  = ~Mais tu le reverras, et tu le vois d'ailleurs ! Regarde, il est juste au dessus de toi !~
+@269  = ~J-je suppose. Mais ce n'est pas pareil. (soupire)~
+@270  = ~Ne pleure pas, petite Aerie. Rien n'est éternel, et c'est très bien comme ça sinon les choses tristes dureraient éternellement elles aussi. Et puis il te reste les bons souvenirs, et c'est tout ce dont tu as besoin pour avancer. Quand je suis triste, je me souviens des bonnes choses, et de ce que j'ai : Bouh, toi, <CHARNAME> et ma juste fureur. Et ça m'aide bien.~
+
+// Minsc - Anomen 1
+
+@271  = ~Anomen, Bouh me dit que tu sais te battre à l'épée. Est-ce vrai ?~ [I#BLANK]
+@272  = ~C'est exact. J'ai été guerrier pendant de longues années avant de devenir prêtre de Heaum.~
+@273  = ~C'est bien ce que je pensais ! Le Mal tremble dans ses bottes puantes à la vue d'un puissant guerrier armé d'un épée !~
+@274  = ~Peut-être, mon puissant ami, mais je trouve que la masse est aussi une arme efficace.~
+@275  = ~Ah. Minsc aime les épées vraiment balèzes ! Une épée assez grande pour devoir la tenir à deux mains ! Une épée qui pousse le Mal à décamper pour se cacher !~
+@276  = ~Trouvez-vous que la taille est plus importante que le talent ?~
+@277  = ~Non ! Bouh ne pardonnerait jamais cela à Minsc ! Mais Minsc est trop grand pour porter une toute petite épée.~
+@278  = ~Bah. Donnez-moi une masse et la puissance de Heaum, et la taille n'a aucune importance !~
+
+// Minsc - Anomen après épreuve réussie
+
+@279  = ~Nous sommes de puissants guerriers, bottant les fesses du Mal partout où il se cache !~ [I#BLANK]
+@280  = ~Bien dit, Minsc !~
+@281  = ~Et maintenant qu'Anomen a rejoint les dignes rangs de sa propre Loge, Minsc l'accueille comme un frère ! Remplissons nos chopes d'hydromel et buvons à la santé de Sir Anomen et de toute la fraternité de ceux qui se battent sous la bannière de la Justice !~
+@282  = ~Euh... merci Minsc, même si vous n'avez peut-être pas perçu toute la solennité de cet événement.~
+@283  = ~Ce n'est pas le moment de faire la tête ! Regarde ! Même Bouh se gonfle d'orgueil pour Sir Anomen !~
+@284  = ~Il ressemble peut-être à une boule de fourrure, mais je peux te dire qu'en fait, il est très fier !~
+
+// Minsc - Anomen après épreuve ratée
+
+@285  = ~Oh, mais quelle honte ! Voir tes efforts réduits à néant, alors que tu étais si proche de triompher !~ [I#BLANK]
+@286  = ~Vous osez vous moquer de moi ?!~
+@287  = ~Minsc ne ferait jamais une chose pareille ! Le fait que votre Loge vous ait rejeté me remplit d'une juste fureur !~
+@288  = ~Bah ! Je n'ai pas besoin de ces faibles et pathétiques crétins qui s'accrochent à des valeurs si futiles ! Je n'ai pas besoin de *leur* bénédiction !~
+@289  = ~Bouh veut savoir : continueras-tu à combattre le Mal, chaque fois qu'il faudra lui botter les fesses ?~
+@290  = ~J'agirai selon la volonté de Heaum.~
+@291  = ~Dans ce cas Bouh et moi n'avons rien à rajouter.~
+
+// Haer dalis - Minsc
+
+@292  = ~Minsc ne comprend pas ce qu'Haer'Dalis entend par "chaos" et "entropie". Je demanderais bien à Bouh, mais il dort.~ [I#BLANK]
+@293  = ~Je vais t'expliquer, mon dogue. Le chaos est ce qui apparaît lorsqu'il n'y a pas d'ordre.~
+@294  = ~Il y a très peu d'ordre à la Loge Berserker du Dragon de Glace. C'est cela le chaos ?~
+@295  = ~Non, pas vraiment, car il existe un code auquel ses membres adhèrent, même s'il n'est pas très strict. Le chaos est au-delà de cela. Il n'y a pas de règles, pas de prévisibilité et la véritable nature de chaque chose est alors libre d'émerger.~
+@296  = ~Le fait de dire qu'il n'y a aucune règle n'est-il pas en lui-même une règle ? Et puis Minsc connaît bien sa véritable nature ! Il châtiera le Mal partout où il se terre ! Et le Mal sera toujours le Mal ! Donc tout est clair.~
+@297  = ~Mon dogue, tu ne me facilites pas la tâche. Mais tu as décrit l'essence du chaos, l'esprit de l'inconstance : de temps en temps un motif apparaît mais ce n'est qu'une illusion, et elle se dissipe dès l'instant suivant.~
+@298  = ~Tu ne fais que m'embrouiller ! Qu'est-ce que le "chaos", le motif ou l'illusion ?~
+@299  = ~Bon, essayons l'entropie... Tu la comprendras peut-être mieux puisque tu sembles la provoquer partout où tu passes.~
+@300  = ~L'entropie est la tendance à évoluer vers le désordre, car même la structure la plus solide qui soit finit par tomber en ruine.~
+@301  = ~En est-on bien certain ?~
+@302  = ~Évidemment ! Au bout d'un certain temps, toute chose succombe à l'entropie.~
+@303  = ~Minsc ne comprend pas. Est-ce que tomber en ruine ne rend pas les choses plus ordonnées ? Minsc a vu de nombreuses choses tomber en ruine. Elles tombent en poussière. C'est absolument certain !~
+@304  = ~Non, non et non ! Elles ne tombent pas en poussière, elles disparaissent dans le néant !~
+@305  = ~Mais une chose ne peut pas devenir "rien" ! Même Minsc le sait ! Il reste toujours "quelque chose".~
+@306  = ~Mais lorsqu'une chose tombe *vraiment* en ruine, elle cesse d'exister ! Tout ce qui lui permettait d'exister disparaît !~
+@307  = ~Mais c'est impossible ! Si Bouh était réveillé, il te dirait que c'est impossible. Ou plutôt il me le dirait, et je te le répèterais.~
+@308  = ~Si quelque chose se casse, il en reste des morceaux. Ou alors cela tombe en ruine, et cela devient de la poussière. Je te l'ai déjà dit !~
+@309  = ~Le véritable néant, mon ami, est quand les morceaux eux-mêmes cessent d'exister.~
+@310  = ~Donc le chaos est ce qui se produit lorsqu'on sait qu'il y aura du désordre, l'entropie c'est lorsque les objets tombent en ruine mais ce ne sont pas les morceaux de ces objets parce que ce n'est pas du néant, le néant c'est quelque chose d'autre mais on ne sait pas quoi. Je crois que tu n'as pas bien compris.~
+@311  = ~Euh, Minsc... Peut-être devrais-tu demander à Bouh, lorsqu'il sera réveillé.~
+
+// Minsc - Imoen
+
+@312  = ~(renifle) Ah, petite Imoen a grandi ! Bouh a remarqué que tu as beaucoup changé depuis la dernière fois que nous t'avons vue.~ [I#BLANK]
+@313  = ~Je n'en sais rien, Minsc. Je suis toujours la même bonne vieille Imoen.~
+@314  = ~Enfin, en quelque sorte.~
+@315  = ~Imoen est maintenant une puissante sorcière, certainement aussi puissante que Dynahéir l'était !~
+@316  = ~Eh bien, peut-être suis-je un petit peu différente maintenant... mais j'ai toujours aimé la magie.~
+@317  = ~Bouh dit que tous les oiseaux doivent un jour quitter leur nid pour batifoler librement, et c'est la même chose pour petite Imoen !~
+@318  = ~Je ne suis pas sûre que nous ayons beaucoup eu l'occasion de gambader librement ces derniers temps, Minsc. Mais ne sois pas triste. J'ai peut-être changé, mais il reste encore un peu de l'ancienne Imoen en moi.~
+@319  = ~Petite Imoen est...~
+@320  = ~Attends une minute ! Où sont les graines de tournesol de Bouh ? Elles étaient là il y a un instant !~
+@321  = ~Voilà ! Je t'avais bien dit que certaines choses ne changaient jamais.~
+
+// Minsc - Jaheira
+
+@322  = ~Minsc ne l'a jamais dit à Jaheira, mais il est navré qu'elle soit si triste.~ [I#BLANK]
+@323  = ~Occupe-toi de tes affaires, Minsc. Je ne suis pas une fillette submergée par le chagrin, qui aurait besoin de réconfort.~
+@324  = ~Minsc sait cela, mais il n'y a pas de honte à pleurer ceux qui sont tombés ! Je suis toujours triste de la mort de Dynahéir, mais cela ne fait pas de moi une fillette !~
+@325  = ~Pleurer les morts honore leur mémoire. C'est tout du moins ce que Bouh me dit.~
+@326  = ~Khalid me manque, c'est vrai, mais il a rejoint Silvanus. Nous nous retrouverons lorsque mon heure sera venue.~
+@327  = ~Khalid me manque, c'est vrai, mais il a rejoint Silvanus. Il aurait souhaité que je continue à vivre et que je trouve le bonheur, si possible.~
+@328  = ~Khalid m'était cher, c'est vrai, mais il aurait voulu que je sois forte et que je trouve le bonheur.~
+@329  = ~Khalid me manque, c'est vrai, mais il aurait voulu que je continue à vivre et non que je me laisse envahir par le chagrin.~
+
+// Valygar - Aerie
+
+@330  = ~Je dois admettre que je ne suis toujours pas habitué aux villes. Et tout particulièrement Athkatla.~ [I#BLANK]
+@331  = ~Humm ? Pourquoi particulièrement Athkatla ? Il y a une raison p-particulière, ou c'est juste que... ?~
+@332  = ~Au-delà des ennuis que j'y ai connus dans le passé, il y a beaucoup de magie maléfique ici.~
+@333  = ~Oh Valygar, faut-il toujours que...~
+@334  = ~Ne vous inquiètez pas Aerie, je ne compte pas me lancer dans une diatribe sur le fléau qu'elle représente pour l'humanité.~
+@335  = ~Désolée. Continue, je t'en prie.~
+@336  = ~Les Mages Cagoulés contribuent à répandre LA chose qu'ils tentent de stopper. La magie imprègne chacun des endroits de cette ville, d'une manière ou d'une autre. Et les gens ont l'habitude de se rebeller contre l'autorité, quelle que soit la forme qu'elle prend. Là où une forme de magie est peut-être devenue moins abondante, d'autres sont apparues ; les mages ne peuvent empêcher la vente de potions, de charmes, et d'objets magiques...~
+@337  = ~Mais ces choses-là n'aident-elles pas les gens ? J'utilise souvent des potions pour soigner ou pour défendre...~
+@338  = ~Pour chaque potion de soin, trois fioles destructrices n'attendent qu'une main sombre pour les utiliser.~
+@339  = ~Tu es très véhément au sujet de la magie, n'est-ce pas ?~
+@340  = ~Elle façonne nos vies, d'une manière ou d'une autre. Je ne fais que me protéger des conséquences des actes de ceux tentant de se façonner la leur.~
+
+// Valygar - Keldorn
+
+@341  = ~Keldorn, je ne suis pas certain de vous l'avoir déjà dit, mais je vous respecte énormément.~ [I#BLANK]
+@342  = ~Et j'en ai autant pour vous, mon ami. Mais dites-moi, qu'ai-je donc fait pour mériter autant de respect ?~
+@343  = ~Je sais qu'il ne doit pas être facile pour vous de vous séparer de votre famille, et c'est pourtant ce que vous faites pour défendre la cause de votre dieu. Vous avez un but, et vous ne laissez pas l'amour que vous portez à votre famille vous en détourner.~
+@344  = ~Ce n'est pas facile, mais je fais mon devoir. Mais dites-moi, Valygar : avez-vous déjà aimé quelqu'un ?~
+@345  = ~Oui... Elle et moi nous sommes rencontrés pendant mon service dans la milice.~
+@346  = ~Et qu'est devenue cette dame ?~
+@347  = ~Si cela ne vous dérange pas, mon ami, je préfèrerais ne pas en parler pour l'instant.~
+@348  = ~Très bien, si c'est ce que vous souhaitez. Mais si jamais vous changez d'avis, sachez que je suis à votre disposition pour vous écouter.~
+@349  = ~Je sais, Sir Keldorn, et je vous en remercie. Mais je suis rarement enclin à m'épancher sur mon passé, pour... diverses raisons. Je suis sûr que vous me comprenez.~
+@350  = ~Il est vrai que rares sont les hommes enclins à raconter leur vie dans les moindres détails.~
+
+// Viconia - Anomen 1
+
+@351  = ~Je sens d'ici ton désir lubrique, wael. Tu apprécies mes courbes, hmm ?~ [I#BLANK]
+@352  = ~Tes fourberies ne me détourneront pas du droit chemin, drow !~
+@353  = ~Tu es dans le déni, n'est-ce pas ? Oh, comme ta réponse est... forcée. Allez mon rebelle, dis-moi tout : de quand date ta dernière fois ? Des mois ? Des années ?~
+@354  = ~Que voilà une question impudente et fort mal-à-propos... mais je n'en attendais pas moins d'une créature telle que toi. Tes moqueries n'ont aucun sens, et je refuse de prendre part à une discussion si sordide.~
+@355  = ~Aucune importance, j'ai ma réponse. Comme c'est pathétique. Mais je n'attendais rien d'autre d'un kivvil jaluk comme toi.~
+
+// Viconia - Anomen 2
+
+@356  = ~Tu es en train d'engloutir cette bière comme le dernier des ivrognes. Est-ce bien ce que tu es devenu Anomen ? Un reflet de ton père ?~ [I#BLANK]
+@357  = ~Tais-toi et laisse-moi à ma solitude, drow !~
+@358  = ~Peut-être le devrais-je ; tu pues l'échec et les mensonges. Ainsi je ne me salirai plus par ta présence.~
+@359  = ~Et si tu ne la fermes pas et ne retournes pas en rampant dans les bras dont tu as monnayé les services ce soir, drow, alors ce monde ne sera plus souillé par ta présence.~
+@360  = ~Oh, mais notre toutou a donc des dents ! Voyez-vous ça, ce roquet peut mordre.~
+@361  = ~Et ce n'est pas la seule chose qu'il peut faire, Viconia !~
+@362  = ~J'ai entendu dire que tu vas aussi chercher la baballe ; oui, c'est formidable.~
+@363  = ~Va donc boire jusqu'à ce que tu tombes de sommeil. C'est toujours amusant de contempler l'épave que tu peux être quand vient l'aube. Oh, et fais attention lorsque tu t'effondres dans ton lit ; ce serait une véritable catastrophe que tu tombes et que tu te brises quelque chose d'important.~
+@364  = ~Un jour tu te retrouveras agonisante sur un champ de bataille, et je rirai bien quand les corbeaux grignoteront tes chairs à grands coups de bec alors que tu te repentiras de tes mensonges. Fiche-moi la paix !~
+
+// Viconia - Edwin 1
+
+@365  = ~Jaluk, explique-moi quelque chose.~ [I#BLANK]
+@366  = ~Quoi encore ?~
+@367  = ~Je me souviens qu'à Nashkel, tu étais à la recherche de cette Dynahéir. Que t'est-il arrivé ensuite ? Qu'est-ce qui t'a amené précisément à Athkatla, et à collaborer avec les olplyen... les voleurs ?~
+@368  = ~Je me posais aussi la question. Tu as voyagé avec nous un long moment, et après avoir vaincu Sarevok... tu es parti.~
+@369  = ~Oui, je me souviens t'avoir croisé à Nashkel mais je ne t'avais pas revu depuis. Et maintenant tu es là, en Amn. Qu'as-tu fait entre-temps ?~
+@370  = ~En fait je suis quasi-certain de t'avoir laissé pour mort au bord de ce pont à Nashkel. Et maintenant tu es là, en pleine forme ! Comment est-ce possible ?~ ~En fait je suis quasi-certaine de t'avoir laissé pour mort au bord de ce pont à Nashkel. Et maintenant tu es là, en pleine forme ! Comment est-ce possible ?~
+@371  = ~Bah ! J'avais des affaires à régler avec les Mages Rouges. Quelque chose que vous seriez bien incapables de comprendre. (Insupportables macaques, ne peuvent-ils donc pas s'occuper de leurs affaires !?)~
+@372  = ~Vu que vous aviez choisi de voyager avec la sorcière Dynahéir (et regardez où cela vous a menés, bande de macaques pelés : à la torture, à l'emprisonnement et à la mort de vos "amis" ! Ne vous avais-je pas prévenus que cette sorcière ne vous apporterait que des ennuis ?), j'ai décidé de faire quelque chose de bien plus *utile* en collaboration avec les Mages Rouges. Mais de toute façon, cela ne vous regarde pas.~
+@373  = ~Bah ! Un puissant Mage Rouge de Thay ne risque pas d'être détruit par une ou deux faibles créatures, contrairement à cette sorcière ! Rien d'étonnant à ce qu'elle mange maintenant les pissenlits par la racine alors que je suis plus fort que jamais ! (Enfin, autant que faire se peut dans une telle équipe...)~
+@374  = ~Hum. Autant s'en tenir là. Je n'ai pas l'intention de raconter ma vie, alors pourquoi devrais-je m'intéresser à la tienne, finalement ?~
+@375  = ~Jaluk, apporte-moi du vin. Tu m'ennuies.~
+@376  = ~Ne me donne pas d'ordres ! Nous ne sommes pas en Ombreterre ; ici, en tant que Mage Rouge de Thay, je suis la personne de rang le plus élevé ! Je ne reçois d'ordre de personne, et encore moins d'une drow.~
+@377  = ~Je serais curieuse de te voir essayer de donner des ordres à <CHARNAME>.~
+@378  = ~Jusqu'à présent je me suis uniquement abaissé à me mettre d'accord avec <CHARNAME> ; je n'ai obéi à aucun ordre !~
+@379  = ~Tu te fais des illusions, jaluk, mais cela me fait bien rire. Je vais te laisser en vie... pour l'instant.~
+@380  = ~(Ces gens vont me rendre cinglé ! Comment puis-je supporter leur bavardage stupide ?!)~
+
+// Viconia - Edwin 2
+
+@381  = ~Souhaites-tu vraiment apprendre la magie des drows, Edwin ? Sa perversité, la sombre fascination que provoque sa caresse ?~ [I#BLANK]
+@382  = ~Oui ! Dis-moi tout !~
+@383  = ~Tu n'es qu'un simple pion dans le grand ordre des choses, Edwin, et tu n'as pas besoin de connaître de tels mystères. Je crois que je vais te laisser suffoquer encore un peu, ta mâchoire - dont on dirait qu'elle est cassée - m'amuse au plus haut point.~
+
+// Viconia - Edwin 3
+
+@384  = ~Quoi encore ?!~ [I#BLANK]
+@385  = ~Viconia, pourrais-tu resserrer la bandoulière de mon sac à dos ? Elle a l'air quelque peu desserrée et j'ai peur de perdre les quelques précieux petits composants de sorts que j'ai eu le temps de collecter, avec <CHARNAME> sur mon dos en permanence : Edwin fais-ci, Edwin fais-ça...~
+@386  = ~Vite, drow, J'ai autre chose à faire !~
+@387  = ~Comme ceci ?~
+@388  = ~T-tu pourrais peut-être la desserrer un peu ?~
+@389  = ~Comporte-toi comme un homme, Edwin, un vrai. Mais au fait, je me suis toujours demandée pourquoi tu portes des jupes si larges.~
+@390  = ~Ce n'est pas une *jupe* ! C'est une robe, femme stupide, une *robe* !~
+@391  = ~Ne t'inquiète pas, mon minet... Ton secret sera bien gardé. Mais ne m'avais-tu pas dit de resserrer un peu plus cette bandoulière ?~
+@392  = ~Non ! Moins ! MOINS !~
+@393  = ~Argh !~
+
+// Viconia - Imoen
+
+@394  = ~Fillette, tu n'as pratiquement pas pipé mot depuis que nous avons quitté Spellhold. Pour quelqu'un qui est d'habitude la gaieté personnifiée, c'est un changement que j'accueille avec une grande satisfaction et je t'en remercie.~ [I#BLANK]
+@395  = ~Et j'ai l'impression que tu es toujours aussi râleuse.~
+@396  = ~Désolée Vico, Il faut juste que je me fasse à... certaines choses. Tout va bien, en fait. Inutile de t'inquiéter pour la petite Imoen !~
+@397  = ~Oh, mais je ne m'inquiète pas. J'espère simplement qu'il te faudra encore beaucoup de temps pour te "faire à ces choses" ; si possible jusqu'à ce que j'aie quitté ce groupe.~
+
+// Jaheira - Viconia 1
+
+@398  = ~Humm... ton compagnon qui bégayait n'est plus à tes côtés. As-tu fini par t'en débarrasser, bâtarde ?~ [I#BLANK]
+@399  = ~Tu sais très bien ce qui est arrivé à Khalid, drow. Ne souille pas sa mémoire en parlant de lui ainsi !~
+@400  = ~J'adore le tremblement dans ta voix lorsque tu parles de lui. Sa loyauté et son comportement soumis en auraient fait un mâle correct, bien qu'il ait fait preuve d'une faiblesse écoeurante dans tous les autres domaines. Il n'est pas surprenant que cet idiot soit mort.~
+@401  = ~Tué par cet...Irenicus, n'est-ce pas ? J'ai entendu dire que ses tortures étaient du travail d'amateur, et pourtant ton précieux Khalid y a laissé sa vie si rapidement. Tss tss... Une femelle forte comme toi mérite mieux. Tu le sais. Pourquoi ressasser sans cesse la perte d'un tel minable, waela ?~
+@402  = ~Arrête immédiatement, Viconia ! Il était plus que mon mari, et je ne laisserai pas une créature dans ton genre souiller sa mémoire et sa mort.~
+@403  = ~Hum, on dirait que mes paroles n'ont pas été entendues. Très bien, continue à te complaire dans ton malheur. Usstan brou dosst waela tejmook'cinkjuun, shinduago elg'caress.~
+
+// Jaheira - Viconia 2
+
+@404  = ~Une minute, druidesse. J'ai quelque chose à te dire.~ [I#BLANK]
+@405  = ~Viconia, je n'ai aucune envie de te parler. Laisse-moi tranquille.~
+@406  = ~Non ! Je n'ai pas préparé ce discours pour que tu me repousses. Jaheira, mes... commentaires au sujet de Khalid étaient... déplacés et injustes. Comme nous voyageons ensemble, je suppose que je devrais dire que...~
+@407  = ~Quoi, drow ? Que tu es désolée ? Je ne te croyais pas capable d'éprouver une émotion telle que le regret. Ne peux-tu donc pas faire ce que je te demande et me laisser tranquille ?!~
+@408  = ~Shcrten shinduago srow ! Vok ulu uns'aa ! Je suis *désolée*, que tu le croies ou non. Ah, tu es comme tous les autres. C'est vraiment lassant.~
+
+// Jaheira - Viconia 3
+
+@409  = ~Druidesse, à propos du dernier combat... J'ai remarqué quelques défauts dans ta technique. La manière dont tu maniais ton arme t'a exposée au moins par trois fois à des contre-attaques. Tu as eu de la chance que ton adversaire ne s'en rende pas compte ; tu ferais bien de la tenir plutôt de cette manière-là.~ [I#BLANK]
+@410  = ~Ma technique a toujours fonctionné, Viconia, et elle fonctionnera toujours. Je n'y vois pas de défaut, alors pourquoi en changer ? Gorion disait... "Il ne faut pas chercher à régler un problème qui n'existe pas".~
+@411  = ~Les drows aussi ont un proverbe : "Toujours avoir au moins un temps d'avance sur ses ennemis". Être bien préparée est la clé, et s'améliorer est de rigueur.~
+@412  = ~La tradition est éprouvée ; les innovations sont intéressantes en théorie, mais pas au point de prendre le risque d'ignorer ce qu'elles pourraient entraîner en pratique.~
+@413  = ~Si quelqu'un est blessé ou tué pendant l'entraînement, il est évident que c'était un faible et qu'il n'était pas apte à prendre part à un véritable combat. Si toi et moi avions l'occasion de nous entraîner, je pourrais facilement te terrasser en exploitant tes points faibles.~
+@414  = ~Et moi de même, Viconia. Peut-être pourrions-nous nous entraîner ensemble un de ces jours, et mettre en lumière nos points faibles pour... qu'on s'améliore.~
+@415  = ~Quand tu voudras, druidesse. J'attends ton invitation.~
+
+// Jaheira - Viconia 4 en forêt
+
+@416  = ~Druidesse, faut-il vraiment que tu t'arrêtes pour révérer le moindre fichu bout de plante que nous croisons ?~ [I#BLANK]
+@417  = ~Je ne "révère" pas les plantes, Viconia, je les cueille pour les utiliser dans les sortilèges, baumes et potions. Un druide doit connaître son environnement ; les plantes qui soignent, celles qui sont dangereuses... et même celles qui sont mortelles.~
+@418  = ~Utiliser l'environnement à son avantage est un concept que je comprends. En Ombreterre, les drows se dissimulent dans l'ombre avec un art inégalé, pour tendre des embuscades à leurs victimes. Mais dis-moi, femme aux idées confuses, pourquoi ennuies-tu les arbres avec des étreintes qu'ils ne t'ont pas demandées ?~
+@419  = ~Je ne fais rien de cela !~
+@420  = ~Vraiment ? N'est-ce pas ce que tous les druides font, elg'caress ? Tu perds ton temps avec ces... ces plantes. Si vous, les surfacins, aimiez vraiment la nature, vous auriez commencé par ne pas interférer avec elle. Dans la nature, seuls les plus forts survivent... et tu as prouvé que *tu* es la plus forte. C'est louable, mais évite-moi les platitudes habituelles pour justifier ton attitude.~
+@421  = ~Ce n'est pas à nous de décider quel rôle nous jouons dans le grand Équilibre ; même les humains sont les proies de certaines créatures, Viconia. N'en est-il pas de même pour les drows ?~
+@422  = ~Les drows sont à la fois chasseurs et proies d'autres résidents de l'Ombreterre, comme les tyrannoeils ou les flagelleurs mentaux. Je ne le nie pas. Mais pourquoi se fatiguer à tenter d'"équilibrer" ce qui existe ? Tu rajoutes à tes principes une complexité inutile.~
+
+// Jaheira - Viconia 5 (romance Jaheira)
+
+@423  = ~Faut-il vraiment que tu affiches ton... affection de manière si ostentatoire ? Même les drows sont moins exhibitionnistes que toi.~ [I#BLANK]
+@424  = ~Parce qu'il y a des lois sur la manière dont <CHARNAME> et moi devons nous comporter ? Mais si cela te dérange à ce point, alors j'essaierai de moins afficher mon affection en public.~
+@425  = ~Comme tu es *gentille*, Jaheira. Et tant que tu y es, peut-être devrais-tu choisir le prochain mâle avec lequel tu voudrais t'envoyer en l'air lorsque <CHARNAME> sera mort ? Il est évident qu'il faut préparer ces choses-là à l'avance.~
+@426  = ~Que... Comment oses-tu ?! Je devrais te...~
+@427  = ~Viconia, je crois qu'il serait sage que tu nous fiches la paix, à <CHARNAME> et moi... Je doute fort qu'il recherche ton "affection", si on peut l'appeler comme ça.~
+@428  = ~Ha ! Vu son choix de compagne, je ne voudrais pas me retrouver... souillée, pour ainsi dire, par les restes de tes caresses sur son corps. Berk !~
+
+// Korgan - Viconia
+
+@429  = ~Korgan, dis-moi : tu as dit une fois que tu avais participé au massacre de la Maison De'Vir ; aurais-tu par hasard croisé une femelle nommée Nalae ? Cheveux gris, yeux pourpres et une apparence masculine ?~ [I#BLANK]
+@430  = ~Et comment j'ferais pour me souvenir des noms de tous les fichus drows que je tue ?!~
+@431  = ~Si je ne me trompe pas elle portait un collier d'os assez saisissant, qui aurait certainement valu un bon prix à la surface.~
+@432  = ~Eh... maintenant que t'en parles, j'me souviens d'une espèce de collier de ce genre... Combien qu'il vaut pour toi ?~
+@433  = ~Assez pour que je te laisse en vie. Dépêche-toi Korgan, je ne vais pas y passer la nuit.~
+@434  = ~D'accord ! J'ai tranché la gorge d'une femme qui correspondait à cette description... elle s'est noyée dans son propre sang. Et j'ai tiré une belle petite somme du collier, ha ha ha !~
+@435  = ~Merci Korgan. C'est toujours merveilleux d'apprendre que ses soeurs ont... réussi dans la vie.~
+
+// Viconia - Minsc
+
+@436  = ~Cela fait une heure que tu me lances des regards. Que veux-tu, Rashémi ? Une visite guidée de l'Ombreterre, avec des signes colorés et simples à déchiffrer de façon à ce que tu puisses en saisir toute la majesté ?~ [I#BLANK]
+@437  = ~Bouh aimerait savoir s'il existe des colonies de hamsters géants de l'espace miniature dans l'Ombreterre. Il dit que beaucoup de gens le pensent, mais que tous ceux qui ont essayé de les trouver ne sont jamais revenus.~
+@438  = ~À ma connaissance, non. Mais, hum... J'ai entendu dire qu'un groupe de licornes-fées s'est installé dans la cité de Talir, en détruisant sans ménagement les drows dans leur quête de la carotte parfaite. Peut-être qu'il y a un lien !~
+@439  = ~Ah mais vraiment, l'Ombreterre est emplie de merveilles ! Mes yeux s'écarquillent rien qu'à imaginer de telles choses !~
+@440  = ~Tu es *vraiment* un attardé mental. Et laisse-moi deviner : ton hamster s'est fait pipi dessus d'excitation à l'idée d'éventuellement pouvoir y rencontrer ses frères ?~
+@441  = ~Comment l'as-tu su ? Tu es peut-être plus maligne que je ne le pensais !~
+
+// Viconia - Nalia 1
+
+@442  = ~Je n'imaginais pas qu'il était possible d'être si naïve, elg'caress. Tu viens juste de donner cinq pièces à ce rivvil jaluk, n'est-ce pas ?~ [I#BLANK]
+@443  = ~Oui, mais je ne vois pas en quoi...~
+@444  = ~À l'évidence non. Vois-tu ce qu'il est en train d'en faire ?~
+@445  = ~Je suis sûre qu'il les utilisera pour la bonne cause, Viconia. Il avait l'air d'avoir très faim. N'as-tu vraiment aucune...~
+@446  = ~Compassion, c'est cela ? Vois-tu où ta "compassion" te mène ? Des freluquets à peine sortis de l'adolescence, à moitié ivres. Peut-être réfléchiras-tu à deux fois avant de donner de l'argent aux "nécessiteux" la prochaine fois, à moins que tu ne souhaites produire une génération entière de poivrots.~
+
+// Viconia - Nalia 2
+
+@447  = ~Depuis que je suis à la surface, j'ai remarqué que les humains ont une propension à boire de copieuses quantités d'alcool. Dis-moi Nalia, tu n'as jamais été ivre, n'est-ce pas ?~ [I#BLANK]
+@448  = ~Bien sûr que non ! Il m'arrive de boire une chope d'hydromel de temps en temps, mais je n'ai jamais bu au point de risquer de baisser ma garde. Nombreux sont ceux qui seraient prêts à abuser d'une jeune femme ivre, et je n'ai aucune envie de faire partie de ces filles qui voient leur honneur souillé par un quelconque rustre à peu près aussi futé qu'une poignée de porte.~
+@449  = ~"Honneur" ? Comme c'est bizarre. Tes réticences me surprennent ; on dirait pourtant que tu t'es rebellée contre toutes les volontés de ta famille, alors pourquoi pas dans ce cas ? Tu as bien dû fricoter avec des garçons lorsque tu échappais à la surveillance de ta famille ?~
+@450  = ~Bien sûr que non ! Je ne veux pas... je ne suis pas une catin comme toi !~
+@451  = ~Des mots bien durs, ma petite Nalia... et tu rougis. Une telle vulgarité offenserait-elle ta nature délicate ? Qu'est-ce que tu peux être pathétique. Le sexe ne se réduit pas à la honte et la culpabilité, tu sais.~
+@452  = ~Ce n'est pas une question de honte ou de culpabilité. C'est de la colère ! Comment oses-tu m'accuser de... salir ainsi le nom que je porte ! J'ai un devoir envers ma famille et mes gens, et je ne les décevrai pas.~
+@453  = ~Tu étais peut-être une princesse ou une reine en Ombreterre, mais ici tu n'es rien d'autre qu'un membre du groupe. Je ne te laisserai pas nous traiter comme des animaux ou comme des idiots, ou croire que nous supporterons tes insultes sans nous plaindre. Tu crois être plus forte que nous ? Eh bien tu devrais peut-être réfléchir à ceci : ce sont la compassion et l'amour, choses que tu trouves si odieuses, qui nous rendent forts. Tu n'as ni l'un, ni l'autre. Alors qu'est-ce qu'il te reste ?~
+@454  = ~Sécurité et solitude, comme je le souhaite. Ta dégoûtante diatribe m'a donné mal à la tête, et je n'ai pas la moindre envie que cela empire. Fiche-moi la paix, waelen tanth. Le simple fait de te voir me donne des nausées.~
+
+// Viconia - Nalia 3
+
+@455  = ~Beurk, ces waelen iblith me dégoûtent. Ce maudit endroit pue le renfermé et les corps crasseux, ce serait bien plus agréable s'ils pouvaient tous mourir soudainement.~ [I#BLANK]
+@456  = ~Qu'ont bien pu te faire ces hommes ? Ils ne sentent peut-être pas très bon, mais il n'y a aucune raison de les tuer tous de sang-froid.~
+@457  = ~J'ai tué de nombreux mâles en raison de leur odeur, et de leurs possessions. J'ai bien sûr brûlé leurs vêtements, mais il m'a bien fallu garder leur argent.~
+@458  = ~QUOI ?! Je n'arrive pas à croire que tu considères la vie avec un tel manque de miséricorde, Viconia ! Est-il seulement possible d'être aussi inhumaine ?~
+@459  = ~Que vaut une vie si on ne la vit pas ? L'alccolisme des mâles que j'ai tués les menait à la mort, de toute façon. J'ai simplement accéléré le processus.~
+
+// Yoshimo - Aerie
+// modifié la ligne 465, ce n'est pas futé de regarder le soleil, même dans un monde medfan.
+
+@460  = ~Aerie, mon parangon de beauté et de courage à la voix douce ! Qu'est-ce qui trouble ton esprit ?~ [I#BLANK]
+@461  = ~Il y a quelques temps j'ai vu un oisillon sur le sol... les fourmis étaient en train de le manger et, et... je n'ai p-pu m'empêcher de p-penser...~
+@462  = ~À toi ?~
+@463  = ~J'ai pensé que ce pauvre oiseau essayait p-probablement de voler pour la première fois... et il est mort. C'est injuste !~
+@464  = ~C'est vrai, ce n'est pas juste. D'un autre côté, il n'y a pas grand chose de juste dans ce monde, mon amie.~
+@465  = ~Je trouve que dans ce genre de situation il vaut mieux regarder les fleurs qui poussent à proximité, ou le ciel magnifique.~
+@466  = ~Mais on ne p-peut pas ignorer la laideur du monde ! Elle est réelle, Yoshimo ! Et nous avons le *devoir* de faire quelque chose.~
+@467  = ~Vraiment ? Ah mais Aerie, même en disant cela tu parles du futur ! Viens, profitons de cette belle journée et laissons hier et demain derrière nous !~
+
+// Aerie - Imoen 1
+
+@468  = ~Depuis que je t'ai rencontrée tu es très... discrète. <CHARNAME> a dit que... bon. Y a-t-il quelque chose que je puisse faire pour t'aider ?~ [I#BLANK]
+@469  = ~J'en doute. Mais ne parlons pas de moi ! Et toi ? Pourquoi voyages-tu avec cette grande gueule de <CHARNAME>, en fait ?~
+@470  = ~Eh bien <PRO_HESHE> m'a aidée quand mon... quand le cirque était sous le contrôle de Kalah, un illusionniste. <PRO_HESHE> nous a sauvés.~
+@471  = ~Ça, c'est très <CHARNAME>. Toujours à sauver le monde... (soupire)~
+@472  = ~Eh bien <PRO_HESHE> m'a aidée quand... avec Kalah et le cirque, tu te souviens ? Je lui en suis très reconnaissante.~
+@473  = ~Je me souviens, ouais. Ça c'est <CHARNAME>, toujours à sauver le monde. (soupire)~
+@474  = ~Imoen ?~
+@475  = ~Non, rien. Allez ! Tu es une Avariel, n'est-ce pas ? Ils ont des ailes et ils vivent dans les nuages ? Parle-moi d'eux ! Je veux tout savoir à leur sujet.~
+
+// Aerie - Imoen 2
+
+@476  = ~Oh la la ! B-bonjour Imoen. Je ne t'ai pas entendue arriver.~ [I#BLANK]
+@477  = ~Est-ce que je t'ai fait peur ?~
+@478  = ~Désolée. Me glisser derrière les gens est une seconde nature maintenant. Quand on passe sa jeunesse à marcher dans une grande bibliothèque silencieuse et qu'on passe ses journées à faire des blagues aux moines, on apprend très rapidement à marcher en silence.~
+@479  = ~Tu faisais des blagues aux moines ?~
+@480  = ~Bien sûr ! Et je parie que tu faisais des blagues aux gens, toi aussi !~
+@481  = ~Eh bien...~
+@482  = ~Allez, tu peux tout me dire !~
+
+// Imoen - Aerie
+
+@483  = ~Tu sais que tu as vraiment de beaux cheveux ?~ [I#BLANK]
+@484  = ~Qui, moi ? Je ne sais pas, ils sont toujours emmêlés et ils me gênent...~
+@485  = ~Tu es trop modeste.~
+@486  = ~Autrefois j'avais de longs cheveux, et maintenant j'ai toujours envie de peigner les tiens et de leur faire une tresse chaque fois que je te vois. Je peux ?~
+@487  = ~Bien sûr, Imoen. C'est très gentil de ta part.~
+@488  = ~Super ! J'ai quelques petites perles, de jolies petites pierres précieuses et des trucs que j'ai trouvés par-ci par-là, peut-être que je pourrais les y ajouter ?~
+@489  = ~Trouvés dans les poches de quelqu'un d'autre, je suppose ?~
+@490  = ~Aucune importance ! Et de toute façon ils seront bien plus en valeur à embellir tes cheveux qu'enfermés dans un coffre à bijoux. Dis-moi que j'ai raison !~
+@491  = ~(glousse) Tu as raison, je présume. Vas-y.~
+@492  = ~Imoen ? Merci.~
+@493  = ~Pas de problème Aerie. Tout le plaisir est pour moi !~
+@494  = ~Ooh, comme j'aimerais avoir des cheveux avec autant de volume...~
+
+// Imoen - Korgan
+
+@495  = ~Korgan, tu es bien un nain, n'est-ce pas ?~ [I#BLANK]
+@496  = ~Ben je ressemble à quoi, fillette ? Pour sûr que j'suis un nain ! T'es une elfe en fait, pour avoir le crâne aussi vide ?!~
+@497  = ~Hé ! Tu sais très bien que je suis une humaine pas très futée. Mais bon, je voulais te demander : c'est vrai ce qu'on dit sur les nains ? Tu sais... plus la barbe est fournie, plus grosse est...~
+@498  = ~Ha ha ha ! P'têtre bien que je t'ai sous-estimée, jeune fille. T'as l'esprit encore plus mal tourné que celui d'un mage de Thay !~
+@499  = ~Je fais de mon mieux. (glousse)~
+
+// Korgan - Imoen
+
+@500  = ~T'as vraiment pas grand chose de bien terrible, fillette... pfah, <CHARNAME>, j'peux pas croire que tu nous as fait galérer comme ça juste pour sauver c'te gonzesse !~ [I#BLANK]
+@501  = ~Hé ! Fais attention à qui tu t'en prends, monsieur le nain ! Et il se trouve que <CHARNAME> et moi sommes amis depuis notre plus tendre enfance.~ ~Hé ! Fais attention à qui tu t'en prends, monsieur le nain ! Et il se trouve que <CHARNAME> et moi sommes amies depuis notre plus tendre enfance.~
+@502  = ~Ahh, je vois...<CHARNAME>, espèce d'enfoiré, pourquoi tu m'avais pas dit que t'avais une maîtresse ?! T'aurais pu nous avertir ! Moi qui pensais que t'étais juste une tapette toute molle !~
+@503  = ~Ha ha ha ! <CHARNAME>, espèce de coquine, pourquoi tu m'avais pas dit que t'avais une maîtresse ?! T'aurais pu nous avertir ! Moi qui pensais que t'étais juste une grosse nunuche !~
+@504  = ~Oh mon dieu non ! <CHARNAME> et moi sommes juste... beurk ! Beurk, et encore beurk !~
+
+// Cernd - Viconia 1
+
+@505  = ~Est-ce bien du regret que je discerne en toi, Cernd ? Je ne pensais vraiment pas qu'une telle faiblesse puisse être dans ta nature ; quel dommage. Dire que j'avais même un minimum de respect envers toi.~ [I#BLANK]
+@506  = ~Il est toujours triste d'assister à une mort inutile, quelle que soit la race.~
+@507  = ~Ce stupide loup-garou est mort pour que nous puissions continuer notre quête. De toute façon, sans sa meute, si elle n'était pas morte maintenant un humain l'aurait sans aucun doute traquée et tuée.~
+@508  = ~C'est comme ça que vous êtes, vous les humains ; vous détruisez tout ce qui ne vous convient pas.~
+@509  = ~Pas tous les humains, Viconia. Comme les arbres, nous avons de nombreuses couches d'écorce autour de nous, il en est de même pour un sombre peuplier comme toi.~
+
+// Cernd - Viconia 2
+
+@510  = ~Il est fort dommage que tous les humains n'envoient pas leurs enfants vivre en forêt et gambader avec les loups et les ours, Cernd ; le monde deviendrait certainement un endroit plus sûr et plus agréable.~ [I#BLANK]
+@511  = ~Quoi que tu puisses insinuer, Mère Nature est le meilleur professeur qui soit. Elle est venue à mon secours lorsque j'en avais besoin, et elle donnera aussi à mon fils toute l'aide nécessaire. Elle est un meilleur parent que je ne pourrai jamais l'être.~
+
+// Viconia - Valygar 1
+
+@512  = ~Que sais-tu des aboleths, Valygar ?~ [I#BLANK]
+@513  = ~Rien du tout. L'étude des abominations n'est pas ma tasse de thé.~
+@514  = ~Peut-être devrais-tu t'y mettre. Les aboleths ont de fortes chances d'être l'espèce la plus ancienne encore en vie ; on dit que certains d'entre eux se souviennent d'un temps où les dieux eux-mêmes n'existaient pas. Ils se souviennent de la moindre pensée que chacun d'entre eux a pu avoir : on pourrait appeler cela une mémoire collective de leur race ; et de plus, ils absorbent également les souvenirs de leurs victimes.~
+@515  = ~S'ils le voulaient, avec leurs puissants pouvoirs psioniques, ils pourraient sans problème régner sur la totalité de Féérune, et même au-delà. Par chance, ils préfèrent s'amuser plutôt que de soumettre ceux qu'ils considèrent comme des races inférieures.~
+@516  = ~Votre savoir dans le domaine des monstres est... impressionnant, pour une drow.~
+@517  = ~Et que sais-tu donc des drows ?~
+
+// Viconia - Valygar 2
+
+@518  = ~Tes insultes me fatiguent, Valygar ! Les drows sont un peuple fier et puissant, et nous possédons énormément de savoir. Tu peux nous considérer comme des barbares, mais ce sont bien les tiens qui laissent les crimes impunis et vivent dans un monde d'ignorance permanente.~ [I#BLANK]
+@519  = ~Nous sommes un peuple sophistiqué et complexe, et il serait temps que tu reconnaisses que vous n'êtes pas la race la plus extraordinaire de tout Féérune !~
+@520  = ~Nous ? Vous avez fui à la surface pour des raisons inconnues et vous êtes retournée contre votre propre peuple ; je doute que vous puissiez encore vous prévaloir de l'honneur douteux d'être appelée "drow". Votre peau est noire et les drows sont peut-être des gens sophistiqués et complexes, mais il n'en reste pas moins que vous êtes une paria.~
+@521  = ~Dans ce cas je suis une paria avec beaucoup d'esprit et d'intelligence, qualités que tu ne possèdes à l'évidence pas. Je suis au-dessus de leurs pitoyables querelles, tout comme je me lasse des tiennes.~
+@522  = ~Sache qui sont tes ennemis, rôdeur, et tu auras alors un énorme avantage. Souviens-toi bien de cela, et lis aussi un livre ou deux, si toutefois tu en es capable. Le savoir que je t'ai transmis n'a pas de prix.~
+
+// Viconia - Yoshimo
+
+@523  = ~Le repas que tu nous as cuisiné hier soir était intéressant, voleur ; Je ne savais pas que tu avais reçu une éducation dans cet art bien précis.~ [I#BLANK]
+@524  = ~Ce n'est que l'un de mes nombreux talents, mon amie Viconia !~
+@525  = ~Un des esclaves de ma famille à Menzoberranzan avait un jour cuisiné un plat similaire. Malheureusement ma soeur y rajouta du poison. Le cuisinier mourut dans d'atroces souffrances après que je le lui aie fait goûter.~
+@526  = ~Ah, mais quelle tragédie ! ~
+@527  = ~Le plat que j'ai cuisiné hier soir était je suppose une version simplifiée de celui dont tu me parles. Si nous avions des champignons et un peu de vin, je pourrais te préparer en vitesse un repas qui t'éblouirait et régalerait tes papilles, j'en suis certain !~
+@528  = ~J'attends de voir ça. Je suis curieuse de savoir à quoi cela pourrait ressembler, vu que je n'ai pratiquement rien pu avaler du repas que tu nous as préparé hier soir.~
+@529  = ~Je me sens humilié ! Qu'est-ce qui a bien pu t'offenser à ce point dans ma cuisine ?~
+@530  = ~À part les cafards morts et les petites branches d'arbre, tu veux dire ? Je te suggère de cuisiner avec du matériel plus propre la prochaine fois. Aussi surprenant que cela puisse te paraître, je n'ai pas la moindre envie d'ingérer des insectes pétrifiés.~

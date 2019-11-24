@@ -1,0 +1,47 @@
+// Imoen 1
+IF
+  %BGT_VAR%
+  InParty("Imoen2")
+  InParty(Myself)
+  !StateCheck("Imoen2",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("I#B_ImoMinMage","GLOBAL",0)
+  !AreaType(DUNGEON)
+  See("Imoen2")
+  GlobalGT("Chapter","GLOBAL",%bg2_chapter_4%)
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    RealSetGlobalTimer("I#B_ImoMinMageTime","GLOBAL",600)
+    SetGlobal("I#B_ImoMinMage","GLOBAL",1)
+END
+
+IF
+  InParty("Imoen2")
+  InParty(Myself)
+  RealGlobalTimerExpired("I#B_ImoMinMageTime","GLOBAL")
+  Global("I#B_ImoMinMage","GLOBAL",1)
+  !StateCheck("Imoen2",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  See("Imoen2")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_ImoMinMage","GLOBAL",2)
+END
+
+IF
+  InParty("Imoen2")
+  InParty(Myself)
+  Global("I#B_ImoMinMage","GLOBAL",2)
+  !StateCheck("Imoen2",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  See("Imoen2")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Imoen2")
+END

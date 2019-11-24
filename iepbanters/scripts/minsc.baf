@@ -1,0 +1,62 @@
+// Anomen is Knight
+IF
+  InParty("Anomen")
+  InParty(Myself)
+  !StateCheck("Anomen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  GlobalGT("AnomenIsKnight","GLOBAL",0)
+  Alignment("Anomen",LAWFUL_GOOD)
+  Global("I#B_AnoMinProud","GLOBAL",0)
+  See("Anomen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_AnoMinProud","GLOBAL",1)
+END
+
+IF
+  InParty("Anomen")
+  InParty(Myself)
+  !StateCheck("Anomen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("I#B_AnoMinProud","GLOBAL",1)
+  See("Anomen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Anomen")
+END
+
+// Anomen isn't a Knight
+IF 
+  InParty("Anomen")
+  InParty(Myself)
+  !StateCheck("Anomen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  GlobalGT("AnomenIsNotKnight","GLOBAL",0)
+  Alignment("Anomen",CHAOTIC_NEUTRAL)
+  Global("I#B_AnoMinCN","GLOBAL",0)
+  See("Anomen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_AnoMinCN","GLOBAL",1)
+END
+
+IF
+  InParty("Anomen")
+  InParty(Myself)
+  !StateCheck("Anomen",CD_STATE_NOTVALID)
+  !StateCheck(Myself,CD_STATE_NOTVALID)
+  Global("I#B_AnoMinCN","GLOBAL",1)
+  See("Anomen")
+  CombatCounter(0)
+  !See([ENEMY])
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Anomen")
+END
+

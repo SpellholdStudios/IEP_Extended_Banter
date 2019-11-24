@@ -1,0 +1,17 @@
+@0    = ~Little Aerie, Boo wants to know: will you come to Rashemen with us once our quest with <CHARNAME> is over?  You could study with the Hathran, and at night, we could feast like the heroes we are in the Ice Dragon Berserker Lodge!~ [I#BLANK]
+@1    = ~Heh, I appreciate the offer, Minsc, but-~
+@2    = ~And we would regale everyone with tales of our adventures, and people would come from all around to listen to our tales of righteous buttkicking!  And there would be lots of pretty ladies for you to make friends with, Aerie, and perhaps even a hamster!~
+@3    = ~I'm not really sure I would fit in with your people, Minsc.~
+@4    = ~Ah, but you are mistaken!  You are a wise and powerful witch!  Of course you would fit in with the other Witches!  Boo thinks you might find the masks off-putting, though.~
+@5    = ~If you're sure...~
+@6    = ~Of course we're certain!  Oh, it will be good to see the wide, rolling fields of home once more!  Boo can hardly wait!  See how his whiskers quiver with anticipation?~
+@7    = ~Maybe I will, then, Minsc.  If only to make you happy.~
+@8    = ~Minsc, what are the markings on your head?  I've been meaning to ask for a while now, but something always seems to come up before I get the chance to.~ [I#BLANK]
+@9    = ~Many warriors of Rashemen bear such trophies!  Mostly, they are the scars from battle, but Boo tells me that not everything important happens at the end of a sword.  I reserve judgment on that, but Boo is usually most knowledgeable about these things.~
+@10   = ~In our travels with Dynaheir, we met many people, and one of them was a valiant warrior from a land like unto Rashemen, but more reserved.  This was a lady warrior, and she was most impressed with Minsc and Boo on the battlefield, but she feared that one day, even Boo might not be able to soothe Minsc's righteous buttkicking fury.  She was wise in the ways of all sorts of people from foreign lands, and knew of many customs, both familar and strange.~
+@11   = ~She had proven her valor to me, and to Boo, so when she said we should exchange trophies, I accepted.  She told me the marking stands for balance and is well respected in her homeland.  I wear it proudly, just as she wears the symbol of the Ice Dragon Berserker Lodge, though not quite so prominently placed.  But Boo reminds me of an oath long promised, so I will speak no more of that.~
+@12   = ~I had thought that perhaps it was a tattoo all Rashemi warriors obtain.~
+@13   = ~Not all warriors bear that tattoo, but many do.  See?  I, too, have my symbol of the Ice Dragon Berserker Lodge on my arm.~
+@14   = ~It's...kind of pretty, I suppose.  Looks very fierce.  (giggle)~
+@15   = ~That it is, little Aerie!  All the ladies back in Rasheman thought it was very fetching, as I recall!  Dynaheir did not find it nearly so interesting, but she never liked tattoos.~
+@16   = ~I like it.~

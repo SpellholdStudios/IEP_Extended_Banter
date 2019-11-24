@@ -1,0 +1,61 @@
+// --------------------------------------
+// IEP Extended NPC-NPC Interaction
+//
+// File:      aerie.baf
+// Directory: iepbanters/scripts
+// Prefix:    I#B
+// Author(s): K'aeloree, berelinde, Tameon the Dragoon, Ilmatar, Bookwyrme, Solar's Harper
+//            Check banter files for individual credits
+// --------------------------------------
+
+// Aerie/Mazzy - Aerie wounded banter
+IF
+    Global("I#B_AerieMazzy_AerieHurt","GLOBAL",0)
+    HPPercentLT("Aerie",50)
+    InParty("Aerie")
+    InParty("Mazzy")
+    See("Mazzy")
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+    !StateCheck("Mazzy",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_AerieMazzy_AerieHurt","GLOBAL",1)
+END
+
+IF
+    Global("I#B_AerieMazzy_AerieHurt","GLOBAL",1)
+    InParty("Aerie")
+    InParty("Mazzy")
+    See("Mazzy")
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+    !StateCheck("Mazzy",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Mazzy")
+END
+
+// Aerie/Mazzy - Mazzy wounded banter
+IF
+    Global("I#B_AerieMazzy_MazzyHurt","GLOBAL",0)
+    HPPercentLT("Mazzy",70)
+    InParty("Aerie")
+    InParty("Mazzy")
+    See("Mazzy")
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+    !StateCheck("Mazzy",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    SetGlobal("I#B_AerieMazzy_MazzyHurt","GLOBAL",1)
+END
+
+IF
+    Global("I#B_AerieMazzy_MazzyHurt","GLOBAL",1)
+    InParty("Aerie")
+    InParty("Mazzy")
+    See("Mazzy")
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+    !StateCheck("Mazzy",CD_STATE_NOTVALID)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("Mazzy")
+END
