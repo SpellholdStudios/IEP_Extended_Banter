@@ -10,7 +10,7 @@
 
 // Jaheira/Viconia - Pai'Na banter
 IF
-    %BGT_VAR%
+    %BG2_VAR%
     Global("I#B_JahViconia_PaiNa","LOCALS",0)
     InParty("Jaheira")
     InParty("Viconia")

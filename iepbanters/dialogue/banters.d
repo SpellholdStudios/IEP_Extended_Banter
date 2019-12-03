@@ -423,7 +423,7 @@ EXIT
 // Viconia
 
 // 2
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Viconia")
 See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
@@ -438,7 +438,7 @@ DO ~SetGlobal("I#B_EdwinViconia","GLOBAL",2)~
 EXIT
 
 // 4
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Viconia")
 See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
@@ -579,7 +579,7 @@ EXIT
 // Viconia
 
 // 2
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Viconia")
 See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
@@ -596,7 +596,7 @@ DO ~SetGlobal("I#B_ImoenViconia","GLOBAL",3)~
 EXIT
 
 // 3
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Viconia")
 See("Viconia")
 !StateCheck("Viconia",CD_STATE_NOTVALID)
@@ -635,7 +635,7 @@ EXIT
 // Imoen
 
 // 1
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Imoen2")
 See("Imoen2")
 GlobalGT("Chapter","GLOBAL",%bg2_chapter_1%)
@@ -654,7 +654,7 @@ DO ~SetGlobal("I#B_ImoenJaheira","GLOBAL",1)~
 EXIT
 
 // 2
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Imoen2")
 See("Imoen2")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
@@ -703,7 +703,7 @@ EXIT
 
 // Minsc
 // 1.
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Minsc")
 !StateCheck("Minsc",CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -1175,7 +1175,7 @@ EXIT
 
 // Jaheira
 // 2.
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
 !StateCheck(Myself,CD_STATE_NOTVALID)
@@ -1407,7 +1407,7 @@ EXIT
 // Edwin
 
 // 1
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Edwin")
 See("Edwin")
 !StateCheck("Edwin",CD_STATE_NOTVALID)
@@ -1451,7 +1451,7 @@ CHAIN BVICONI I#B_EdwinViconia_1_4
 EXIT
 
 // 3
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Edwin")
 See("Edwin")
 !StateCheck("Edwin",CD_STATE_NOTVALID)
@@ -1465,7 +1465,7 @@ DO ~SetGlobal("I#B_EdwinViconia","GLOBAL",3)~
 EXIT
 
 // 5
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Edwin")
 See("Edwin")
 !StateCheck("Edwin",CD_STATE_NOTVALID)
@@ -1490,7 +1490,7 @@ EXIT
 // Imoen 
 
 // 1
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Imoen2")
 See("Imoen2")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
@@ -1507,7 +1507,7 @@ EXIT
 // Jaheira
 
 // 1
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Jaheira")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
@@ -1524,7 +1524,7 @@ DO ~SetGlobal("I#B_JaheiraViconia","GLOBAL",1)~
 EXIT
 
 // 2
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Jaheira")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
@@ -1540,7 +1540,7 @@ DO ~SetGlobal("I#B_JaheiraViconia","GLOBAL",2)~
 EXIT
 
 // 3
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Jaheira")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
@@ -1558,7 +1558,7 @@ DO ~SetGlobal("I#B_JaheiraViconia","GLOBAL",3)~
 EXIT
 
 // In forest
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Jaheira")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
@@ -1577,7 +1577,7 @@ DO ~SetGlobal("I#B_JaheiraViconia_Forest","GLOBAL",1)~
 EXIT
 
 // (Jaheira in romance)
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Jaheira")
 See("Jaheira")
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
@@ -1621,7 +1621,7 @@ EXIT
 // Minsc
 
 // In Underdark
-CHAIN IF ~%BGT_VAR%
+CHAIN IF ~%BG2_VAR%
 InParty("Minsc")
 See("Minsc")
 !StateCheck("Minsc",CD_STATE_NOTVALID)
