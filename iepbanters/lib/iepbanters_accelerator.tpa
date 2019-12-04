@@ -1,0 +1,22 @@
+/* ======================================== *
+ *  Banter Accelerator                      *
+ *                                          *
+ *  Originally author: jcompton             *
+ *  Modified with permission by: K'aeloree  *
+ * ======================================== */
+
+// Un-installing all previous Banter Accelerators if installed
+// -----------------------------------------------------------
+UNINSTALL setup-banterpack.tp2 1
+UNINSTALL setup-banterpack.tp2 3
+UNINSTALL setup-bg1npc.tp2 25
+UNINSTALL Kelsey.tp2 3
+UNINSTALL Keto.tp2 2
+
+// Appending scripts
+// -----------------
+EXTEND_TOP ~baldur.bcs~ ~iepbanters/scripts/baldur.baf~ EVALUATE_BUFFER
+
+ACTION_IF (is_tob OR is_ee) BEGIN
+	EXTEND_TOP ~baldur25.bcs~ ~iepbanters/scripts/baldur.baf~ EVALUATE_BUFFER
+END

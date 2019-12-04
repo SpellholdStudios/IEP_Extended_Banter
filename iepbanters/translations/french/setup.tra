@@ -3,8 +3,8 @@
 @3 = ~Dialogue "retrospectif" pour Imoen dans ToB~
 @4 = ~Dialogue au reveil pour la romance d'Anomen (de David Gaider avec des ajouts de Kulyok)~
 @5 = ~Revision des conflits entre PNJs~
-@6 = ~10 minutes~
-@7 = ~Voulez-vous installer l'accelerateur de discussions ? Combien de temps souhaitez-vous entre deux discussions entre PNJs dans le jeu ?~
+@6 = ~Voulez-vous installer l'accelerateur de discussions ? Combien de temps souhaitez-vous entre deux discussions entre PNJs dans le jeu ?~
+@7 = ~10 minutes~
 @8 = ~15 minutes~
 @9 = ~20 minutes~
 @10 = ~30 minutes~
@@ -12,7 +12,9 @@
 @12 = ~60 minutes~
 @13 = ~Restitution de commentaires Aerie/Jaheira/Anomen dans l'Ombreterre~
 @14 = ~ToB n'est pas installe ! Veuillez installer l'extension Throne of Bhaal avant d'installer les interactions etendues entre Misc et Aerie dans ToB.~
-@15 = ~ToB n'est pas installe ! Veuillez installer l'extension Throne of Bhaal avant d'installer ce minimod.~
+@15 = ~ToB n'est pas installe ! Veuillez installer l'extension Throne of Bhaal avant d'installer ce composant.~
+
+@16 = ~Ce mod n'est pas disponible pour votre jeu.~
 
 
 //Prompts WeiDU

@@ -1,9 +1,9 @@
 // Edwin/Keldorn Conflict
 
-@0    = ~Je n'ai pas l'intention d'attendre que que tu me poignardes dans le dos avec tes vertueuses dagues, chevalier ! Je n'ai pas l'intention de subir ton poison ! (Sale petit insolent.)~ [I#BLANK]
+@0    = ~Je n'ai pas l'intention d'attendre que que tu me poignardes dans le dos avec tes vertueuses dagues, chevalier ! Je n'ai pas l'intention de subir ton poison ! (Sale petit insolent.)~ [i#blank]
 @1    = ~Cela suffit, Edwin. Si tu attaques Keldorn, je te ramènerai en personne à Thay. Je n'ai pas besoin de m'encombrer d'un mage incapable de respecter les décisions de son chef.~
 @2    = ~Je crois qu'on va bien s'amuser.~
-@3    = ~Edwin, réfléchis une minute. La fortune, ou la mort aux pieds d'un paladin vétéran ? Choisis rapidement, thayen.~
+@3    = ~Edwin, réfléchis une minute. La fortune, ou la mort aux pieds d'un paladin vétéran ? Choisis rapidement, Thayen.~
 @4    = ~Comment ? On ne t'y accorderait même pas une minute, insupportable macaque !~
 @5    = ~Bah ! Je n'ai de toute façon aucun besoin de les impliquer dans cette histoire. Ce paladin qui te sert de laquais reste en vie pour le moment, mais si ses vertueuses dagues empoisonnées ont l'outrecuidance de s'approcher de moi...~
 @6    = ~De toute évidence vous êtes complètement fou, mage. Je ne supporterai pas une minute de plus vos délires.~
@@ -20,7 +20,7 @@
 
 // Edwin/Minsc Conflict
 
-@17   = ~Alors tu vas payer cher tes "observations" ! Ceux qui disent du mal des morts pourraient bien les rejoindre ! Puissent les pieds de Dynahéir te botter les fesses pour l'éternité !~ [I#BLANK]
+@17   = ~Alors tu vas payer cher tes « observations » ! Ceux qui disent du mal des morts pourraient bien les rejoindre ! Puissent les pieds de Dynahéir te botter les fesses pour l'éternité !~ [i#blank]
 @18   = ~Minsc, ça suffit ! Dynahéir n'a que faire de tout ce que ce crétin malveillant peut bien dire d'elle. Ne souille pas sa mémoire avec ces paroles inutilement agressives.~
 @19   = ~Edwin, espèce de misérable ! Tu as eu ce que tu voulais. Dynahéir est morte. Arrête de le provoquer !~
 @20   = ~La ferme, vous deux ! Je ne vous demande pas de vous apprécier, mais il va falloir que vous vous entendiez correctement. Il n'y aura pas de bagarre dans ce groupe ! Reprenez vos places, et cessez ces chamailleries !~
@@ -34,7 +34,7 @@
 
 // Edwin/Valygar Conflict
 
-@28   = ~C'est ce qu'on va voir !~ [I#BLANK]
+@28   = ~C'est ce qu'on va voir !~ [i#blank]
 @29   = ~Que se passe-t-il ?! Valygar, il fait exprès de te provoquer. Tu ne vas quand même pas te laisser prendre à ce petit jeu ?~
 @30   = ~Edwin ! Valygar ! Arrêtez tout de suite !~
 @31   = ~Je parie quelques pièces sur Edwin.~
@@ -99,7 +99,7 @@
 
 // Valygar/Viconia Conflict
 
-@87   = ~Comme il vous plaira, saleté de drow !~ [I#BLANK]
+@87   = ~Comme il vous plaira, saleté de drow !~ [i#blank]
 @88   = ~Arrêtez ces stupidités ! Nous n'avons pas de temps à perdre avec ces disputes ridicules.~
 @89   = ~Bien, les choses deviennent intéressantes.~
 @90   = ~cela suffit. Rentrez dans le rang, ou vous allez tous deux perdre votre place dans ce groupe.~

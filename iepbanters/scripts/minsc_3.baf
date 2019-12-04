@@ -1,5 +1,5 @@
 IF
-  %BGT_VAR%
+  %BG2_VAR%
   InParty("Imoen")
   InParty(Myself)
   !StateCheck("Imoen",CD_STATE_NOTVALID)

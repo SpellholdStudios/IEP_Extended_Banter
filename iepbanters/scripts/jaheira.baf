@@ -8,7 +8,7 @@
 
 // Jaheira/Viconia - Pai'Na banter
 IF
-    %BGT_VAR%
+    %BG2_VAR%
     AreaCheck("AR0804")
     Global("I#B_JaheiraViconia_PaiNa","GLOBAL",0)
     InParty("Jaheira")
@@ -22,7 +22,7 @@ THEN
 END
 
 IF
-    %BGT_VAR%
+    %BG2_VAR%
     !AreaCheck("AR0804")
     Global("I#B_JaheiraViconia_PaiNa","GLOBAL",1)
     InParty("Jaheira")
@@ -37,7 +37,7 @@ END
 
 // Jaheira/Viconia - Jaheira wounded banter
 IF
-    %BGT_VAR%
+    %BG2_VAR%
     Global("I#B_JaheiraViconia_JahHurt","GLOBAL",0)
     HPPercentLT("Jaheira",50)
     InParty("Jaheira")
@@ -51,7 +51,7 @@ THEN
 END
 
 IF
-    %BGT_VAR%
+    %BG2_VAR%
     Global("I#B_JaheiraViconia_JahHurt","GLOBAL",1)
     InParty("Jaheira")
     InParty("Viconia")
@@ -64,7 +64,7 @@ END
 
 // Jaheira/Viconia - Viconia wounded banter
 IF
-    %BGT_VAR%
+    %BG2_VAR%
     Global("I#B_JaheiraViconia_VicHurt","GLOBAL",0)
     HPPercentLT("Viconia",70)
     InParty("Jaheira")
@@ -78,7 +78,7 @@ THEN
 END
 
 IF      
-    %BGT_VAR%
+    %BG2_VAR%
     Global("I#B_JaheiraViconia_VicHurt","GLOBAL",1)
     InParty("Jaheira")
     InParty("Viconia")
