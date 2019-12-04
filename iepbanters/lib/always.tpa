@@ -1,0 +1,95 @@
+/* ============================================ *
+ *                                              *
+ *                 ALWAYS BLOCK                 *
+ *                                              *
+ * ============================================ */
+
+// Concept borrowed from DavidW's Immutability and encapsulation in mod design (https://github.com/Gibberlings3/immutable)
+
+/* ================================================================= *
+ * This code only runs once, even if you install lots of components. *
+ * ================================================================= */
+
+ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
+
+	SILENT
+
+	CLEAR_EVERYTHING
+
+	OUTER_SET always_once_section = 1
+
+	/* -------------------------------------------------------------------------------- *
+	 *    Determines which game is installed and if the game is an Enhanced Edition.    *
+	 * -------------------------------------------------------------------------------- */
+
+	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0					// EE game
+	OUTER_SET is_tob = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0	// based on vanilla ToB engine
+	OUTER_SET is_tutu = (GAME_IS ~tutu tutu_totsc~) ? 1 : 0			// tutu
+	OUTER_SET is_bg2ee = (GAME_IS "bg2ee") ? 1 : 0					// b2gee
+	OUTER_SET is_eet = (GAME_IS "eet") ? 1 : 0						// eet
+
+
+	/* --------------------------------------------- *
+	 *    General variables, macros and functions    *
+	 * --------------------------------------------- */
+
+	/* eet compatibility */
+	ACTION_IF (is_eet) BEGIN
+		OUTER_SET bg2_chapter = 12
+	END ELSE BEGIN
+		OUTER_SET bg2_chapter = 0
+	END
+	OUTER_FOR (i = 1 ; i <= 10; ++i) BEGIN
+		OUTER_SET bg2_chapter = bg2_chapter + 1
+		OUTER_SPRINT name_source ~bg2_chapter_%i%~
+		OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+	END
+
+	/* CamDawg's custom IsValidForPartyDialogue() state. Thanks Cam!
+	   covers STATE_CONFUSED, STATE_FEEBLEMINDED, STATE_SILENCED, STATE_DEAD, STATE_ACID_DEATH, STATE_FLAME_DEATH, STATE_EXPLODING_DEATH, STATE_STONE_DEATH, STATE_FROZEN_DEATH, STATE_HELPLESS, STATE_STUNNED, STATE_PANIC, STATE_BERSERK, STATE_SLEEPING */
+	APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
+
+	/* Ensures banters won't run in BG1 section in Baldur's Gate Trilogy */
+	ACTION_IF FILE_EXISTS ~DATA/BG1ARE.BIF~ BEGIN
+		OUTER_SPRINT "percentage_sign" "%"
+		OUTER_SPRINT ~BG2_VAR~ ~Global("ENDOFBG1","GLOBAL",2)~
+	END ELSE BEGIN
+		OUTER_SPRINT "percentage_sign" "%"
+		OUTER_SPRINT ~BG2_VAR~ ~~
+	END
+
+
+	/* -------------------------- *
+	 *    Creates a blank file    *
+	 * -------------------------- */
+
+<<<<<<<< .../iepbanters-inline/blank
+
+>>>>>>>>
+
+
+	/* ----------------------------------------------- *
+	 *    Handling of correctly formatted tra-files    *
+	 *           Converts tra files to UTF-8           *
+	 * ----------------------------------------------- */
+
+	ACTION_IF (!FILE_EXISTS "%MOD_FOLDER%/iepbanters_languages_installed.mrk") BEGIN
+		COPY ~.../iepbanters-inline/blank~ ~%MOD_FOLDER%/iepbanters_languages_installed.mrk~	// Converts .tra files once
+		// No exception, everything needs to be converted
+		ACTION_DEFINE_ARRAY IEPnoconvert BEGIN END
+		// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+		ACTION_DEFINE_ARRAY IEPreload BEGIN setup END
+		LAF HANDLE_CHARSETS
+			INT_VAR
+				infer_charset = 1
+			STR_VAR
+				tra_path = EVAL ~%MOD_FOLDER%/translations~
+				noconvert_array = IEPnoconvert
+				reload_array = IEPreload
+//				default_language = english
+//				iconv_path = EVAL ~%MOD_FOLDER%/translations/iconv~
+		END
+	END
+
+
+END	// of ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
