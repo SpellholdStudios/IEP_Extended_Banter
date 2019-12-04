@@ -3,8 +3,8 @@
 @3 = ~Imoen "Retrospection" dialogue for BGII: ToB~
 @4 = ~Wake-Up dialogue for Anomen Romance (By David Gaider with additions from Kulyok)~
 @5 = ~NPC Conflict Revisions~
-@6 = ~10 Minutes~
-@7 = ~Install Banter Accelerator? How much time would you like in between NPC banters in-game?~
+@6 = ~Install Banter Accelerator? How much time would you like in between NPC banters in-game?~
+@7 = ~10 Minutes~
 @8 = ~15 Minutes~
 @9 = ~20 Minutes~
 @10 = ~30 Minutes~
@@ -12,4 +12,6 @@
 @12 = ~60 Minutes~
 @13 = ~Restored Aerie/Jaheira/Anomen interjection in Underdark~
 @14 = ~ToB is not installed! Please install the Throne of Bhaal expansion before installing the extended ToB Minsc/Aerie interaction.~
-@15 = ~ToB is not installed! Please install the Throne of Bhaal expansion before installing this minimod.~
+@15 = ~ToB is not installed! Please install the Throne of Bhaal expansion before installing this component.~
+
+@16 = ~This mod is not available for your game.~

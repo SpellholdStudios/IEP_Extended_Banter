@@ -1,4 +1,4 @@
-@0    = ~I shall not wait for ye to stab me with your righteous daggers, knight!  I have no wish to suffer your poison!  (Insolent and dirty, insolent and dirty.)~ [I#BLANK]
+@0    = ~I shall not wait for ye to stab me with your righteous daggers, knight!  I have no wish to suffer your poison!  (Insolent and dirty, insolent and dirty.)~ [i#blank]
 @1    = ~Hold it right there, Edwin.  If you attack Keldorn, I *will* deliver you personally to Thay.  I have no use for a wizard who cannot respect the decision of his leader.~
 @2    = ~This will be amusing.~
 @3    = ~Edwin, think for a moment.  Wealth, or death at the feet of a veteran paladin?  Make your choice quickly, Thayvian.~
@@ -15,7 +15,7 @@
 @14   = ~I'll be scraping for days to remove the smell of the both of you.  You have made the wrong choice, <CHARNAME>!~
 @15   = ~Aye, there are indeed many greater foes than this wastrel.  You will live, wizard, but I suggest you seek help for that mind of yours.~
 @16   = ~Bah!  Impudence is all I can expect from you barbarian swine!  I shall follow <CHARNAME> for now.  (If only for the endless bounty of treasure which follows the fool).~
-@17   = ~Then you shall pay the price for your 'observations!'  Those that speak ill of the dead shall join them!  May you spend eternity with Dynaheir's foot in your loins!~ [I#BLANK]
+@17   = ~Then you shall pay the price for your 'observations!'  Those that speak ill of the dead shall join them!  May you spend eternity with Dynaheir's foot in your loins!~ [i#blank]
 @18   = ~Minsc, that's enough!  Dynaheir is beyond the reach of anything this spiteful idiot might say of her.  Don't tarnish her memory with this useless agression.~
 @19   = ~Edwin, you miserable wretch!  You got what you wanted.  Dynaheir is dead.  Stop provoking him!~
 @20   = ~Both of you, knock it off!  You two don't have to like each other, but you do have to get along.  I'll have no fighting in this party!  Get back in line, and stop this bickering!~
@@ -26,7 +26,7 @@
 @25   = ~Is it my fault the gorilla is so easily provoked?~
 @26   = ~RRRAAAAAAAAUUUUUUuuugghh!~
 @27   = ~Hah.  Yes, yes, I believe I could.  (My, but did that ape not turn a wondrous shade of purple?  I must remember that for next time the great oaf irritates me.)~
-@28   = ~We shall see!~ [I#BLANK]
+@28   = ~We shall see!~ [i#blank]
 @29   = ~What is this?!  Valygar, he's provoking you deliberately.  Surely you have a thicker skin than this?~
 @30   = ~Edwin!  Valygar!  Stop this at once!~
 @31   = ~I'd say the smart money's on Edwin.~
@@ -85,7 +85,7 @@
 @84   = ~What I meant to say was that I'd rather have her where we can watch her.~
 @85   = ~That's enough, Viconia.  Stop baiting him, please.~
 @86   = ~A'dos Quarth.~
-@87   = ~As you wish, drow bitch!~ [I#BLANK]
+@87   = ~As you wish, drow bitch!~ [i#blank]
 @88   = ~Stop this idiocy!  We don't have time for your petty arguments.~
 @89   = ~Well, this should be interesting.~
 @90   = ~That is quite enough.  Get back into line, or you will both forfeit your places in this party.~

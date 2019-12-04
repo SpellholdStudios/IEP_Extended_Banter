@@ -1,4 +1,4 @@
-@0  = ~Ich werde nicht darauf warten, dass Ihr mich mit Euren rechtschaffenen Dolchen abstecht, Ritter. Ich habe nicht den Wunsch dieses Gift zu ertragen.~ [I#BLANK] 
+@0  = ~Ich werde nicht darauf warten, dass Ihr mich mit Euren rechtschaffenen Dolchen abstecht, Ritter. Ich habe nicht den Wunsch dieses Gift zu ertragen.~ [i#blank] 
 @1  = ~Haltet ein Edwin. Wenn Ihr Keldorn angreift, werde ich Euch persönlich an Thay ausliefern. Ich brauche keinen Magier, der die Entscheidungen seines Anführers nicht respektiert~
 @2  = ~Das wird amüsant.~ 
 @3  = ~Edwin überlegt Euch noch einmal die Alternativen. Reichtum oder den Tod, gebracht von einem Veteran der Paladine. Trefft Eure Wahl schnell und weise, Thayvian.~
@@ -15,7 +15,7 @@
 @14 = ~Ich werde Tage brauchen um den Geruch den Ihr beide verströmt, wieder loszuwerden. Ihr habt die falsche Entscheidung gefällt, <CHARNAME>.~ 
 @15 = ~Es gibt allerdings größere Feinde als diesen Dreck. Ich werde Euch am Leben lassen Magierlein, aber seid vorsichtig und äußert Euch mir gegenüber nur noch wenn Ihr genügend Helfer an Eurer Seite habt.~
 @16 = ~Bah! Frechheit ist alles was ich von einem barbarischen Schwein erwarten kann. Ich werde <CHARNAME> für den Moment folgen. (Auch wenn es nur wegen der Schätze ist, die ich bekommen werde, wenn ich diesem Dummkopf folge.).~
-@17 = ~Dann sollt Ihr den Preis für Eure 'Beobachtungen' zahlen. Wer schlecht von den Toten spricht, soll sich ihnen anschließen Möge Dynaheirs Fuß für immer Eure Lenden treten!~ [I#BLANK]
+@17 = ~Dann sollt Ihr den Preis für Eure 'Beobachtungen' zahlen. Wer schlecht von den Toten spricht, soll sich ihnen anschließen Möge Dynaheirs Fuß für immer Eure Lenden treten!~ [i#blank]
 @18 = ~Minsc, das ist genug. Dynaheir ist außer Reichweite von dem, was dieser Idiot über sie erzählen könnte. Trübt die Erinnerung an sie nicht mit dieser nutzlosen Wut.~ 
 @19 = ~Edwin, Ihr seid erbärmlich. Dynaheir ist tot. Hört auf ihn zu provozieren, Ihr habt bekommen was Ihr wolltet.~
 @20 = ~Hört beide auf damit. Ihr müsst Euch nicht mögen, aber Ihr müsst miteinander auskommen.Ich dulde keine Kämpfe in dieser Gruppe. Tretet zurück in die Reihe und beruhigt Euch gefälligst.~ 
@@ -26,7 +26,7 @@
 @25 = ~Ist es vielleicht meine Schuld, wenn sich der Gorilla so leicht provoziert fühlt?~
 @26 = ~RRRAAAAAAAAUUUUUUuuugghh!~
 @27 = ~Hah. Ja, ja. Ich glaube das kann ich.  (Aber umgibt diesen Affen nicht ein wundersamer violetter Schatten? Was kann das sein? Ich muss darauf achten, wenn mich dieser große Affe das nächste mal ärgert.)~
-@28 = ~Wir werden sehen!~ [I#BLANK]
+@28 = ~Wir werden sehen!~ [i#blank]
 @29 = ~Was soll das? Valygar er provoziert Euch absichtlich. Seid Ihr so dünnhäutig?~
 @30 = ~Edwin!  Valygar!  Hört sofort damit auf!~
 @31 = ~Ich würde auf Edwin wetten.~
@@ -85,7 +85,7 @@
 @84 = ~Was ich meine ist, dass ich sie lieber an meiner Seite habe, so dass ich weiß was sie tut.~
 @85 = ~Das langt jetzt, Viconia. Hört bitte auf ihm die Köder vor die Nase zu werfen.~
 @86 = ~A'dos Quarth.~
-@87 = ~Wie Ihr wollt Drowschlampe!~ [I#BLANK]
+@87 = ~Wie Ihr wollt Drowschlampe!~ [i#blank]
 @88 = ~Hört mit diesem Blödsinn auf. Wir haben keine Zeit für Eure unbedeutenden Auseinandersetzungen.~
 @89 = ~Nun, das kann interessant werden.~
 @90 = ~Das langt jetzt. Gebt jetzt beide Ruhe oder ich werde Euch beide aus der Gruppe werfen.~
