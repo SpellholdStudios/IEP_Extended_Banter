@@ -39,7 +39,7 @@ Visit the <a href="http://www.spellholdstudios.net/ie/iepbanters">website</a> or
 
 This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with and without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
 
-IEP Extended Banter mod should be compatible with all WeiDU mods, and therefore should be compatible with all WeiDU mods. It has been tested on several different installations, and has so far worked perfectly. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">report them on the forum!
+IEP Extended Banter mod should be compatible with all WeiDU mods, and therefore should be compatible with all WeiDU mods. It has been tested on several different installations, and has so far worked perfectly. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">report them on the forum</a>!
 
 Keep in mind that the IEP Banter Accelerator will un-install any previously installed banter accelerator, including the accelerator included in BG1 NPC. This is for compatibility reasons, but it does mean that you should take care with larger installations including other accelerators.
 
