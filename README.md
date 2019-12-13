@@ -1,4 +1,4 @@
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/IEP_Extended_Banter?include_prereleases&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/IEP_Extended_Banter?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Russian%20%7C%20Chinese&color=limegreen)
 
@@ -210,6 +210,12 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 
 
 ## <a name="versions" id="versions"></a>Versions History
+
+##### Version 5.6 (December 12, 2019)
+
+- Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
+
+## 
 
 ##### Version 5.5 (December 4, 2019)
 
