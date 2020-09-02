@@ -64,6 +64,7 @@ See("Imoen2")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
 !StateCheck("Aerie",CD_STATE_NOTVALID)
 CombatCounter(0)
+GlobalGT("Chapter","GLOBAL",%bg2_chapter_3%) !Global("C#IM_ImoenStays","GLOBAL",1) //compatibility with I4E: should not fire before Spellhold
 Global("I#B_AerieImoen","GLOBAL",0)~ THEN BAERIE I#B_AerieImoen_1
 @468 
 DO ~IncrementGlobal("I#B_AerieImoen","GLOBAL",1)~
@@ -642,6 +643,7 @@ GlobalGT("Chapter","GLOBAL",%bg2_chapter_1%)
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
 !StateCheck("Jaheira",CD_STATE_NOTVALID)
 CombatCounter(0)
+GlobalGT("Chapter","GLOBAL",%bg2_chapter_3%) !Global("C#IM_ImoenStays","GLOBAL",1) //compatibility with I4E: should not fire before Spellhold
 Global("I#B_ImoenJaheira","GLOBAL",0)~ THEN BJAHEIR I#B_ImoenJaheira_1
 @155 
 DO ~SetGlobal("I#B_ImoenJaheira","GLOBAL",1)~
@@ -899,6 +901,7 @@ See("Imoen2")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
 !StateCheck("Korgan",CD_STATE_NOTVALID)
 CombatCounter(0)
+GlobalGT("Chapter","GLOBAL",%bg2_chapter_3%) !Global("C#IM_ImoenStays","GLOBAL",1) //compatibility with I4E: should not fire before Spellhold
 Global("I#B_ImoenKorgan","GLOBAL",0)~ THEN BKORGAN I#B_ImoenKorgan_1
 @500 
 DO ~IncrementGlobal("I#B_ImoenKorgan","GLOBAL",1)~
@@ -1496,6 +1499,7 @@ See("Imoen2")
 !StateCheck("Imoen2",CD_STATE_NOTVALID)
 !StateCheck("Viconia",CD_STATE_NOTVALID)
 CombatCounter(0)
+GlobalGT("Chapter","GLOBAL",%bg2_chapter_3%) !Global("C#IM_ImoenStays","GLOBAL",1) //compatibility with I4E: should not fire before Spellhold
 Global("I#B_ImoenViconia","GLOBAL",0)~ THEN BVICONI I#B_ImoenViconia_1
 @394 
 DO ~SetGlobal("I#B_ImoenViconia","GLOBAL",1)~
