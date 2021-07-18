@@ -10,7 +10,7 @@ BACKUP ~iepbanters/backup~
 //AUTHOR ~K'aeloree (kae@spellholdstudios.net)~
 SUPPORT ~http://www.shsforums.net/forum/530-iep-extended-banters/~
 
-VERSION ~v5.7~
+VERSION ~v5.8~
 
 README ~iepbanters/readme/iepbanters-readme-%LANGUAGE%.html~ ~iepbanters/readme/iepbanters-readme-readme-english.html~
 
@@ -44,12 +44,16 @@ LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~
          ~iepbanters/translations/schinese/setup.tra~
 
+LANGUAGE ~Espanol (traduccion por Magis365)~
+         ~spanish~
+         ~iepbanters/translations/spanish/setup.tra~
+
 
 /* ================================== *
  *  IEP Extended NPC-NPC Interaction  *
  * ================================== */
 BEGIN @1
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16  // This mod is not available for your game.
 DESIGNATED 0 LABEL ~iep_banters~
 
 // Add Imoen's banter file if Fixpack isn't installed
@@ -139,7 +143,7 @@ EXTEND_BOTTOM ~imoe25.bcs~ ~iepbanters/scripts/imoe25.baf~
  *  Anomen Romance "Wake Up" Dialogue  *
  * =================================== */
 BEGIN @4
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 DESIGNATED 3 LABEL ~iep_banters_anomen_romance_wakeup~
 
 // Compiling dialogue
@@ -165,7 +169,7 @@ END
  *  Extended NPC Conflicts  *
  * ======================== */
 BEGIN @5
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 DESIGNATED 4 LABEL ~iep_npc_conflicts_revision~
 
 // Compiling dialogue
@@ -179,7 +183,7 @@ USING ~iepbanters/translations/english/conflicts.tra~
  *  Restored NPC Interjections in Underdark  *
  * ========================================= */
 BEGIN @13
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 DESIGNATED 5 LABEL ~iep_restored_npc_interjection_underdark~
 
 // DADROW21 interjection
@@ -210,7 +214,7 @@ COMPILE ~iepbanters/dialogue/restored_interjections.d~
 BEGIN @7
 DESIGNATED 6 LABEL ~iep_banter_accelerator_10~
 SUBCOMPONENT @6
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 
 // Appending gtimes.ids to include the timer
 APPEND ~gtimes.ids~ ~600 I#BANTER_TIMER~
@@ -223,7 +227,7 @@ INCLUDE ~iepbanters/lib/iepbanters_accelerator.tpa~
 BEGIN @8
 DESIGNATED 7 LABEL ~iep_banter_accelerator_15~
 SUBCOMPONENT @6
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 
 APPEND ~gtimes.ids~ ~900 I#BANTER_TIMER~
 
@@ -235,7 +239,7 @@ INCLUDE ~iepbanters/lib/iepbanters_accelerator.tpa~
 BEGIN @9
 DESIGNATED 8 LABEL ~iep_banter_accelerator_20~
 SUBCOMPONENT @6
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 
 APPEND ~gtimes.ids~ ~1200 I#BANTER_TIMER~
 
@@ -247,7 +251,7 @@ INCLUDE ~iepbanters/lib/iepbanters_accelerator.tpa~
 BEGIN @10
 DESIGNATED 9 LABEL ~iep_banter_accelerator_30~
 SUBCOMPONENT @6
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 
 APPEND ~gtimes.ids~ ~1800 I#BANTER_TIMER~
 
@@ -259,7 +263,7 @@ INCLUDE ~iepbanters/lib/iepbanters_accelerator.tpa~
 BEGIN @11
 DESIGNATED 10 LABEL ~iep_banter_accelerator_45~
 SUBCOMPONENT @6
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 
 APPEND ~gtimes.ids~ ~2700 I#BANTER_TIMER~
 
@@ -271,7 +275,7 @@ INCLUDE ~iepbanters/lib/iepbanters_accelerator.tpa~
 BEGIN @12
 DESIGNATED 11 LABEL ~iep_banter_accelerator_60~
 SUBCOMPONENT @6
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16	// This mod is not available for your game.
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
 
 APPEND ~gtimes.ids~ ~3600 I#BANTER_TIMER~
 

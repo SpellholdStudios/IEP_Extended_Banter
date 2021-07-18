@@ -17,7 +17,9 @@
 @16 = ~Diese Mod benoetigt BG2:TdB; BGT, BG2:EE, oder EET.~
 
 
-// WeiDU prompts
+/* =============== *
+ *  WeiDU prompts  *
+ * =============== */
 @-1000= "Die %TP2_FILE_NAME%-Mod besitzt"
 @-1001= "verschiedene optionale Komponenten.
 Um Zeit zu sparen, koennen Sie waehlen, was Sie mit ihnen im Allgemeinen
@@ -109,3 +111,7 @@ Geben Sie bitte an, in welcher Spielsprache diese Mod installiert wurde. Ihre Au
 @-1061= "
 Benutze"
 @-1062= " und "
+
+@-1063= "INSTALLATION ABGEBROCHEN"
+@-1064= "Abbruch der Installation von ["
+@-1065= "], vorheriger Zustand wird wiederhergestellt"

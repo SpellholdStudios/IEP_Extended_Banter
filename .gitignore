@@ -40,7 +40,7 @@ $RECYCLE.BIN/
 *.bak
 *.bat
 *.csv
-*.7z
+#*.7z
 *.rar
 *.zip
 *.exe

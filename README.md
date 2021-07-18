@@ -1,22 +1,41 @@
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/IEP_Extended_Banter?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Russian%20%7C%20Chinese&color=limegreen)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/IEP_Extended_Banter?color=gold)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Russian%20%7C%20Chinese%20%7C%20Spanish&color=limegreen)
+
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII%20%7C%20BGII:ToB%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20EET&color=dodgerblue)
 
 <div align="center"><h1></a>IEP Extended Banter</h1>
 
 <h3>A Spellhold Studios mod for Baldur's Gate II: SoA and ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
-</div><br />
+</div><br>
 
 
 **Authors:** Multiple  
 **Mod Website:** <a href="http://www.spellholdstudios.net/ie/npciep">Spellhold Studios</a>  
-**Mod Forum:** <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">IEP Expanded Banters</a><br /><br />
+**Mod Forum:** <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">IEP Expanded Banters</a>
 
+
+## 
+
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/IEP_Extended_Banter?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/IEP_Extended_Banter?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/IEP_Extended_Banter?color=cyan&style=plastic)](https://badges.pufler.dev) 
+![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/IEP_Extended_Banter?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/IEP_Extended_Banter?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+
+## 
+
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/iepbanters-readme-english.html) | [Français](https://spellholdstudios.github.io/readmes/iepbanters-readme-french.html) | [Deutsch](https://spellholdstudios.github.io/readmes/iepbanters-readme-german.html)
+
+:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/558-iep-extended-banters)<br>
+
+## 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; &#x2B25; <a href="#components">Components</a> <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></br>
 </div>
 
 
@@ -37,13 +56,28 @@ Visit the <a href="http://www.spellholdstudios.net/ie/iepbanters">website</a> or
 
 ## <a name="compat" id="compat"></a>Compatibility
 
-This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with and without the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects Baldur's Gate Trilogy (BGT) and Enhanced Edition Trilogy (EET).
+#### Games supported
+
+This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/Gibberlings3/EET/releases">Enhanced Edition Trilogy (EET)</a>.
+
+## 
+
+#### Other Mods Compatibility
 
 IEP Extended Banter mod should be compatible with all WeiDU mods, and therefore should be compatible with all WeiDU mods. It has been tested on several different installations, and has so far worked perfectly. If you encounter any bugs, please <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">report them on the forum</a>!
 
 Keep in mind that the IEP Banter Accelerator will un-install any previously installed banter accelerator, including the accelerator included in BG1 NPC. This is for compatibility reasons, but it does mean that you should take care with larger installations including other accelerators.
 
+## 
+
+#### Installation Order
+
 >Although it is not required for the IEP Extended Banter to function properly, it is always a good idea to install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.
+
+Here is the recommended installation order:
+- Please install IEP Extended Banter after TobEx, BG2 Fixpack, and EET.
+- Please install IEP Extended Banter before EET_End, and any final "biffing" routines.
+
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -54,11 +88,11 @@ Keep in mind that the IEP Banter Accelerator will un-install any previously inst
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-iepbanters.exe`**, un-install the previously installed main component and delete the :file_folder: iepbanters folder.</em>
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run __`setup-iepbanters.exe`__, un-install the previously installed main component and delete the :file_folder: iepbanters folder.*
 
-<em>When installing or un-installing, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
+*When installing or un-installing, __do not close the DOS window__ by clicking on the __X__ button! Instead, press the __Enter__ key whenever instructed to do so.*
 
-**Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
+*__Disable any antivirus__ or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.*
 
 ## 
 
@@ -70,11 +104,33 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: iepbanters folder and a setup-iepbanters.exe file in your game folder. To install, simply double-click **`setup-iepbanters.exe`** and follow the instructions on screen.
+IEP Extended Banter for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
+
+Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="https://www.7-zip.org/download.html">7zip</a>, <a href="https://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: iepbanters folder and a setup-iepbanters.exe file in your game folder. To install, simply double-click **`setup-iepbanters.exe`** and follow the instructions on screen.
 
 Run **`setup-iepbanters.exe`** in your game folder to reinstall, un-install or otherwise change the component settings.
 
 ## 
+
+#### Mac OS
+
+IEP Extended Banter for Mac OS is distributed in the same compressed archive and includes a WeiDU installer.
+
+First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: iepbanters folder, setup-iepbanters and setup-iepbanters.command files in your game folder. To install, simply double-click **`setup-iepbanters.command`** and follow the instructions on screen.
+
+Run **`setup-iepbanters.command`** in your game folder to reinstall, un-install or otherwise change the components settings.
+
+## 
+
+#### Linux
+
+IEP Extended Banter for Linux is distributed in the same compressed archive and does not include a WeiDU installer.
+
+Extract the contents of the mod to the folder of the game you wish to modify.
+
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to `/usr/bin`. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+
+To install, run **`weinstall setup-iepbanters`** in your game folder. Then run **`wine bgmain.exe`** (or **`wine baldur.exe`** for EE games) and start playing.
 
 #### Note for Complete Un-installation
 
@@ -89,10 +145,11 @@ In addition to the methods above for removing individual components, you can com
 
 The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.
 
+## 
 
-**0. Extended NPC-NPC Interaction SoA**<br />
+**0. Extended NPC-NPC Interaction SoA** (Main component)<br>
 
-This component adds numerous banters between the Bioware NPCs, humorous, serious or otherwise. Your companions are people too - surely they deserve more talking time! This release includes the following banters for SoA:
+&#10173; This component adds numerous banters between the Bioware NPCs, humorous, serious or otherwise. Your companions are people too - surely they deserve more talking time! This release includes the following banters for SoA:
 
 - Aerie/Anomen [2]
 - Aerie/Imoen [3]
@@ -125,25 +182,25 @@ This component adds numerous banters between the Bioware NPCs, humorous, serious
 
 **1. Extended Minsc/Aerie Interaction ToB**
 
-This component includes two banters for Aerie and Minsc in Throne of Bhaal.
+&#10173; This component includes two banters for Aerie and Minsc in Throne of Bhaal.
 
 ## 
 
 **2. Imoen "Retrospection" dialogue for BGII: ToB**
 
-This component adds a new dialogue with your foster-sister Imoen in Throne of Bhaal.
+&#10173; This component adds a new dialogue with your foster-sister Imoen in Throne of Bhaal.
 
 ## 
 
 **3. Wake-Up dialogue for Anomen Romance (By David Gaider with additions from Kulyok)**
 
-This component adds a new dialogue to the Anomen romance. In the original romance, there was no "morning after" dialogue with Anomen for after you had slept with him, something that both fans and the original writer of the Anomen Romance, David Gaider, found unsatisfactory. This component adds a morning after dialogue written by David Gaider on the Attic forums with additions from Kulyok.
+&#10173; This component adds a new dialogue to the Anomen romance. In the original romance, there was no "morning after" dialogue with Anomen for after you had slept with him, something that both fans and the original writer of the Anomen Romance, David Gaider, found unsatisfactory. This component adds a morning after dialogue written by David Gaider on the Attic forums with additions from Kulyok.
 
 ## 
 
 **4. NPC Conflict Revisions**
 
-This component includes conflict revisions, which allow the PC to intervene before NPC disagreements turn ugly. It revises the following conflicts:
+&#10173; This component includes conflict revisions, which allow the PC to intervene before NPC disagreements turn ugly. It revises the following conflicts:
 
 - Edwin/Keldorn
 - Edwin/Minsc
@@ -154,7 +211,7 @@ This component includes conflict revisions, which allow the PC to intervene befo
 
 **5. Restored Aerie/Jaheira/Anomen interjection in Underdark**
 
-This component, strangely enough, restores an interjection into the Underdark if you're in a romance with them.
+&#10173; This component, strangely enough, restores an interjection into the Underdark if you're in a romance with them.
 
 ## 
 
@@ -166,7 +223,7 @@ This component, strangely enough, restores an interjection into the Underdark if
 **10. 45 Minutes**
 **11. 60 Minutes**
 
-This component is a more customizable version of jcompton's Banter Accelerator script available in the <a href="http://www.pocketplane.net/banter">PPG Banter Pack</a>, modified and redistributed with permission.
+&#10173; This component is a more customizable version of jcompton's Banter Accelerator script available in the <a href="http://www.pocketplane.net/banter">PPG Banter Pack</a>, modified and redistributed with permission.
 
 
 <hr>
@@ -174,10 +231,10 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-#### Project leader: <a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a>
-#### Packaging and readme: <a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a>
-#### Writing and proofreading: Arathlan, berelinde, Bookwyrme, Ilmatar, K'aeloree, Sephira, Shadowhawke, Solar's Harper, Tameon the Dragoon
-#### Testing: <a href="http://www.shsforums.net/user/7120-choo-choo/">Choo Choo</a>
+**Project leader:** <a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a>  
+**Packaging and readme:** <a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a>  
+**Writing and proofreading:** Arathlan, berelinde, Bookwyrme, Ilmatar, K'aeloree, Sephira, Shadowhawke, Solar's Harper, Tameon the Dragoon  
+**Testing:** <a href="http://www.shsforums.net/user/7120-choo-choo/">Choo Choo</a>  
 
 ## 
 
@@ -189,6 +246,7 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 - French translation: Isaya.
 - Russian translation: Cutter, Hawkmoon, Austin & arcanecoast.ru.
 - Chinese translation: Merzbau.
+- Spanish translation: Magis365.
 - AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
 
 ##  
@@ -202,22 +260,37 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintained by igi and lynx.
 - <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
 - <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a>, by Argent77.
-- <a href="http://www.context.cx/">ConTEXT Text Editor</a>, by Eden Kirin.
+- <a href="https://www.filecroco.com/download-context/">ConTEXT Text Editor</a>, by Eden Kirin.
 <div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
 
 
-## <a name="versions" id="versions"></a>Versions History
+## <a name="versions" id="versions"></a>Version History
 
-##### Version 5.6 (December 12, 2019)
+##### Version 5.8 &nbsp;(July 18, 2021)
+
+- Added dynamic install order syntax and global `LABELS` to support AL|EN's "Project Infinity".
+- Added Spanish translation (thanks Magis365).
+- Updated French and German WeiDU prompts.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+
+## 
+
+##### Version 5.7 &nbsp;(September 2, 2020)
+
+- Added compatibility with Imoen4Ever.
+
+## 
+
+##### Version 5.6 &nbsp;(December 12, 2019)
 
 - Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
 
 ## 
 
-##### Version 5.5 (December 4, 2019)
+##### Version 5.5 &nbsp;(December 4, 2019)
 
 - Renamed *setup-iepbanters.tp2* -> *iepbanters.tp2* to support AL|EN's "Project Infinity".
 - Added *iepbanters.ini* metadata file to support AL|EN's "Project Infinity".
@@ -225,23 +298,23 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 - Replaced BGT_VAR variable "Global("ENDOFBG1","GLOBAL",2)" with more accurate BG2_VAR "!GlobalLT("ENDOFBG1","GLOBAL",2)" to avoid confusion with BGT_VAR variable needed for BGT/EET to prevent dialogues from triggering in BGII.
 - Externalized "*Banter Accelerator*" component code into *iepbanters_accelerator.tpa* WeiDU routine.
 - tp2 file: fixed a typo that cause an install failure, added credits for translations and replaced old-school `DECOMPILE_DLG_TO_D` plus `COMPILE_D_TO_DLG` process with more accurate `DECOMPILE_AND_PATCH` command. Added missing `EVALUATE_BUFFER`.
-- Components: added *DESIGNATED* numbers and "*iep_banters*", "*iep_banters_minsc_aerie_tob*", "*iep_banters_imoen_restropection_tob*", "*iep_banters_anomen_romance_wakeup*", "*iep_npc_conflicts_revision*", *iep_restored_npc_interjection_underdark*" and "*iep_banter_accelerator*" *LABELS*.
+- Components: added `DESIGNATED` numbers and "*iep_banters*", "*iep_banters_minsc_aerie_tob*", "*iep_banters_imoen_restropection_tob*", "*iep_banters_anomen_romance_wakeup*", "*iep_npc_conflicts_revision*", *iep_restored_npc_interjection_underdark*" and "*iep_banter_accelerator*" `LABELS`.
 - Added missing `REQUIRE_PREDICATE` processes to avoid installing the mod in inaccurate games and replaced old `ACTION_IF FILE_EXISTS "Data/25Dialog.bif"` process.
 - Added always.tpa library and moved all recurrent processes and checks into it.
-- Replaced AUTHOR keyword with SUPPORT.
+- Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added German WeiDU prompts.
 - Updated French translation (fixed minor typos) and lower cased I#BLANK sound reference in every tra file.
-- README command now accepts translated files.
+- `README` command now accepts translated files.
 - Updated deprecated modding tools links.
 - Updated and renamed readme files to *iepbanters-readme-%LANGUAGE%.html*.
 - Lower cased files.
-- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+- Included Linux and Mac OS versions in the same package (thanks AL|EN!).
 - Updated WeiDU installer to v246.
-- Transferred mod to SpellHold Studios GitHub account.
+- Transferred mod to Spellhold Studios GitHub account.
 
 ## 
 
-##### Version 5.4 (May 14, 2018)
+##### Version 5.4 &nbsp;(May 14, 2018)
 
 - Added merzbau's Chinese translation.
 
@@ -271,19 +344,19 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 
 ## 
 
-##### Version 4.1 (January 23, 2013)
+##### Version 4.1 &nbsp;(January 23, 2013)
 
 - Fixed Jaheira/Imoen banter issue.
 
 ## 
 
-##### Version 4.0 (December 2010, 31)
+##### Version 4.0 &nbsp;(December 2010, 31)
 
 - Added restored interjection, fixed several bugs, included fixed German translation, included Russian translation by Cutter, Hawkmoon, Austin & arcanecoast.ru.
 
 ## 
 
-##### Version 3.2 (January 13, 2009)
+##### Version 3.2 &nbsp;(January 13, 2009)
 
 - Fixed an Imoen/Minsc stutterbug (thanks to aVENGER and Wisp for finding this!), fixed Jaheira banter bug (thanks to Leomar), fixed a Cernd/Viconia bug.
 
@@ -310,7 +383,7 @@ This component is a more customizable version of jcompton's Banter Accelerator s
 
 ## 
 
-##### Version 1.0 (January 3, 2008)
+##### Version 1.0 &nbsp;(January 3, 2008)
 
 - Initial release: 42 banters, 4 conflict revisions and Banter Accelerator.
 <div align="right"><a href="#top">Back to top</a></div>
