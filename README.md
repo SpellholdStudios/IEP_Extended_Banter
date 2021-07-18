@@ -30,7 +30,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 :page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/yoshimofriendship-readme-english.html) | [Français](https://spellholdstudios.github.io/readmes/yoshimofriendship-readme-French.html)
 
-:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/713-yoshimo-friendship/)<br>
+:inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/558-iep-extended-banters)<br>
 
 ## 
 
@@ -58,7 +58,7 @@ Visit the <a href="http://www.spellholdstudios.net/ie/iepbanters">website</a> or
 
 #### Games supported
 
-This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy (EET)</a>.
+This mod is designed to work on the following Infinity Engine games: the original Baldur's Gate II (BG2 or just SoA) with the Throne of Bhaal (ToB) expansion, Baldur's Gate II: Enhanced Edition (BG2EE), the conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a> and <a href="https://github.com/Gibberlings3/EET/releases">Enhanced Edition Trilogy (EET)</a>.
 
 ## 
 
@@ -269,29 +269,28 @@ The installer includes the following components. The number of each is the compo
 
 ## <a name="versions" id="versions"></a>Version History
 
-##### Version 5.8 (July 18, 2021)
+##### Version 5.8 &nbsp;(July 18, 2021)
 
 - Added dynamic install order syntax and global `LABELS` to support AL|EN's "Project Infinity".
 - Added Spanish translation (thanks Magis365).
 - Updated French and German WeiDU prompts.
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
-- ...
 
 ## 
 
-##### Version 5.7 (December 12, 2019)
+##### Version 5.7 &nbsp;(September 2, 2020)
+
+- Added compatibility with Imoen4Ever.
+
+## 
+
+##### Version 5.6 &nbsp;(December 12, 2019)
 
 - Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
 
 ## 
 
-##### Version 5.6 (December 12, 2019)
-
-- Fixed an issue with *Auto-Package Generator tool*: new version of MacOS (Catalina) prevented the mod to be installed.
-
-## 
-
-##### Version 5.5 (December 4, 2019)
+##### Version 5.5 &nbsp;(December 4, 2019)
 
 - Renamed *setup-iepbanters.tp2* -> *iepbanters.tp2* to support AL|EN's "Project Infinity".
 - Added *iepbanters.ini* metadata file to support AL|EN's "Project Infinity".
@@ -299,23 +298,23 @@ The installer includes the following components. The number of each is the compo
 - Replaced BGT_VAR variable "Global("ENDOFBG1","GLOBAL",2)" with more accurate BG2_VAR "!GlobalLT("ENDOFBG1","GLOBAL",2)" to avoid confusion with BGT_VAR variable needed for BGT/EET to prevent dialogues from triggering in BGII.
 - Externalized "*Banter Accelerator*" component code into *iepbanters_accelerator.tpa* WeiDU routine.
 - tp2 file: fixed a typo that cause an install failure, added credits for translations and replaced old-school `DECOMPILE_DLG_TO_D` plus `COMPILE_D_TO_DLG` process with more accurate `DECOMPILE_AND_PATCH` command. Added missing `EVALUATE_BUFFER`.
-- Components: added *DESIGNATED* numbers and "*iep_banters*", "*iep_banters_minsc_aerie_tob*", "*iep_banters_imoen_restropection_tob*", "*iep_banters_anomen_romance_wakeup*", "*iep_npc_conflicts_revision*", *iep_restored_npc_interjection_underdark*" and "*iep_banter_accelerator*" *LABELS*.
+- Components: added `DESIGNATED` numbers and "*iep_banters*", "*iep_banters_minsc_aerie_tob*", "*iep_banters_imoen_restropection_tob*", "*iep_banters_anomen_romance_wakeup*", "*iep_npc_conflicts_revision*", *iep_restored_npc_interjection_underdark*" and "*iep_banter_accelerator*" `LABELS`.
 - Added missing `REQUIRE_PREDICATE` processes to avoid installing the mod in inaccurate games and replaced old `ACTION_IF FILE_EXISTS "Data/25Dialog.bif"` process.
 - Added always.tpa library and moved all recurrent processes and checks into it.
-- Replaced AUTHOR keyword with SUPPORT.
+- Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added German WeiDU prompts.
 - Updated French translation (fixed minor typos) and lower cased I#BLANK sound reference in every tra file.
-- README command now accepts translated files.
+- `README` command now accepts translated files.
 - Updated deprecated modding tools links.
 - Updated and renamed readme files to *iepbanters-readme-%LANGUAGE%.html*.
 - Lower cased files.
-- Included Linux and Mac Os X versions in the same package (thanks AL|EN!).
+- Included Linux and Mac OS versions in the same package (thanks AL|EN!).
 - Updated WeiDU installer to v246.
-- Transferred mod to SpellHold Studios GitHub account.
+- Transferred mod to Spellhold Studios GitHub account.
 
 ## 
 
-##### Version 5.4 (May 14, 2018)
+##### Version 5.4 &nbsp;(May 14, 2018)
 
 - Added merzbau's Chinese translation.
 
@@ -345,19 +344,19 @@ The installer includes the following components. The number of each is the compo
 
 ## 
 
-##### Version 4.1 (January 23, 2013)
+##### Version 4.1 &nbsp;(January 23, 2013)
 
 - Fixed Jaheira/Imoen banter issue.
 
 ## 
 
-##### Version 4.0 (December 2010, 31)
+##### Version 4.0 &nbsp;(December 2010, 31)
 
 - Added restored interjection, fixed several bugs, included fixed German translation, included Russian translation by Cutter, Hawkmoon, Austin & arcanecoast.ru.
 
 ## 
 
-##### Version 3.2 (January 13, 2009)
+##### Version 3.2 &nbsp;(January 13, 2009)
 
 - Fixed an Imoen/Minsc stutterbug (thanks to aVENGER and Wisp for finding this!), fixed Jaheira banter bug (thanks to Leomar), fixed a Cernd/Viconia bug.
 
@@ -384,7 +383,7 @@ The installer includes the following components. The number of each is the compo
 
 ## 
 
-##### Version 1.0 (January 3, 2008)
+##### Version 1.0 &nbsp;(January 3, 2008)
 
 - Initial release: 42 banters, 4 conflict revisions and Banter Accelerator.
 <div align="right"><a href="#top">Back to top</a></div>

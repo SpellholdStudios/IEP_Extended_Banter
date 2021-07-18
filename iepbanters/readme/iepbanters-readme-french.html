@@ -28,10 +28,12 @@
 	#header {
 		text-align: center;
 		background: #e5e5e5;
-		border: 1px solid #781808;
+		border: 2px solid #781808;
 		border-top: 5px solid #781808;
 		border-bottom: 5px solid #781808;
 		padding: 5px 0 13px 0;
+		border-radius: 4px 4px 4px 5px;
+		box-shadow: 6px 6px 9px rgba(0,0,0,.3);
 	}
 	#header .about {
 		margin: 7px 0 0 0;
@@ -62,7 +64,7 @@
 	#maindiv {
 		margin: 0 auto;
 		margin-top: -20px;
-		width: 80%;
+/*		width: 80%;*/
 	}
 
 	#maindiv .content {
@@ -75,7 +77,10 @@
 		border-style: solid;
 		border-color: #781808;
 		position: relative;
+		width: 90%;
 		display: block;
+		border-radius: 4px 4px 4px 5px;
+		box-shadow: 6px 6px 9px rgba(0,0,0,.3);
 	}
 	#maindiv .content::before {
 		content: counter(kman, lower-roman);
@@ -128,6 +133,10 @@
 		margin: 10px auto;
 		width: 90%;
 		display: block;
+	}
+	#maindiv p {
+		text-align: justify;
+		line-height: 150%;
 	}
 
 	#maindiv address {
@@ -217,6 +226,19 @@
 		line-height: 22px;
 	}
 
+	.weidu {
+		font-family: Courier New;
+		font-size: 100%;
+		border: 1px solid black;
+		background-color: black;
+		color: #deded9;
+	}
+
+	.tp2 {
+		font-family: Courier New;
+		font-size: 100%;
+	}
+
 
 	/*	Liens internet  */
 	a:hover,
@@ -302,20 +324,25 @@
   </head>
 
   <body>
+
+	<script type="module">
+		document.getElementById("latestVersion").innerText = document.getElementById('versionHistory').getElementsByTagName("h6")[0].innerText
+	</script>
+
 	<div id="wrap">
 	  <a name="top" id="top"></a>
 	  <div id="header">
 
 		<h1 style="color: #781808;text-shadow: 0.1rem 0.1rem 0.25rem #807559;">IEP Extended Banter</h1>
 
-		<span style="font-style: italic;"><strong>Un mod Spellhold Studios pour Baldur's Gate II: SoA / <acronym title="Throne of Bhaal">ToB</acronym>.</strong></span>
+		<span style="font-style: italic;"><strong>Un mod Spellhold Studios pour Baldur's Gate II: SoA / <acronym title="Throne of Bhaal">ToB</acronym>, Baldur's Gate Trilogy, Baldur's Gate II: Enhanced Edition et EET.</strong></span>
 		<hr style="margin: 10px 0 10px 0; padding: 0; height: 1px; border: 0; color: #aaa; background-color: #aaa;" />
 
 		<p class="about">
 			Contributeurs : <a href="#credits">Multiples</a>
 		</p>
 		<p class="about">
-			<a href="http://www.spellholdstudios.net/ie/npciep">Mod Website</a> &#8226; <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">Mod Forum</a> &#8226; <a href="http://www.shsforums.net/files/file/558-iep-extended-banters/">Download</a> &#8226; Version 5.7
+			<a href="http://www.spellholdstudios.net/ie/npciep">Mod Website</a> &#8226; <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">Mod Forum</a> &#8226; <a href="http://www.shsforums.net/files/file/558-iep-extended-banters/">Download</a> &#8226; <a href="https://github.com/SpellholdStudios/IEP_Extended_Banter/releases/latest">GitHub</a> &#8226; <span id="latestVersion"></span>
 		</p>
 		<hr style="margin: 10px 0 10px 0; padding: 0; height: 1px; border: 0; color: #aaa; background-color: #aaa;" />
 
@@ -338,7 +365,7 @@
 			 Nous espérons que vous apprécierez ce mod autant que nous avons pris plaisir à le créer !
 		</p>
  		<p>
-			Visitez le <a href="http://www.spellholdstudios.net/ie/iepbanters">site web</a> ou le <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">forum</a> pour obtenir les informations les plus récentes.
+			<span style="color: #781808;">&#10173;</span> Visitez le <a href="http://www.spellholdstudios.net/ie/iepbanters">site web</a> ou le <a href="http://www.shsforums.net/forum/530-iep-extended-banters/">forum</a> pour obtenir les informations les plus récentes.
 		</p><br>
 
 		<address>
@@ -352,18 +379,22 @@
 
 		<h2>Compatibilité</h2><br>
 
-		<p>
+		<h3>Jeux concernés</h3>
+
+		<p style="margin-top:2%;">
 			IEP Extended Banter est conçu pour fonctionner sur tous les jeux Infinity Engine, ce qui inclut :
 		</p>
 		<ul>
 			<li>Baldur's Gate II: Enhanced Edition (BG2EE).</li>
 			<li>Le jeu original Baldur's Gate II (Les Ombres d'Amn : BG2-SoA), avec son extension Trône de Bhaal (Throne of Bhaal : ToB). <strong>Assurez-vous que votre jeu utilise bien la dernière version du patch, c'est à dire le patch 26498.</strong> Consultez les fichiers ReadMe relatifs à votre patch dans votre répertoire de jeu et le site de <a href="http://www.bioware.com/games/throne_bhaal/support/patches/">BioWare</a> si nécessaire.</li>
-			<li>Les mods de conversion basés sur <acronym title="Throne of Bhaal">ToB</acronym>, <a href="http://www.shsforums.net/index.php?showforum=261"><strong>Baldur's Gate Trilogy (BGT)</strong></a> (depuis la version 1.1), et Enhanced Edition Trilogy (EET).</li>
+			<li>Les mods de conversion basés sur <acronym title="Throne of Bhaal">ToB</acronym>, <a href="http://www.shsforums.net/index.php?showforum=261"><strong>Baldur's Gate Trilogy (BGT)</strong></a> (depuis la version 1.1), et <a href="https://github.com/Gibberlings3/EET/releases">Enhanced Edition Trilogy (EET)</a>.</li>
 		</ul></br>
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
-		<p>
+		<h3>Compatibilité avec les autres mods</h3>
+
+		<p style="margin-top:2%;">
 			IEP Extended Banter est un mod <acronym title="Weimer Dialogue Utility">WeiDU</acronym>, il devrait par conséquent être compatible avec tous les mods WeiDU.
 		</p>
 		<p>
@@ -372,9 +403,18 @@
         <p>
 			Ayez à l'esprit que l'accélérateur de discussions d'IEP va désinstaller tout accélérateur de discussions installé au préalable, y compris l'accélérateur inclus dans BG1 NPC. C'est dû à des raisons de compatibilité, mais cela signifie que vous devez faire attention avec des installations importantes comprenant d'autres accélérateurs.
 		</p>
-		<p>
-			Bien qu'il ne soit pas requis pour faire correctement tourner EP Extended Banter, je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.
-		</p><br>
+
+		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
+
+		<h3>Ordre d'installation</h3>
+
+		<p style="margin-top:2%;">
+			&#10173; Bien qu'il ne soit pas requis pour faire correctement tourner EP Extended Banter, je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.
+		</p>
+		<ul>
+			<li>Veuillez installer IEP Extended Banter après TobEx, BG2 Fixpack et EET.</li>
+			<li>Please install IEP Extended Banter avant EET_End et toutes les routines de "biffing".</li>
+		</ul><br>
 
 		<address>
 			<span class="footer">IEP Extended Banter &gt; Compatibilité</span> &#8226;<a href="#top">BACK TO TOP</a>
@@ -390,7 +430,7 @@
 		<h3>Mise en garde</h3>
 
 		<p style="margin-top:2%;">
-			<em>Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez <<strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;setup-iepbanters.exe&nbsp;</span></strong> (ou .command si vous êtes sous OS X) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire iepbanters.</em>
+			<em>Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez <strong><span class="weidu">&nbsp;setup-iepbanters.exe&nbsp;</span></strong> (ou .command si vous êtes sous Mac OS) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire &#x1F4C1; iepbanters.</em>
 		</p>
 		<p>
 			<em>Lorsque vous installez ou désinstallez, <strong>ne fermez pas la fenêtre <acronym title="Disk Operating System">DOS</acronym></strong> en cliquant sur le bouton <strong>X</strong> ! Au lieu de cela, appuyez sur la touche <strong>Entrée</strong> lorsque l'invite de commandes vous le demande.</em>
@@ -399,8 +439,9 @@
 			Par précaution, <strong>désactivez les antivirus</strong> ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.
 		</p>
 		<p>
-			Vous pouvez extraire les fichiers de l'archive à l'aide de <a href="http://www.rarlab.com/download.htm">WinRAR</a>, de <a href="http://www.zipgenius.it/ita/?page_id=12">ZipGenius</a>, de <a href="http://www.7-zip.org/download.html">7zip</a>, ou de toute autre utilitaire de compression de fichiers reconnaissant les fichiers .zip.
+			Vous pouvez extraire les fichiers de l'archive à l'aide de <a href="https://www.7-zip.org/download.html">7zip</a>, <a href="https://www.rarlab.com/download.htm">WinRAR</a>, <a href="https://zipgenius.com/">ZipGenius</a>, ou de toute autre utilitaire de compression de fichiers reconnaissant les fichiers .zip.
 		</p><br>
+
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
@@ -421,26 +462,29 @@
 		<h3>Windows</h3>
 
 		<p style="margin-top:2%;">
-			IEP Extended Banter est un mod WeiDU et est très simple à installer. Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>). Une fois l'archive extraite correctement, vous devriez trouver le répertoire iepbanters et le fichier setup-iepbanters.exe file dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;setup-iepbanters.exe&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
+			IEP Extended Banter pour Windows est livré et installé avec <acronym title="Weimer Dialogue Utility">WeiDU</acronym>, et est diffusé sous forme d'archive compressée.
 		</p>
 		<p>
-			Vous pouvez lancer <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;setup-iepbanters.exe&nbsp;</span></strong> dans votre répertoire de jeu pour réinstaller, désinstaller, ou encore changer des composants.
-		</p></br>
+			IEP Extended Banter est un mod WeiDU et est très simple à installer. Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>). Une fois l'archive extraite correctement, vous devriez trouver le répertoire &#x1F4C1; iepbanters et le fichier setup-iepbanters.exe file dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-iepbanters.exe&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
+		</p>
+		<p>
+			Vous pouvez lancer <strong><span class="weidu">&nbsp;setup-iepbanters.exe&nbsp;</span></strong> dans votre répertoire de jeu pour réinstaller, désinstaller, ou encore changer des composants.
+		</p><br>
 
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
 
-		<h3>Mac OS X</h3>
+		<h3>Mac OS</h3>
 
 		<p style="margin-top:2%;">
-			IEP Extended Banter for Mac OS X est livré et installé avec <acronym title="Weimer Dialogue Utility">WeiDU</acronym>, et est diffusé sous forme d'archive compressée.
+			IEP Extended Banter pour Mac OS est diffusé dans la même archive compressée et installé avec <acronym title="Weimer Dialogue Utility">WeiDU</acronym>.
 		</p>
 		<p>
-			Extrayez le contenu de l'archive dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers setup-iepbanters, setup-iepbanters.command, et le répertoire iepbanters. Pour installer, il suffit de double-cliquer sur <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;setup-iepbanters.command&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
+			Extrayez le contenu de l'archive dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers setup-iepbanters, setup-iepbanters.command, et le répertoire &#x1F4C1; iepbanters. Pour installer, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-iepbanters.command&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
 		</p>
 		<p>
-			Vous pouvez lancer <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;setup-iepbanters.command&nbsp;</span></strong> dans votre répertoire de jeu pour réinstaller, désinstaller ou changer des composants.
+			Vous pouvez lancer <strong><span class="weidu">&nbsp;setup-iepbanters.command&nbsp;</span></strong> dans votre répertoire de jeu pour réinstaller, désinstaller ou changer des composants.
 		</p><br>
 
 
@@ -450,16 +494,19 @@
 		<h3>Linux</h3>
 
 		<p style="margin-top:2%;">
+			IEP Extended Banter pour Linux est diffusé dans la même archive compressée, mais ne contient pas l'installateur <acronym title="Weimer Dialogue Utility">WeiDU</acronym>.
+		</p>
+		<p>
 			Extrayez le contenu du mod dans le répertoire du jeu que vous voulez moder.
 		</p>
 		<p>
-			Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> et copiez WeiDU et WeInstall dans /usr/bin. Ouvrez ensuite un terminal et allez (<strong>cd</strong>) dans le répertoire d'installation de votre jeu.
+			Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> et copiez weidU et weinstall dans /usr/bin. Ouvrez ensuite un terminal et allez (<strong><span class="weidu">&nbsp;cd&nbsp;</span></strong>) dans le répertoire d'installation de votre jeu.
 		</p>
 		<p>
 			<em>Optionnel : lancez « tolower » et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.</em>
 		</p>
 		<p>
-			Lancez <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;WeInstall setup-iepbanters&nbsp;</span></strong> depuis le dossier de votre jeu pour installer le mod. Puis, lancez <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;wine BGMain.exe&nbsp;</span></strong> et commencez à jouer.
+			Lancez <strong><span class="weidu">&nbsp;weinstall setup-iepbanters&nbsp;</span></strong> depuis le dossier de votre jeu pour installer le mod. Puis, lancez <strong><span class="weidu">&nbsp;wine bgmain.exe&nbsp;</span></strong> (ou <strong><span class="weidu">&nbsp;wine baldur.exe&nbsp;</span></strong> pour les jeux EE), et commencez à jouer.
 		</p><br>
 
 
@@ -469,7 +516,7 @@
 		<h3>Note pour effectuer une désinstallation complète</h3>
 
 		<p style="margin-top:2%;">
-			En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant <strong><span style="font-family: Courier New;font-size: 100%;border: 1px solid black;background-color: black;color: #deded9;">&nbsp;setup-iepbanters --uninstall&nbsp;</span></strong> dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.
+			En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant <strong><span class="weidu">&nbsp;setup-iepbanters --uninstall&nbsp;</span></strong> dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.
 		</p><br>
 
 .
@@ -485,13 +532,15 @@
  		<h2>Composants</h2><br>
 
 		<p>
-			Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé <em>DESIGNATED</em> en langage <acronym title="Weimer Dialogue Utility">WeiDU</acronym>) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.
+			Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé <span class="tp2" style="color: purple;">DESIGNATED</span> en langage <acronym title="Weimer Dialogue Utility">WeiDU</acronym>) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.
 		</p><br>
 
-		<p><strong>0. Interaction entre les PNJs plus développée dans SoA</strong><br />
+		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
+
+		<p><strong>0. Interaction entre les PNJs plus développée dans SoA</strong><br>
 		</p>
 		<p>
-			Le composant <strong>Interaction entre les PNJs plus développée dans SoA</strong> ajoute de nombreux échanges entre les PNJs de Bioware, de nature humoristique, sérieuse ou autre. Vos compagnons sont aussi des personnes, ils méritent sans doute davantage de temps de parole ! Cette version comprend les bavardages suivants pour SoA :
+			&#10173; Ce composant principal ajoute de nombreux échanges entre les PNJs de Bioware, de nature humoristique, sérieuse ou autre. Vos compagnons sont aussi des personnes, ils méritent sans doute davantage de temps de parole ! Cette version comprend les bavardages suivants pour SoA :
 		</p>
 		  <ul style="margin-left: 4%;">
 			<li>Aerie/Anomen [2]</li>
@@ -524,34 +573,34 @@
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
-		<p><strong>1. Interaction Minsc/Aerie plus développée dans ToB</strong><br />
+		<p><strong>1. Interaction Minsc/Aerie plus développée dans ToB</strong><br>
 		</p>
 		<p>
-			Ce composant comprend deux bavardages entre Aerie et Minsc dans Throne of Bhaal.
+			&#10173; Ce composant comprend deux bavardages entre Aerie et Minsc dans Throne of Bhaal.
 		</p><br>
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
-		<p><strong>2. Dialogue "rétrospectif" pour Imoen dans ToB</strong><br />
+		<p><strong>2. Dialogue "rétrospectif" pour Imoen dans ToB</strong><br>
 		</p>
 		<p>
-			Ce composant ajoute un nouveau dialogue avec votre sœur adoptive Imoen dans Throne of Bhaal.
+			&#10173; Ce composant ajoute un nouveau dialogue avec votre sœur adoptive Imoen dans Throne of Bhaal.
 		</p><br>
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
-		<p><strong>3. Dialogue au réveil pour la romance d'Anomen (de David Gaider avec des ajouts de Kulyok)</strong><br />
+		<p><strong>3. Dialogue au réveil pour la romance d'Anomen (de David Gaider avec des ajouts de Kulyok)</strong><br>
 		</p>
 		<p>
-			Ce composant ajoute un nouveau dialogue à la romance d'Anomen. Dans la romance d'origine, il n'y avait pas de dialogue du "matin d'après" avec Anomen après avoir couché avec lui, une chose qu'à la fois les fans et l'auteur original de la romance, David Gaider, ne trouvaient pas satisfaisante. Ce composant ajoute un dialogue du "matin d'après" écrit par David Gaider dans les forums Attic, avec des ajouts de Kulyok.
+			&#10173; Ce composant ajoute un nouveau dialogue à la romance d'Anomen. Dans la romance d'origine, il n'y avait pas de dialogue du "matin d'après" avec Anomen après avoir couché avec lui, une chose qu'à la fois les fans et l'auteur original de la romance, David Gaider, ne trouvaient pas satisfaisante. Ce composant ajoute un dialogue du "matin d'après" écrit par David Gaider dans les forums Attic, avec des ajouts de Kulyok.
 		</p><br>
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
-		<p><strong>4. Révision des conflits entre PNJs</strong><br />
+		<p><strong>4. Révision des conflits entre PNJs</strong><br>
 		</p>
 		<p>
-			Ce composant comprend des reprises des conflits qui permettent au personnage principal d'intervenir avant que les désaccords entre PNJs ne tournent au vinaigre. Il révise les conflits suivants :
+			&#10173; Ce composant comprend des reprises des conflits qui permettent au personnage principal d'intervenir avant que les désaccords entre PNJs ne tournent au vinaigre. Il révise les conflits suivants :
 		</p>
 		  <ul style="margin-left: 4%;">
 			<li>Edwin/Keldorn</li>
@@ -562,10 +611,10 @@
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
 
-		<p><strong>5. Restitution de commentaires Aerie/Jaheira/Anomen dans l'Ombreterre</strong><br />
+		<p><strong>5. Restitution de commentaires Aerie/Jaheira/Anomen dans l'Ombreterre</strong><br>
 		</p>
 		<p>
-			Ce composant, de façon surprenante, restitue un échange en Ombreterre si vous êtes en romance avec l'une d'elles.
+			&#10173; Ce composant, de façon surprenante, restitue un échange en Ombreterre si vous êtes en romance avec l'une d'elles.
 		</p><br>
 
 		<hr style="width: 90%; color: #781808; background-color: #781808; " /><br>
@@ -573,15 +622,15 @@
 		<p><strong>Accélérateur de discussions
 		</p>
 		  <ul style="margin-left: 4%;">
-		6. 10 Minutes<br />
-		7. 15 Minutes<br />
-		8. 20 Minutes<br />
-		9. 30 Minutes<br />
-		10. 45 Minutes<br />
-		11. 60 Minutes</strong><br />
+		6. 10 Minutes<br>
+		7. 15 Minutes<br>
+		8. 20 Minutes<br>
+		9. 30 Minutes<br>
+		10. 45 Minutes<br>
+		11. 60 Minutes</strong><br>
 		  </ul>
 		<p>
-			L'accélérateur de discussions est une version plus personnalisable du script Banter Accelerator de jcompton, disponible dans le <a href="http://www.pocketplane.net/banter">Banter Pack de PPG</a>, modifié et redistribué avec son accord.
+			&#10173; L'accélérateur de discussions est une version plus personnalisable du script Banter Accelerator de jcompton, disponible dans le <a href="http://www.pocketplane.net/banter">Banter Pack de PPG</a>, modifié et redistribué avec son accord.
 		</p><br>
 
 
@@ -596,10 +645,10 @@
 
 		<h2>Crédits et remerciements</h2><br>
 
- 			<span class="t1">Chef de projet :</span> <span class="t2"><a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a></span><br />
-			<span class="t1">Paquetage et readme :</span> <span class="t2"><a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a></span><br />
-			<span class="t1">Écriture et relecture :</span> <span class="t2">Arathlan, berelinde, Bookwyrme, Ilmatar, K'aeloree, Sephira, Shadowhawke, Solar's Harper, Tameon the Dragoon</span><br />
-			<span class="t1">Tests :</span> <span class="t2"><a href="http://www.shsforums.net/user/7120-choo-choo/">Choo Choo</a></span><br />
+ 			<span class="t1">Chef de projet :</span> <span class="t2"><a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a></span><br>
+			<span class="t1">Paquetage et readme :</span> <span class="t2"><a href="http://www.shsforums.net/user/3481-kaeloree/">K'aeloree</a></span><br>
+			<span class="t1">Écriture et relecture :</span> <span class="t2">Arathlan, berelinde, Bookwyrme, Ilmatar, K'aeloree, Sephira, Shadowhawke, Solar's Harper, Tameon the Dragoon</span><br>
+			<span class="t1">Tests :</span> <span class="t2"><a href="http://www.shsforums.net/user/7120-choo-choo/">Choo Choo</a></span><br>
 
 		<hr style="clear: both; width: 90%; color: transparent; background-color: transparent; " /><br>
 
@@ -607,12 +656,13 @@
 		<h5>Remerciements particuliers à </h5>
 
  		  <ul class="version-list c1">
-			<li>L'équipe de <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> pour l'hébergement de ce mod (<a href="http://www.shsforums.net">Forums</a>).
+			<li>L'équipe de <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> pour l'hébergement de ce mod (<a href="http://www.shsforums.net">Forums</a>).</li>
 			<li>Merci à Ascension64 pour son aide pour la compatibilité avec BGT !</li>
 			<li>Traduction allemande : Toran.</li>
 			<li>Traduction française : Isaya.</li>
 			<li>Traduction russe : Cutter, Hawkmoon, Austin & arcanecoast.ru.</li>
 			<li>Traduction chinoise : Merzbau.</li>
+			<li>Traduction espagnole : Magis365.</li>
 			<li>AL|EN: écriture de la procédure de création automatique de l'archive regroupant les versions Windows, Linux et Mac du mod.</li>
 		  </ul><br><br>
 
@@ -643,7 +693,7 @@
 			  <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a> de Argent77.
 			</li>
 			<li>
-			  <a href="http://www.context.cx/">ConTEXT Text Editor</a> de Eden Kirin.
+			  <a href="https://www.filecroco.com/download-context/">ConTEXT Text Editor</a> de Eden Kirin.
 			</li>
 		  </ul><br>
 
@@ -655,49 +705,58 @@
 
 <!-- ============== V e r s i o n   H i s t o r y =============== -->
 	  <a name="version" id="version"></a>
-	  <div class="content">
+	  <div class="content" id="versionHistory">
 
 		<h2>Historique des versions</h2><br>
 
 		<p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p><br>
 
-		<h6>Version 5.7 (September 02, 2020)</h6>
+		<h6>Version 5.8 &nbsp;(July 18, 2021)</h6>
 
 		  <ul>
-			<li>Compatibility with Imoen4Ever added.</li>
+			<li>Added dynamic install order syntax and global <span class="tp2" style="color: purple;">LABELS</span> to support AL|EN's "Project Infinity".</li>
+			<li>Added Spanish translation (thanks Magis365).</li>
+			<li>Updated French and German <acronym title="Weimer Dialogue Utility">WeiDU</acronym> prompts.</li>
+			<li>Added archive libiconv-1.9.2-1-src.7z with iconv licence info.</li>
 		  </ul><br>
 
-		<h6>Version 5.6 (December 12, 2019)</h6>
+		<h6>Version 5.7 &nbsp;(September 2, 2020)</h6>
+
+		  <ul>
+			<li>Added compatibility with Imoen4Ever.</li>
+		  </ul><br>
+
+		<h6>Version 5.6 &nbsp;(December 12, 2019)</h6>
 
 		  <ul>
 			<li>Fixed an issue with <em>Auto-Package Generator tool</em>: new version of MacOS (Catalina) prevented the mod to be installed.</li>
 		  </ul><br>
 
-		<h6>Version 5.5 (December 4, 2019)</h6>
+		<h6>Version 5.5 &nbsp;(December 4, 2019)</h6>
 
 		  <ul>
 			<li>Renamed <em>setup-iepbanters.tp2</em> -> <em>iepbanters.tp2</em> to support AL|EN's "Project Infinity".</li>
 			<li>Added <em>iepbanters.ini</em> metadata file to support AL|EN's "Project Infinity".</li>
 			<li>Make sure all BWP Fixpack fixes have been included.</li>
-			<li>Replaced BGT_VAR variable ~Global("ENDOFBG1","GLOBAL",2)~ with more accurate BG2_VAR ~!GlobalLT("ENDOFBG1","GLOBAL",2)~ to avoid confusion with BGT_VAR variable needed for BGT/EET to prevent dialogues from triggering in BGII.</li>
-			<li>Externalized "<em>Banter Accelerator</em>" component code into <em>iepbanters_accelerator.tpa</em> WeiDU routine.</li>
-			<li>tp2 file: fixed a typo that cause an install failure, added credits for translations and replaced old-school <em>DECOMPILE_DLG_TO_D</em> plus <em>COMPILE_D_TO_DLG</em> process with more accurate <em>DECOMPILE_AND_PATCH</em> command. Added missing EVALUATE_BUFFER.</li>
-			<li>Components: added <em>DESIGNATED</em> numbers and "<em>iep_banters</em>, <em>iep_banters_minsc_aerie_tob</em>, <em>iep_banters_imoen_restropection_tob</em>, <em>iep_banters_anomen_romance_wakeup</em>, <em>iep_banters_npc_conflicts_revision</em>, <em>iep_banters_restored_npc_interjection_underdark</em> and <em>iep_banter_accelerator</em>" LABELS.</li>
-			<li>Added missing <em>REQUIRE_PREDICATE</em> process to avoid installing the mod in inaccurate games and replaced old <em>ACTION_IF FILE_EXISTS "Data/25Dialog.bif</em>` process.</li>
+			<li>Replaced BGT_VAR variable ~<span class="tp2" style="color: green;">Global</span><span class="tp2" style="color: purple;">(</span>"ENDOFBG1","<span class="tp2" style="color: purple;">GLOBAL</span>",<span class="tp2" style="color: purple;">2)</span>~ with more accurate BG2_VAR ~<span class="tp2" style="color: green;">!GlobalLT</span><span class="tp2" style="color: purple;">(</span>"ENDOFBG1","<span class="tp2" style="color: purple;">GLOBAL</span>",<span class="tp2" style="color: purple;">2)</span>~ to avoid confusion with BGT_VAR variable needed for BGT/EET to prevent dialogues from triggering in BGII.</li>
+			<li>Externalized "<em>Banter Accelerator</em>" component code into <em>iepbanters_accelerator.tpa</em> <acronym title="Weimer Dialogue Utility">WeiDU</acronym> routine.</li>
+			<li>tp2 file: fixed a typo that cause an install failure, added credits for translations and replaced old-school <span class="tp2" style="color: red;">DECOMPILE_DLG_TO_D</span> plus <span class="tp2" style="color: red;">COMPILE_D_TO_DLG</span> process with more accurate <span class="tp2" style="color: red;">DECOMPILE_AND_PATCH</span> command. Added missing <span class="tp2" style="color: red;">EVALUATE_BUFFER</span>.</li>
+			<li>Components: added <span class="tp2" style="color: purple;">DESIGNATED</span> numbers and "<em>iep_banters</em>, <em>iep_banters_minsc_aerie_tob</em>, <em>iep_banters_imoen_restropection_tob</em>, <em>iep_banters_anomen_romance_wakeup</em>, <em>iep_banters_npc_conflicts_revision</em>, <em>iep_banters_restored_npc_interjection_underdark</em> and <em>iep_banter_accelerator</em>" <span class="tp2" style="color: purple;">LABELS</span>.</li>
+			<li>Added missing <span class="tp2" style="color: purple;">REQUIRE_PREDICATE</span> process to avoid installing the mod in inaccurate games and replaced old <span class="tp2" style="color: green;">ACTION_IF</span> <span class="tp2" style="color: purple;">FILE_EXISTS</span> <span class="tp2" style="color: #C00040;">~Data/25Dialog.bif~</span> process.</li>
 			<li>Added always.tpa library and moved all recurrent processes and checks into it.</li>
-			<li>Replaced AUTHOR keyword with SUPPORT.</li>
-			<li>Added German WeiDU prompts.</li>
+			<li>Replaced <span class="tp2" style="color: purple;">AUTHOR</span> keyword with <span class="tp2" style="color: purple;">SUPPORT</span>.</li>
+			<li>Added German <acronym title="Weimer Dialogue Utility">WeiDU</acronym> prompts.</li>
 			<li>Updated French translation (minor typos) and lower cased I#BLANK sound reference in every tra file.</li>
-			<li>README command now accepts translated files.</li>
+			<li><span class="tp2" style="color: purple;">README</span> command now accepts translated files.</li>
 			<li>Updated deprecated modding tools links.</li>
 			<li>Updated and renamed readme file to <em>iepbanters-readme-%LANGUAGE%.html</em>.</li>
 			<li>Lower cased files.</li>
-			<li>Included Linux and Mac Os X versions in the same package (thanks AL|EN!).</li>
+			<li>Included Linux and Mac OS versions in the same package (thanks AL|EN!).</li>
 			<li>Updated <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer to v246.</li>
-			<li>Transfered mod to SpellHold Studios GitHub account.</li>
+			<li>Transfered mod to Spellhold Studios GitHub account.</li>
 		  </ul><br>
-
-		<h6>Version 5.4 (May 14, 2018)</h6>
+ 
+		<h6>Version 5.4 &nbsp;(May 14, 2018)</h6>
 
 		  <ul>
 			<li>Added merzbau's Chinese translation.</li>
@@ -727,19 +786,19 @@
 			<li>Added French translation (provided by Isaya), EE/EET compatibility.</li>
 		  </ul><br>
 
-		<h6>Version 4.1 (January 23, 2013)</h6>
+		<h6>Version 4.1 &nbsp;(January 23, 2013)</h6>
 
 		  <ul>
 			<li>Fixed Jaheira/Imoen banter issue.</li>
 		  </ul><br>
 
-		<h6>Version 4.0 (December 2010, 31)</h6>
+		<h6>Version 4.0 &nbsp;(December 2010, 31)</h6>
 
 		  <ul>
 			<li>Added restored interjection, fixed several bugs, included fixed German translation, included Russian translation by Cutter, Hawkmoon, Austin & arcanecoast.ru.</li>
 		  </ul><br>
 
-		<h6>Version 3.2 (January 13, 2009)</h6>
+		<h6>Version 3.2 &nbsp;(January 13, 2009)</h6>
 
 		  <ul>
 			<li>Fixed an Imoen/Minsc stutterbug (thanks to aVENGER and Wisp for finding this!), fixed Jaheira banter bug (thanks to Leomar), fixed a Cernd/Viconia bug.</li>
@@ -755,7 +814,7 @@
 		<h6>Version 2.0</h6>
 
 		  <ul>
-			<li>19 new banters added, LOCALS changed to GLOBAL, one banter moved to J files, changed to Bioware-style grammar, blank sound file added to start of banters.</li>
+			<li>19 new banters added, <span class="tp2" style="color: purple;">LOCALS</span> changed to <span class="tp2" style="color: purple;">GLOBAL</span>, one banter moved to J files, changed to Bioware-style grammar, blank sound file added to start of banters.</li>
 		  </ul><br>
 
 		<h6>Versions 1.x</h6>
@@ -766,7 +825,7 @@
 			<li>v1.1: Several typos fixed, now BGT compatible!</li>
 		  </ul><br>
 
-		<h6>Version 1.0 (January 3, 2008)</h6>
+		<h6>Version 1.0 &nbsp;(January 3, 2008)</h6>
 
 		  <ul>
 			<li>Initial release: 42 banters, 4 conflict revisions and Banter Accelerator.</li>
