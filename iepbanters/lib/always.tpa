@@ -4,7 +4,7 @@
  *                                              *
  * ============================================ */
 
-// Concept borrowed from DavidW's Immutability and encapsulation in mod design (https://github.com/Gibberlings3/immutable)
+// Concept borrowed from DavidW's Immutability and encapsulation in mod design ( https://github.com/Gibberlings3/immutable )
 
 /* ================================================================= *
  * This code only runs once, even if you install lots of components. *
@@ -22,11 +22,11 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	 *    Determines which game is installed and if the game is an Enhanced Edition.    *
 	 * -------------------------------------------------------------------------------- */
 
-	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0					// EE game
-	OUTER_SET is_tob = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0	// based on vanilla ToB engine
-	OUTER_SET is_tutu = (GAME_IS ~tutu tutu_totsc~) ? 1 : 0			// tutu
-	OUTER_SET is_bg2ee = (GAME_IS "bg2ee") ? 1 : 0					// b2gee
-	OUTER_SET is_eet = (GAME_IS "eet") ? 1 : 0						// eet
+	OUTER_SET is_ee    = (GAME_IS ~bg2ee eet~) ? 1 : 0                  // EE game
+	OUTER_SET is_tob   = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0    // based on vanilla ToB engine
+	OUTER_SET is_tutu  = (GAME_IS ~tutu tutu_totsc~) ? 1 : 0			// tutu
+	OUTER_SET is_bg2ee = (GAME_IS "bg2ee") ? 1 : 0                      // b2gee
+	OUTER_SET is_eet   = (GAME_IS "eet") ? 1 : 0                        // eet
 
 
 	/* --------------------------------------------- *
@@ -81,7 +81,7 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 		ACTION_DEFINE_ARRAY IEPreload BEGIN setup END
 		LAF HANDLE_CHARSETS
 			INT_VAR
-				infer_charset = 1
+				infer_charsets = 1
 			STR_VAR
 				tra_path = EVAL ~%MOD_FOLDER%/translations~
 				noconvert_array = IEPnoconvert
