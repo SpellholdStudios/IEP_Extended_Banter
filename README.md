@@ -28,7 +28,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/yoshimofriendship-readme-english.html) | [Français](https://spellholdstudios.github.io/readmes/yoshimofriendship-readme-French.html)
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/iepbanters-readme-english.html) | [Français](https://spellholdstudios.github.io/readmes/iepbanters-readme-french.html) | [Deutsch](https://spellholdstudios.github.io/readmes/iepbanters-readme-german.html)
 
 :inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/558-iep-extended-banters)<br>
 
