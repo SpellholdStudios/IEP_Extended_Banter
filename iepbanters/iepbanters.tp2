@@ -215,6 +215,12 @@ BEGIN @7
 DESIGNATED 6 LABEL ~iep_banter_accelerator_10~
 SUBCOMPONENT @6
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
+FORBID_COMPONENT ~setup-banterpack~ ~1~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~setup-banterpack~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~25~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~100~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~kelsey~ ~2~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~Setup-Keto~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
 
 // Appending gtimes.ids to include the timer
 APPEND ~gtimes.ids~ ~600 I#BANTER_TIMER~
@@ -228,6 +234,12 @@ BEGIN @8
 DESIGNATED 7 LABEL ~iep_banter_accelerator_15~
 SUBCOMPONENT @6
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
+FORBID_COMPONENT ~setup-banterpack~ ~1~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~setup-banterpack~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~25~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~100~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~kelsey~ ~2~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~Setup-Keto~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
 
 APPEND ~gtimes.ids~ ~900 I#BANTER_TIMER~
 
@@ -240,6 +252,12 @@ BEGIN @9
 DESIGNATED 8 LABEL ~iep_banter_accelerator_20~
 SUBCOMPONENT @6
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
+FORBID_COMPONENT ~setup-banterpack~ ~1~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~setup-banterpack~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~25~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~100~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~kelsey~ ~2~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~Setup-Keto~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
 
 APPEND ~gtimes.ids~ ~1200 I#BANTER_TIMER~
 
@@ -252,6 +270,12 @@ BEGIN @10
 DESIGNATED 9 LABEL ~iep_banter_accelerator_30~
 SUBCOMPONENT @6
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
+FORBID_COMPONENT ~setup-banterpack~ ~1~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~setup-banterpack~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~25~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~100~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~kelsey~ ~2~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~Setup-Keto~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
 
 APPEND ~gtimes.ids~ ~1800 I#BANTER_TIMER~
 
@@ -264,6 +288,12 @@ BEGIN @11
 DESIGNATED 10 LABEL ~iep_banter_accelerator_45~
 SUBCOMPONENT @6
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
+FORBID_COMPONENT ~setup-banterpack~ ~1~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~setup-banterpack~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~25~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~100~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~kelsey~ ~2~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~Setup-Keto~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
 
 APPEND ~gtimes.ids~ ~2700 I#BANTER_TIMER~
 
@@ -276,6 +306,12 @@ BEGIN @12
 DESIGNATED 11 LABEL ~iep_banter_accelerator_60~
 SUBCOMPONENT @6
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @16 // This mod is not available for your game.
+FORBID_COMPONENT ~setup-banterpack~ ~1~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~setup-banterpack~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~25~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~bg1npc~ ~100~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~kelsey~ ~2~ @17 /* ~Banter Accelerator is already installed.~ */
+FORBID_COMPONENT ~Setup-Keto~ ~3~ @17 /* ~Banter Accelerator is already installed.~ */
 
 APPEND ~gtimes.ids~ ~3600 I#BANTER_TIMER~
 
