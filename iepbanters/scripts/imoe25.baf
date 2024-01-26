@@ -28,7 +28,6 @@ THEN
 END
 
 IF
-    RealGlobalTimerExpired("LK#ImmyImpishTimer","GLOBAL")
     InParty(Myself)
     See(Player1)
     !StateCheck(Player1,CD_STATE_NOTVALID)

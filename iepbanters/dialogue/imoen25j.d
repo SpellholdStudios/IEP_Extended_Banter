@@ -1,6 +1,7 @@
 APPEND ~IMOEN25J~
 
-IF ~Global("LK#ImmyImpish","GLOBAL",2) RealGlobalTimerExpired("LK#ImmyImpishTimer","GLOBAL")~ LK#ImmyImpish
+IF WEIGHT #-1
+~Global("LK#ImmyImpish","GLOBAL",2)~ LK#ImmyImpish
   SAY @0
   ++ @1 DO ~IncrementGlobal("LK#ImmyImpish","GLOBAL",1)~ + LK#Impish_why
   ++ @2 DO ~IncrementGlobal("LK#ImmyImpish","GLOBAL",1)~ + LK#Impish_dontremember
