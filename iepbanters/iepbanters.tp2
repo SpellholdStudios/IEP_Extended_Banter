@@ -40,13 +40,13 @@ LANGUAGE ~Francais (traduction : Isaya)~
          ~french~
          ~iepbanters/translations/french/setup.tra~
 
-LANGUAGE ~Chinese (translation by Merzbau)~
+LANGUAGE ~Simplified Chinese (translation by Merzbau)~
          ~schinese~
          ~iepbanters/translations/schinese/setup.tra~
 
 LANGUAGE ~Espanol (traduccion por Magis365)~
          ~spanish~
-         ~iepbanters/translations/spanish/setup.tra~
+         ~iepbanters/translations/spanish/setup-%WEIDU_OS%.tra~
 
 
 /* ================================== *
