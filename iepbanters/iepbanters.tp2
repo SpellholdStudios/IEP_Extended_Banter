@@ -42,11 +42,11 @@ LANGUAGE ~Francais (traduction : Isaya)~
 
 LANGUAGE ~Simplified Chinese (translation by Merzbau)~
          ~schinese~
-         ~iepbanters/translations/schinese/setup.tra~
+         ~iepbanters/translations/schinese/setup-%WEIDU_OS%.tra~
 
 LANGUAGE ~Espanol (traduccion por Magis365)~
          ~spanish~
-         ~iepbanters/translations/spanish/setup-%WEIDU_OS%.tra~
+         ~iepbanters/translations/spanish/setup.tra~
 
 
 /* ================================== *
