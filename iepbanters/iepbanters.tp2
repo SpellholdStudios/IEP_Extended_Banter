@@ -40,9 +40,9 @@ LANGUAGE ~Francais (traduction : Isaya)~
          ~french~
          ~iepbanters/translations/french/setup.tra~
 
-LANGUAGE ~Chinese (translation by Merzbau)~
+LANGUAGE ~Simplified Chinese (translation by Merzbau)~
          ~schinese~
-         ~iepbanters/translations/schinese/setup.tra~
+         ~iepbanters/translations/schinese/install.tra~
 
 LANGUAGE ~Espanol (traduccion por Magis365)~
          ~spanish~

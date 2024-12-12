@@ -76,7 +76,7 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	ACTION_IF (!FILE_EXISTS "%MOD_FOLDER%/iepbanters_languages_installed.mrk") BEGIN
 		COPY ~.../iepbanters-inline/blank~ ~%MOD_FOLDER%/iepbanters_languages_installed.mrk~	// Converts .tra files once
 		// No exception, everything needs to be converted
-		ACTION_DEFINE_ARRAY IEPnoconvert BEGIN END
+		ACTION_DEFINE_ARRAY IEPnoconvert BEGIN install END
 		// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 		ACTION_DEFINE_ARRAY IEPreload BEGIN setup END
 		LAF HANDLE_CHARSETS
