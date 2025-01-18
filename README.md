@@ -1,3 +1,9 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/IEP-Extended-Banters).**
+
+<hr><br>
+
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/IEP_Extended_Banter?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/IEP_Extended_Banter?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
@@ -28,7 +34,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## 
 
-:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/iepbanters-readme-english.html) | [Français](https://spellholdstudios.github.io/readmes/iepbanters-readme-french.html) | [Deutsch](https://spellholdstudios.github.io/readmes/iepbanters-readme-german.html)
+:page_facing_up: [Read the mod's readme](https://spellholdstudios.github.io/readmes/iepbanters-readme-english.html) | [FranÃ§ais](https://spellholdstudios.github.io/readmes/iepbanters-readme-french.html) | [Deutsch](https://spellholdstudios.github.io/readmes/iepbanters-readme-german.html)
 
 :inbox_tray: [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/558-iep-extended-banters)<br>
 
